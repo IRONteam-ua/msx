@@ -163,11 +163,11 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}UAkino{col}{br}{col:yellow}=========={br}{col:msx-white}ЮаКіно - найбільше фільмів онлайн українською мовою в найкращій якості.",
-               "image": "https://ironteam-ua.github.io/msx/img/rutube-pic.gif"
+               "image": ""
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/rutube-logo.png",
-         "action": "link:https://uakino.me"
+         "image": "",
+         "action": "link:https://uakino.me/filmy"
       },
       {
          "title": "{col:#1ac9b8}UAserials",
