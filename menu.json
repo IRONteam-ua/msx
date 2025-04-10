@@ -324,7 +324,7 @@
          "action": "link:http://icva.mx/"
       },
       {
-         "title": "{col:#1ac9b8}Radio player",
+         "title": "{col:#1ac9b8}HDGO",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -334,8 +334,8 @@
                "image": "https://ironteam-ua.github.io/msx/img/radioplayer-pic.gif"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/radioplayer-logo.png",
-         "action": "link:https://tv.radioplayer.de/HiSense/"
+         "image": "http://msx.lh1.in/picsys/hdgo.png",
+         "action": "link:http://hdgo.me"
       }
    ]
 }
