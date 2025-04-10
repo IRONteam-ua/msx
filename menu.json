@@ -156,20 +156,6 @@
          "action": "link:https://web.lampishe.cc/"
       },
       {
-         "title": "{col:#1ac9b8}VoKINO",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}VoKINO{col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів. Працює без розширень, тобто. відкрив і дивишся.",
-               "image": "https://ironteam-ua.github.io/msx/img/vokino-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/vokino-logo.png",
-         "action": "link: http://web.vokino.tv/"
-      },
-      {
          "title": "{col:#1ac9b8}UAkino",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -184,20 +170,6 @@
          "action": "link:https://uakino.me"
       },
       {
-         "title": "{col:#1ac9b8}Akter Black",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Akter Black{col}{br}{col:yellow}=========={br}{col:msx-white}Мод Lampa для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів. Працює без розширень, тобто. відкрив і дивишся.",
-               "image": "https://tv.ironteam.com.ua.io/msx/img/akter-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/akter-logo.png",
-         "action": "link: http://abvidaa.ru/"
-      },
-      {
          "title": "{col:#1ac9b8}UAserials",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -205,11 +177,11 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}RUTUBE-WEB{col}{br}{col:yellow}=========={br}{col:msx-white} UASerials. — твої улюблені серіали українською мовою онлайн ",
-               "image": "hhttps://ironteam-ua.github.io/msx/img/rutube-pic.gif"
+               "image": ""
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/rutube-logo.png",
-         "action": "link:https://uaserials.pro/"
+         "image": "",
+         "action": "link:https://uaserials.pro"
       },
       {
          "title": "{col:#1ac9b8}П'яний плейліст YouTUBE",
@@ -223,49 +195,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://youtube.com/playlist?list=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB"
-      },
-      {
-         "title": "{col:#1ac9b8}Moovies",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Moovies{col}{br}{col:yellow}=========={br}{col:msx-white}Хороший сервіс з перегляду фільмів та серіалів",
-               "image": "https://ironteam-ua.github.io/msx/img/moovies-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/moovies-logo.png",
-         "action": "menu:request:interaction:init@http://moovies.fun/index.html"
-      },
-      {
-         "title": "{col:#1ac9b8}KinoPUB",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}KinoPUB {col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду різноманітних медіаконтентів: фільмів, серіалів, аніме. Потрібна реєстрація та підписка",
-               "image": "https://ironteam-ua.github.io/msx/img/kinipub-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/kinipub-logo.png",
-         "action": "link:http://kpms.cc/bootstrap.html"
-      },
-      {
-         "title": "{col:#1ac9b8}Магазин додатків №1",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Смотрим{col}{br}{col:yellow}=========={br}{col:msx-white}Онлайн-тв.",
-               "image": "https://ironteam-ua.github.io/msx/img/smotrim-logo.png"
-            }
-         },
-         "image": "http://msx.lh1.in/msx/pic/dstorev4.jpg",
-         "action": "link:http://z91926l2.beget.tech/tv/index.php"
+         "action": "link:https://www.youtube.com/watch?v=9aUFJPeDjxY&list=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB&index=1"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
@@ -322,20 +252,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
          "action": "link:http://icva.mx/"
-      },
-      {
-         "title": "{col:#1ac9b8}HDGO",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Radioplayer{col}{br}{col:yellow}=========={br}{col:msx-white}Радіотехнологічна платформа, що належить британським радіомовним компаніям та експлуатується за ліцензією у деяких інших країнах.",
-               "image": "https://ironteam-ua.github.io/msx/img/radioplayer-pic.gif"
-            }
-         },
-         "image": "http://msx.lh1.in/picsys/hdgo.png",
-         "action": "link:http://hdgo.me"
       }
    ]
 }
