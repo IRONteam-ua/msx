@@ -156,7 +156,7 @@
          "action": "link:https://web.lampishe.cc/"
       },
       {
-         "title": "{col:#1ac9b8}П'яний плейліст YouTUBE",
+         "title": "{col:#1ac9b8}П'яний плейліст",
          "titleFooter": "Відеоролики",
          "selection": {
             "important": true,
@@ -167,7 +167,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
-         "action": "https://msx.benzac.de/plugins/youtube.html?id={BOxdOT4siuG10Pxr}"
+         "action": "link:https://msx.benzac.de/plugins/youtube.html?id={BOxdOT4siuG10Pxr}"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
