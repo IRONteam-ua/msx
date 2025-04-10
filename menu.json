@@ -226,7 +226,7 @@
          "action": "link:https://uaserials.pro/"
       },
       {
-         "title": "{col:#1ac9b8}П'яний плейлістYouTUBE",
+         "title": "{col:#1ac9b8}П'яний плейліст YouTUBE",
          "titleFooter": "Відеоролики",
          "selection": {
             "important": true,
@@ -237,7 +237,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://www.youtube.com/playlist?list=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB"
+         "action": "link:https://youtube.com/playlist?list=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB"
       },
       {
          "title": "{col:#1ac9b8}Moovies",
@@ -289,10 +289,10 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
-               "image": "https://www.tvbox.one/wp-content/uploads/2018/10/aforkplayer-1.jpg"
+               "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
-         "image": "http://msx.lh1.in/msx/pic/dstore-1.png",
+         "image": "https://ironteam-ua.github.io/msx/img/prisma-forkd.png",
           "action": "link:http://browser.appinfo.su/"
       },
       {
