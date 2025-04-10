@@ -54,7 +54,7 @@
                "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
             }
          },
-         "image": "https://tv.ironteam.com.ua/img/lampa-logo.png",
+         "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
          "action": "link:http://lampa.mx"
       },
       {
@@ -223,7 +223,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/rutube-logo.png",
-         "action": "link:https://https://uaserials.pro/"
+         "action": "link:https://uaserials.pro/"
       },
       {
          "title": "{col:#1ac9b8}YouTUBE",
@@ -280,6 +280,20 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/smotrim-logo.png",
          "action": "link:https://zattoo.com/start/ukraine?lang=ua"
+      },
+      {
+         "title": "{col:#1ac9b8}Forkplayer",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+               "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png"
+            }
+         },
+         "image": "https://path-to-image.com/forkplayer-icon.png",
+         "action": "link:https://forkplayer.tv"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
