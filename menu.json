@@ -106,7 +106,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+               "text": "{col:msx-white}Forkplayer{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
                "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
@@ -120,7 +120,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+               "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
                "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
@@ -176,7 +176,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}RUTUBE-WEB{col}{br}{col:yellow}=========={br}{col:msx-white} UASerials. — твої улюблені серіали українською мовою онлайн ",
+               "text": "{col:msx-white}UA{col}{br}{col:yellow}=========={br}{col:msx-white} UASerials. — твої улюблені серіали українською мовою онлайн ",
                "image": ""
             }
          },
@@ -260,7 +260,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}ICVA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
+               "text": "{col:msx-white}NEWS{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
                "image": ""
             }
          },
