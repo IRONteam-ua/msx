@@ -154,35 +154,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
          "action": "link:https://web.lampishe.cc/"
-      },
-      {
-         "title": "{col:#1ac9b8}UAkino",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}UAkino{col}{br}{col:yellow}=========={br}{col:msx-white}ЮаКіно - найбільше фільмів онлайн українською мовою в найкращій якості.",
-               "image": ""
-            }
-         },
-         "image": "",
-         "action": "link:https://smart.vplay.one/"
-      },
-      {
-         "title": "{col:#1ac9b8}UAserials",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}UA{col}{br}{col:yellow}=========={br}{col:msx-white} UASerials. — твої улюблені серіали українською мовою онлайн ",
-               "image": ""
-            }
-         },
-         "image": "",
-         "action": "link:https://uaserials.pro"
-      },
       {
          "title": "{col:#1ac9b8}П'яний плейліст YouTUBE",
          "titleFooter": "Відеоролики",
@@ -195,7 +166,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://www.youtube.com/watch?v=9aUFJPeDjxY&list=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB&index=1"
+         "action": "link:https://youtube.com/playlist?list=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB&si=IdnWX4kK2yBwg33g"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
