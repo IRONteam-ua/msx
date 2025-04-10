@@ -1,5 +1,5 @@
 {
-   "name": "IRON's TV",
+   "name": "IRON's TV SERVER",
    "type": "list",
    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "headline": "TV",
