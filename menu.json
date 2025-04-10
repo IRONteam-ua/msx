@@ -44,6 +44,48 @@
    },
    "items": [
       {
+         "title": "{col:#1ac9b8}Prisma_TV",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Prisma_TV{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:yellow} Відсутня реклама! відкрив і дивишся.",
+               "image": "https://ironteam-ua.github.io/msx/img/prisma-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
+         "action": "link:https://prisma.ws/"
+      },
+      {
+         "title": "{col:#1ac9b8}ATODO",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів. Працює без розширень, тобто. відкрив і дивишся.",
+               "image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+      },
+      {
+         "title": "{col:#1ac9b8}ATODO web",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів.",
+               "image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
+         "action": "link:http://msx.atodo.fun/"
+      },
+      {
          "title": "{col:#1ac9b8}LAMPA",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -100,20 +142,6 @@
          "action": "link:http://ottp.eu.org/f/"
       },
       {
-         "title": "{col:#1ac9b8}Prisma_TV",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Prisma_TV{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:yellow} Відсутня реклама! відкрив і дивишся.",
-               "image": "https://ironteam-ua.github.io/msx/img/prisma-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
-         "action": "link:https://prisma.ws/"
-      },
-      {
          "title": "{col:#1ac9b8}Lamp!she",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -140,34 +168,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
          "action": "link:http://icva.mx/"
-      },
-      {
-         "title": "{col:#1ac9b8}ATODO",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів. Працює без розширень, тобто. відкрив і дивишся.",
-               "image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
-         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
-      },
-      {
-         "title": "{col:#1ac9b8}ATODO web",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів.",
-               "image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
-         "action": "link:http://msx.atodo.fun/"
       },
       {
          "title": "{col:#1ac9b8}VoKINO",
@@ -226,7 +226,7 @@
          "action": "link:https://uaserials.pro/"
       },
       {
-         "title": "{col:#1ac9b8}YouTUBE",
+         "title": "{col:#1ac9b8}П'яний плейлістYouTUBE",
          "titleFooter": "Відеоролики",
          "selection": {
             "important": true,
@@ -237,7 +237,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://www.youtube.com/watch?v=9aUFJPeDjxY&list=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB"
+         "action": "link:https://www.youtube.com/playlist?list=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB"
       },
       {
          "title": "{col:#1ac9b8}Moovies",
@@ -289,7 +289,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
-               "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png"
+               "image": "https://www.tvbox.one/wp-content/uploads/2018/10/aforkplayer-1.jpg"
             }
          },
          "image": "http://msx.lh1.in/msx/pic/dstore-1.png",
