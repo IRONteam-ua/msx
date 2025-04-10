@@ -167,7 +167,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://msx.benzac.de/plugins/youtube.html?id=PLRXLFbBNfiSfdxDHB_QrY23e24urY2lGB"
+         "action": "https://msx.benzac.de/plugins/youtube.html?id={BOxdOT4siuG10Pxr}"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
