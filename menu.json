@@ -254,8 +254,8 @@
          "action": "link:http://icva.mx/"
       },
             {
-         "title": "{col:#1ac9b8}ICVA",
-         "titleFooter": "News",
+         "title": "{col:#1ac9b8}NEWS",
+         "titleFooter": "",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -265,7 +265,7 @@
             }
          },
          "image": "",
-         "action": "https://rt.pornhub.com/video/search?search=media+station"
+         "action": "https://rt.pornhub.com/video?o=ht&cc=ua"
       }
    ]
 }
