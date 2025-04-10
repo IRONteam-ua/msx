@@ -296,6 +296,20 @@
           "action": "link:http://browser.appinfo.su/"
       },
       {
+         "title": "{col:#1ac9b8}Forkplayer NEW",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+               "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/forknew.png",
+          "action": "link:http://browser.appfxml.com/"
+      },
+      {
          "title": "{col:#1ac9b8}Mytuner mobi",
          "titleFooter": "",
          "selection": {
