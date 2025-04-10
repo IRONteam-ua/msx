@@ -100,18 +100,32 @@
          "action": "link:http://lampa.mx"
       },
       {
-         "title": "{col:#1ac9b8}DRM-play",
-         "titleFooter": "IPTV player",
+         "title": "{col:#1ac9b8}Forkplayer",
+         "titleFooter": "",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. НЕ містить nagware коду, модулів аналітики та інших сюрпризів.{br}{col:yellow}Є тестовий плейлист)) та містить програму передач з архівом.",
-               "image": "https://ironteam-ua.github.io/msx/img/drm-pic.gif"
+               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+               "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/drm-logo.png",
-         "action": "link:http://drm-play.com"
+         "image": "https://ironteam-ua.github.io/msx/img/forkd.png",
+          "action": "link:http://browser.appinfo.su/"
+      },
+      {
+         "title": "{col:#1ac9b8}Forkplayer NEW",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+               "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/forknew.png",
+          "action": "link:http://browser.appfxml.com/"
       },
       {
          "title": "{col:#1ac9b8}UN Censored",
@@ -128,20 +142,6 @@
          "action": "link:http://bylampa.online/"
       },
       {
-         "title": "{col:#1ac9b8}OTT-play FOSS",
-         "titleFooter": "IPTV player",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:yellow}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:yellow}Не містить політичних гасел. Немає плейлистів.",
-               "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
-         "action": "link:http://ottp.eu.org/f/"
-      },
-      {
          "title": "{col:#1ac9b8}Lamp!she",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -154,20 +154,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
          "action": "link:https://web.lampishe.cc/"
-      },
-      {
-         "title": "{col:#1ac9b8}ICVA",
-         "titleFooter": "IPTV player",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ICVA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
-               "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
-         "action": "link:http://icva.mx/"
       },
       {
          "title": "{col:#1ac9b8}VoKINO",
@@ -268,7 +254,7 @@
          "action": "link:http://kpms.cc/bootstrap.html"
       },
       {
-         "title": "{col:#1ac9b8}Онлайн-ТВ",
+         "title": "{col:#1ac9b8}Магазин додатків №1",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -278,36 +264,8 @@
                "image": "https://ironteam-ua.github.io/msx/img/smotrim-logo.png"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/smotrim-logo.png",
-         "action": "link:https://zattoo.com/start/ukraine?lang=ua"
-      },
-      {
-         "title": "{col:#1ac9b8}Forkplayer",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
-               "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/forkd.png",
-          "action": "link:http://browser.appinfo.su/"
-      },
-      {
-         "title": "{col:#1ac9b8}Forkplayer NEW",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
-               "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/forknew.png",
-          "action": "link:http://browser.appfxml.com/"
+         "image": "http://msx.lh1.in/msx/pic/dstorev4.jpg",
+         "action": "link:http://salita.pluton-host.ru/tv/vip.php"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
@@ -322,6 +280,48 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png",
          "action": "link:https://devices.mytuner.mobi/"
+      },
+      {
+         "title": "{col:#1ac9b8}OTT-play FOSS",
+         "titleFooter": "IPTV player",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:yellow}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:yellow}Не містить політичних гасел. Немає плейлистів.",
+               "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
+         "action": "link:http://ottp.eu.org/f/"
+      },
+      {
+         "title": "{col:#1ac9b8}DRM-play",
+         "titleFooter": "IPTV player",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. НЕ містить nagware коду, модулів аналітики та інших сюрпризів.{br}{col:yellow}Є тестовий плейлист)) та містить програму передач з архівом.",
+               "image": "https://ironteam-ua.github.io/msx/img/drm-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/drm-logo.png",
+         "action": "link:http://drm-play.com"
+      },
+      {
+         "title": "{col:#1ac9b8}ICVA",
+         "titleFooter": "IPTV player",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}ICVA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
+               "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
+         "action": "link:http://icva.mx/"
       },
       {
          "title": "{col:#1ac9b8}Radio player",
