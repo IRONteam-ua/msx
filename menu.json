@@ -292,8 +292,8 @@
                "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png"
             }
          },
-         "image": "http://msx.appfxml.com/msx/fork2.png",
-          "action": "link:replace:http://browser.appfxml.com/"
+         "image": "http://msx.lh1.in/msx/pic/dstore-1.png",
+          "action": "link:http://browser.appinfo.su/"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
