@@ -2,5 +2,5 @@
     "name": "IRON's TV SERVER",
     "version": "1.0.0",
     "parameter": "content:https://ironteam-ua.github.io/msx/menu.json",
-        "welcome": "Щастя, здоров'я, многая літа!"
+        "welcome": "none"
 }
