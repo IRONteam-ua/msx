@@ -163,7 +163,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:yellow} Відсутня реклама! відкрив і дивишся.",
-               "image": "https://tv.ironteam.com.ua/msx/img/un-censored-pic.gif"
+               "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
@@ -293,7 +293,7 @@
             }
          },
          "image": "",
-         "action": "link:link:http://web.vokino.tv/"
+         "action": "link:http://web.vokino.tv/"
       }
    ]
 }
