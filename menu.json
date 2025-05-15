@@ -142,6 +142,20 @@
           "action": "link:http://browser.appfxml.com/"
       },
       {
+         "title": "{col:#1ac9b8}GetsTV",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}GetsTV{col}{br}{col:yellow}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
+               "image": ""
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
+         "action": "link:http://getstv.com/app/"
+      },
+      {
          "title": "{col:#1ac9b8}UN Censored",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -252,20 +266,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
          "action": "link:http://icva.mx/"
-      },
-      {
-         "title": "{col:#1ac9b8}Веб-Браузер",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}NEWS{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
-               "image": ""
-            }
-         },
-         "image": "",
-         "action": "link:http://getstv.com/app/"
       },
       {
          "title": "{col:#1ac9b8}Веб-Браузер",
