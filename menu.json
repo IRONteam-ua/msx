@@ -100,6 +100,20 @@
          "action": "link:http://lampa.mx"
       },
       {
+         "title": "{col:#1ac9b8}NoNaMe",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}NoNaMe{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.",
+               "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
+         "action": "link:http://lite.nnmtv.pw"
+      },
+      {
          "title": "{col:#1ac9b8}Lampa Land",
          "titleFooter": "Фільми та серіали",
          "selection": {
