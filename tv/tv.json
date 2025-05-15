@@ -4,20 +4,20 @@
     "menu": [{
             "icon": "TV",
             "label": "Lviv Network",
-            "data":"user:http://smartup.network.lviv.ua/tools/m3u/playlist.m3u"
+            "data":"user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=http://smartup.network.lviv.ua/tools/m3u/playlist.m3u"
         },{
             "icon": "TV",
             "label": "UA (FREE)",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=http://msx.cc.ua/msx/img/tv.png&type=video&mode=extended&url=https://iptv.org.ua/iptv/ua.m3u"
+            "data":"user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://iptv.org.ua/iptv/ua.m3u"
         },
          {
             "icon": "TV",
             "label": "UA (FREE) #2",
-            "data":"user:https://tva.org.ua/ip/sam/ua.m3u"
+            "data":"user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://tva.org.ua/ip/sam/ua.m3u"
         }, {
             "icon": "TV",
             "label": "UA (FREE) #2",
-            "data":"user:https://iptv.org.ua/iptv/ua.m3u"
+            "data":"user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://iptv.org.ua/iptv/ua.m3u"
         }
         ]
 }    
