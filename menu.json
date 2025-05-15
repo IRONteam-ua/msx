@@ -129,7 +129,7 @@
       },
       {
          "title": "{col:#1ac9b8}Forkplayer NEW",
-         "titleFooter": "",
+         "titleFooter": "Плеєри",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -149,7 +149,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}GetsTV{col}{br}{col:yellow}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-               "image": ""
+               "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
@@ -279,7 +279,7 @@
             }
          },
          "image": "",
-         "action": "link:http://app.ss-iptv.com/"
+         "action": "link:link:http://cdnservices.link/bootstrap.html"
       }
    ]
 }
