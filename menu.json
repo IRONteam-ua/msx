@@ -226,7 +226,7 @@
          "action": "link:http://icva.mx/"
       },
             {
-         "title": "{col:#1ac9b8}HDrezka",
+         "title": "{col:#1ac9b8}Веб-Браузер",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -237,7 +237,21 @@
             }
          },
          "image": "",
-         "action": "link:https://hdrezka.ag"
+         "action": "link:http://browser.appfxml.com"
+      }
+        {
+         "title": "{col:#1ac9b8}tiktok",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}NEWS{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
+               "image": ""
+            }
+         },
+         "image": "",
+         "action": "link:link:https://tv.tiktok.com/webos"
       }
    ]
 }
