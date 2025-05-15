@@ -266,6 +266,20 @@
          },
          "image": "",
          "action": "link:http://getstv.com/app/"
+      },
+      {
+         "title": "{col:#1ac9b8}Веб-Браузер",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}NEWS{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
+               "image": ""
+            }
+         },
+         "image": "",
+         "action": "link:http://app.ss-iptv.com/"
       }
    ]
 }
