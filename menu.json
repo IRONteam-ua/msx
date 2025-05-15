@@ -226,7 +226,7 @@
          "action": "link:http://icva.mx/"
       },
             {
-         "title": "{col:#1ac9b8}NEWS",
+         "title": "{col:#1ac9b8}kinobar",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -237,7 +237,7 @@
             }
          },
          "image": "",
-         "action": "link:msx.tiviset.com"
+         "action": "link:kinobar.net"
       }
    ]
 }
