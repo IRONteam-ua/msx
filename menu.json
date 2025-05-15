@@ -282,18 +282,18 @@
          "action": "link:http://icva.mx/"
       },
       {
-         "title": "{col:#1ac9b8}Веб-Браузер",
-         "titleFooter": "",
+         "title": "{col:#1ac9b8}Online TV",
+         "titleFooter": "Телебачення",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}NEWS{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
-               "image": ""
+               "text": "{col:msx-white}Online TV{col}{br}{col:yellow}=========={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
+               "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png"
             }
          },
-         "image": "",
-         "action": "menu:http://msx.cc.ua/msx/tv.json"
+         "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
+         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       }
    ]
 }
