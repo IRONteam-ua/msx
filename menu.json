@@ -190,11 +190,11 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}YouTUBE{col}{br}{col:yellow}=========={br}{col:msx-white}Відеохостинг, що надає користувачам послуги зберігання, доставки та показу відео.",
+               "text": "{col:msx-white}YouTUBE{col}{br}{col:yellow}=========={br}{col:msx-white}TikTok – це програма для перегляду відео в короткій формі.",
                "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
+         "image": "https://ironteam-ua.github.io/msx/img/tiktok.png",
          "action": "link:link:https://tv.tiktok.com/webos"
       },
       {
