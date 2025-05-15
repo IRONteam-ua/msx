@@ -1,19 +1,21 @@
 {
     "headline": "IRONteam TV",
     "background": "https://ironteam-ua.github.io/msx/img/tv.png",
-    "menu": [{
+    "menu": [
+        {
             "icon": "TV",
             "label": "UA (FREE)",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://iptv.org.ua/iptv/ua.m3u"
+            "data": "user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://iptv.org.ua/iptv/ua.m3u"
         },
-         {
+        {
             "icon": "TV",
             "label": "UA (FREE) #2",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://tva.org.ua/ip/sam/ua.m3u"
-        }, {
+            "data": "user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://tva.org.ua/ip/sam/ua.m3u"
+        },
+        {
             "icon": "TV",
             "label": "UA (FREE) #3",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://iptv.org.ua/iptv/ua.m3u"
+            "data": "user:http://msx.benzac.de/services/m3u.php?background=https://ironteam-ua.github.io/msx/img/tv.png&type=video&mode=extended&url=https://iptv.org.ua/iptv/ua.m3u"
         }
-        ]
-}    
+    ]
+}
