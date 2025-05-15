@@ -226,7 +226,7 @@
          "action": "link:http://icva.mx/"
       },
             {
-         "title": "{col:#1ac9b8}kinobar",
+         "title": "{col:#1ac9b8}HDrezka",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -237,7 +237,7 @@
             }
          },
          "image": "",
-         "action": "link:https://kinobar.net"
+         "action": "link:https://hdrezka.ag"
       }
    ]
 }
