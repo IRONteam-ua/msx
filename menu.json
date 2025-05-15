@@ -156,7 +156,7 @@
          "action": "link:https://web.lampishe.cc/"
       },
       {
-         "title": "{col:#1ac9b8}Українські канали",
+         "title": "{col:#1ac9b8}YouTube",
          "titleFooter": "Відеоролики",
          "selection": {
             "important": true,
@@ -167,7 +167,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://iptv-org.github.io/iptv/countries/ua.m3u"
+         "action": "link:https://www.youtube.com/tv#"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
