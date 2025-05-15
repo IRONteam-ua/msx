@@ -3,7 +3,7 @@
    "type": "list",
    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "headline": "TV",
-   "version": "1.2.1",
+   "version": "1.2.2",
    "background": "https://ironteam-ua.github.io/msx/img/coming-soon.jpg",
    "logo": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
    "logoSize": "large",
@@ -293,7 +293,7 @@
             }
          },
          "image": "",
-         "action": "link:http://msx.cc.ua/msx/tv.json"
+         "action": "menu:http://msx.cc.ua/msx/tv.json"
       }
    ]
 }
