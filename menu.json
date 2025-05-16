@@ -100,18 +100,18 @@
          "action": "link:http://lampa.mx"
       },
       {
-         "title": "{col:#1ac9b8}AKTER BLACK",
+         "title": "{col:#1ac9b8}Lamp!she",
          "titleFooter": "Фільми та серіали",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}AKTER BLACK{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.",
-               "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
+               "text": "{col:msx-white}Lamp!she{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:yellow}Програма не призначена для роботи через MediaStation X і може працювати некоректно. Для перегляду торентів потрібен TorrServe.",
+               "image": "https://ironteam-ua.github.io/msx/img/lampishe-pic.gif"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
-         "action": "link:https://t.me/WeMineBot/mine?startapp=ref_16TJKV29IT"
+         "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
+         "action": "link:https://web.lampishe.cc/"
       },
       {
          "title": "{col:#1ac9b8}Lampa Land",
@@ -196,20 +196,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
          "action": "link:http://bylampa.online/"
-      },
-      {
-         "title": "{col:#1ac9b8}Lamp!she",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Lamp!she{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:yellow}Програма не призначена для роботи через MediaStation X і може працювати некоректно. Для перегляду торентів потрібен TorrServe.",
-               "image": "https://ironteam-ua.github.io/msx/img/lampishe-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
-         "action": "link:https://web.lampishe.cc/"
       },
       {
          "title": "{col:#1ac9b8}Deeplex",
