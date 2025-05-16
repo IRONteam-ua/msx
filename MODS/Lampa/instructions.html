@@ -68,6 +68,67 @@
     .floating-buttons a:hover {
       background-color: #17b0a2;
     }
+     .floating-circle {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: #1ac9b8;
+    border-radius: 50%;
+    display: grid;
+    grid-template-areas:
+      "up"
+      "left right"
+      "down";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    z-index: 999;
+  }
+
+  .floating-circle a {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    transition: transform 0.2s;
+  }
+
+  .floating-circle a:hover {
+    transform: scale(1.2);
+  }
+
+  .floating-circle a[title="Вгору"] {
+    grid-area: up;
+  }
+
+  .floating-circle a[title="До меню"] {
+    grid-area: left;
+  }
+
+  .floating-circle a[title="Наступна сторінка"] {
+    grid-area: right;
+  }
+
+  .floating-circle a[title="Вниз"] {
+    grid-area: down;
+  }
+</style>
+
+<script>
+  function scrollUp() {
+    window.scrollBy({ top: -60, behavior: 'smooth' }); // приблизно 3 рядки вгору
+  }
+
+  function scrollDown() {
+    window.scrollBy({ top: 60, behavior: 'smooth' }); // приблизно 3 рядки вниз
+  }
+</script>
   </style>
 </head>
 <body>
@@ -115,10 +176,13 @@
   <p>Зв'яжіться з підтримкою через Telegram: <a href="https://t.me/ironteam_ua">@ironteam_ua</a></p>
 
   <!-- Плаваючі кнопки -->
-  <div class="floating-buttons">
-    <a href="#top">🔝 Вгору</a>
-    <a href="link:menu.json">🔙 До меню</a>
-  </div>
+<!-- Плаваючий круг з кнопками -->
+<div class="floating-circle">
+  <a href="#" onclick="scrollUp()" title="Вгору">🔼</a>
+  <a href="link:menu.json" title="До меню">◀️</a>
+  <a href="link:next_page.html" title="Наступна сторінка">▶️</a>
+  <a href="#" onclick="scrollDown()" title="Вниз">🔽</a>
+</div>
 
 </body>
 </html>
