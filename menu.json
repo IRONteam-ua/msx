@@ -308,6 +308,21 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
          "action": "link:http://icva.mx/"
+      },
+            {
+         "title": "{col:#1ac9b8}Інструкції",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Інструкції{col}{br}{col:yellow}=========={br}{col:msx-white}Як користуватись сервісом.",
+               "image": ""
+            }
+         },
+         "image": "",
+         "action": "link:https://ironteam-ua.github.io/msx/instructions.json"
       }
    ]
 }
+
