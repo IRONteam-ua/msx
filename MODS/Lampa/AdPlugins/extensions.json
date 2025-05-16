@@ -1,1 +1,94 @@
-
+const plugins = {
+  secuses: true,
+  results: [
+    {
+      title: "Популярні",
+      results: [
+        {
+          name: "BwaJS",
+          author: "@bwato",
+          link: "https://bwa.to/o",
+          descr: "Фільми та серіали онлайн. Потрібна підтримка WebAssembly та версія Chrome > 80",
+          available_lampa: 1
+        },
+        {
+          name: "Телебачення by Skaz",
+          author: "@helpiptv",
+          link: "http://skaz.tv/tv.js",
+          descr: "Телебачення та онлайн 4K. 1500+ каналів за підпискою, IPTV-плейлисти, тест через @skaztv_bot",
+          available_lampa: 1
+        },
+        {
+          name: "MODS's",
+          author: "@modss_group",
+          link: "http://lampa.stream/modss",
+          descr: "Фільми та серіали онлайн. Плюс різні доповнення через меню налаштувань Modss.",
+          available_lampa: 1
+        }
+      ],
+      hpu: "best"
+    },
+    {
+      title: "Відео",
+      results: [
+        {
+          name: "MODS's",
+          author: "@modss_group",
+          link: "http://lampa.stream/modss",
+          descr: "Фільми та серіали онлайн. На вибір доступно 17 балансерів і різні доповнення через меню налаштувань Modss.",
+          available_lampa: 1
+        },
+        {
+          name: "Онлайн Мод",
+          author: "@t_anton",
+          link: "https://nb557.github.io/plugins/online_mod.js",
+          descr: "Фільми та серіали онлайн",
+          available_lampa: 1
+        },
+        {
+          name: "BwaJS",
+          author: "@bwato",
+          link: "https://bwa.to/o",
+          descr: "Фільми та серіали онлайн. Потрібна підтримка WebAssembly та версія Chrome > 80",
+          available_lampa: 1
+        },
+        {
+          name: "BwaRC",
+          author: "@bwato",
+          link: "http://bwa.to/co",
+          descr: "Фільми та серіали онлайн. Працює на старих пристроях",
+          available_lampa: 1
+        },
+        {
+          name: "Onlyskaz",
+          author: "@helpiptv",
+          link: "http://skaz.tv/onlines.js",
+          descr: "Онлайн фільми та серіали 4K за підпискою в @skaztv_bot. Сервери в Росії (може бути геоблок)",
+          available_lampa: 1
+        },
+        {
+          name: "Showy",
+          author: "Showy",
+          link: "http://showwwy.com/m.js",
+          descr: "Потрібна авторизація через телеграм-бота. Онлайн, підтримка 4K",
+          available_lampa: 1
+        },
+        {
+          name: "Онлайн Stream",
+          author: "",
+          link: "http://arkmv.ru/vod",
+          descr: "Онлайн",
+          available_lampa: 1
+        },
+        {
+          name: "Полуничка 18+",
+          author: "@sisi",
+          link: "https://sisi.am/pussy.js",
+          descr: "Онлайн перегляд контенту для дорослих, понад 30 сайтів",
+          available_lampa: 1
+        }
+      ],
+      hpu: "video"
+    }
+  ]
+};
