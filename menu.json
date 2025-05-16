@@ -274,11 +274,11 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:yellow}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:yellow}Не містить політичних гасел. Немає плейлистів.",
-               "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
+               "text": "{col:msx-white}OTT-player{col}{br}{col:yellow}=========={br}{col:msx-white}Мультиплатформна програма та онлайн-сервіс для управління IPTV плейлистами.",
+               "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
+         "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
          "action": "link:http://widget.ottplayer.tv/"
       },
             {
