@@ -111,7 +111,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
-         "action": "link:http://abmsx.tech"
+         "action": "link:https://t.me/WeMineBot/mine?startapp=ref_16TJKV29IT"
       },
       {
          "title": "{col:#1ac9b8}Lampa Land",
@@ -268,6 +268,20 @@
          "action": "link:https://devices.mytuner.mobi/"
       },
       {
+         "title": "{col:#1ac9b8}OTT-player",
+         "titleFooter": "IPTV player",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:yellow}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:yellow}Не містить політичних гасел. Немає плейлистів.",
+               "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
+         "action": "link:http://widget.ottplayer.tv/"
+      },
+            {
          "title": "{col:#1ac9b8}OTT-play FOSS",
          "titleFooter": "IPTV player",
          "selection": {
