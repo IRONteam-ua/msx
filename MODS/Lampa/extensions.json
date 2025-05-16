@@ -171,7 +171,7 @@
                     "available_lampa": 1
                 },
                 {
-                    "name": "Вимкненнятача",
+                    "name": "Вимкнення тача",
                     "author": "@t_anton",
                     "link": "https://nb557.github.io/plugins/not_mobile.js",
                     "descr": "Вимикає сенсорное керування, якщо вно було включено по помилці",
