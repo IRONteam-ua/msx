@@ -100,6 +100,20 @@
          "action": "link:http://lampa.mx"
       },
       {
+         "title": "{col:#1ac9b8}Lampa|{col} NoName",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}LAMPA NoName{col}{br}{col:yellow}=========={br}{col:msx-white}Вже Налаштована для перегляду контенту онлайн.",
+               "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
+         "action": "link:http://lampa.nnmtv.pw/"
+      },
+      {
          "title": "{col:#1ac9b8}Lamp!she",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -198,6 +212,20 @@
          "action": "link:http://getstv.com/app/"
       },
       {
+         "title": "{col:#1ac9b8}X-SMART TV",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}X-SMART TV{col}{br}{col:yellow}=========={br}{col:msx-white}Цифрова медіа платформа XSMART — це інтернет каталог у вигляді програми, де зібрана інформація про фільми та серіали, акторів та режисерів. Вся інформація в каталозі взята з відкритих джерел та надаються виключно для ознайомлення.",
+               "image": "https://ironteam-ua.github.io/msx/img/X-Smart.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/xsmart.png",
+         "action": "link:http://smart.deeplex.cc"
+      },
+      {
          "title": "{col:#1ac9b8}Deeplex",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -212,6 +240,20 @@
          "action": "link:http://smart.deeplex.cc"
       },
       {
+         "title": "{col:#1ac9b8Netflix",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Netflix{col}{br}{col:yellow}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів",
+               "image": "https://ironteam-ua.github.io/msx/img/netflix.png"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/netflix.png",
+         "action": "link:http://netfix.cc"
+      },
+      {
          "title": "{col:#1ac9b8}YouTube",
          "titleFooter": "Відеоролики",
          "selection": {
@@ -224,6 +266,20 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
          "action": "link:https://www.youtube.com/tv#/"
+      },
+        {
+         "title": "{col:#1ac9b8}YouTube Kids",
+         "titleFooter": "Відеоролики",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}YouTUBE Kids{col}{br}{col:yellow}=========={br}{col:msx-white}Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей.",
+               "image": "https://ironteam-ua.github.io/msx/img/ytkids.png"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/ytkids.png",
+         "action": "link:link:https://www.youtube.com/tv/kids"
       },
       {
          "title": "{col:#1ac9b8}tiktok",
