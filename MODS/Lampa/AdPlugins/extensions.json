@@ -1,8 +1,8 @@
-{
-  "secuses": true,
-  "results": [
+const plugins = {
+  secuses: true,
+  results: [
     {
- title: "Популярні",
+      title: "Популярні",
       results: [
         {
           name: "BwaJS",
@@ -86,9 +86,9 @@
           link: "https://sisi.am/pussy.js",
           descr: "Онлайн перегляд контенту для дорослих, понад 30 сайтів",
           available_lampa: 1
-		}
+        }
       ],
-      "hpu": "other"
+      hpu: "video"
     }
   ]
-}
+};
