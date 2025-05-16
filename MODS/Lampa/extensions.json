@@ -2,75 +2,75 @@
   "secuses": true,
   "results": [
     {
-      "title": "Популярні",
+      "title": "Популярные",
       "results": [
        {
 		  "name": "BwaJS",
 		  "author": "@bwato",
 		  "link": "https://bwa.to/o",
-		  "descr": "Фільми і Серіали в онлайн. Потрібна підтримка WebAssembly і версія Chrome > 80",
+		  "descr": "Фильмы и сериалы в онлайн. Нужна поддержка WebAssembly и версия Chrome > 80",
 		  "available_lampa": 1
 	},
         {
-		  "name": "Телебачення by Skaz ",
+		  "name": "Телевидение by Skaz ",
 		  "author": "@helpiptv",
 		  "link": "http://skaz.tv/tv.js",
-		  "descr": "Телебачення в Онлайн 4к. 1500+ каналів по підписці, IPTV плейлисти, тест через @skaztv_bot",
+		  "descr": "Телевидение и Онлайн 4к. 1500+ каналов по подписке, IPTV плейлисты, тест через @skaztv_bot",
 		  "available_lampa": 1
 		},
 		{
 		  "name": "MODS's",
 		  "author": "@modss_group",
 		  "link": "http://lampa.stream/modss",
-		  "descr": "Фільми і Серіали в онлайн. Плюс різні доповнення через меню налаштувань Modss.",
+		  "descr": "Фильмы и сериалы в онлайн. Плюс различные дополнения через меню настроек Modss.",
 		  "available_lampa": 1
 		}
       ],
       "hpu": "best"
     },
     {
-      "title": "Відео",
+      "title": "Видео",
       "results": [
 		{
 		  "name": "MODS's",
 		  "author": "@modss_group",
 		  "link": "http://lampa.stream/modss",
-		  "descr": "Фільми і Серіали в онлайн. На вибір доступно 17 балансерів і різні доповнення через меню налаштувань Modss.",
+		  "descr": "Фильмы и сериалы в онлайн. На выбор доступно 17 балансеров и различные дополнения через меню настроек Modss.",
 		  "available_lampa": 1
 		},
                 {
 		  "name": "Онлайн Мод",
 		  "author": "@t_anton",
 		  "link": "https://nb557.github.io/plugins/online_mod.js",
-		  "descr": "Фільми і Серіали в онлайн",
+		  "descr": "Фильмы и сериалы в онлайн",
 		  "available_lampa": 1
 		},
 		{
 		  "name": "BwaJS",
 		  "author": "@bwato",
 		  "link": "https://bwa.to/o",
-		  "descr": "Фільми і Серіали в онлайн. Потрібна підтримка WebAssembly і версія Chrome > 80",
+		  "descr": "Фильмы и сериалы в онлайн. Нужна поддержка WebAssembly и версия Chrome > 80",
 		  "available_lampa": 1
 		}, 
 	      	{
 		  "name": "BwaRC",
 		  "author": "@bwato",
 		  "link": "http://bwa.to/co",
-		  "descr": "Фільми і Серіали в онлайн. Працює на старих пристроях",
+		  "descr": "Фильмы и сериалы в онлайн. Работает на старых устройствах",
 		  "available_lampa": 1
 		},  
 	      	{
 		  "name": "Onlyskaz",
 		  "author": "@helpiptv",
 		  "link": "http://skaz.tv/onlines.js",
-		  "descr": "Онлайн Фільми і Серіали 4K по підписці в @skaztv_bot.",
+		  "descr": "Онлайн Фильмы и Сериалы 4K по подписке в @skaztv_bot. Серверы в России (возможен геоблок)",
 		  "available_lampa": 1
 		},  
 		{
 		  "name": "Showy",
 		  "author": "Showy",
 		  "link": "http://showwwy.com/m.js",
-		  "descr": "Потрібна авторизація через телеграм бота. Онлайн, підтримка 4к",
+		  "descr": "Необходима авторизация через телеграм бота. Онлайн, поддержка 4к",
 		  "available_lampa": 1
 		},
 	      	{
@@ -84,194 +84,220 @@
 		  "name": "Клубничка 18+",
 		  "author": "@sisi",
 		  "link": "https://sisi.am/pussy.js",
-		  "descr": "Онлайн перегляд контента для дорослих, більше 30 сайтів",
+		  "descr": "Онлайн просмотр контента для взрослых, больше 30 сайтов",
 		  "available_lampa": 1
 		}
       ],
       "hpu": "video"
     },
     {
-      "title": "Керування",
+      "title": "Управление",
       "results": [
-	      	      	 
+	      	      	 {
+      		"name": "Трейлеры с Рутуб",
+      		"author": "@RootU",
+      		"link": "https://plugin.rootu.top/rutube.js",
+      		"descr": "Добавляет кнопку трейлеры с сервиса RuTube",
+      		"available_lampa": 1
+ 	   	},
 	      	 {
-      		"name": "Трейлери з iTunes",
+      		"name": "Трейлеры с iTunes",
       		"author": "@RootU",
       		"link": "https://plugin.rootu.top/trailers.js",
-      		"descr": "Додає кнопку Трейлери з сервіса iTunes",
+      		"descr": "Добавляет кнопку трейлеры с сервиса iTunes",
       		"available_lampa": 1
  	   	},
 	       {
-      		"name": "Добірки",
+      		"name": "Подборки",
       		"author": "@helpiptv",
       		"link": "https://lampaplugins.github.io/store/p.js",
-      		"descr": "Добірки від онлайн кінотеатрів, мультсеріали і Мультфільми.",
+      		"descr": "Подборки от онлайн кинотеатров, мультсериалы и мультфильмы.",
       		"available_lampa": 1
  	   	},
 		{
 		  "name": "SURS",
 		  "author": "Roman V",
 		  "link": "https://aviamovie.github.io/surs.js",
-		  "descr": "Плагін Створює унікальні добірки фільмів і сериалів на головній сторінці по жанрам, стрімінгам, популярності, переглядам і касовим зборам. вновлення добірок відбувається при кожному натисканні кнопки Головна (Home).",
+		  "descr": "Плагин создает уникальные подборки фильмов и сериалов на главной странице по жанрам, стримингам, популярности, просмотрам и кассовым сборам. Обновление подборок происходит при каждом нажатии кнопки Главная (Home).",
 		  "available_lampa": 1
 		},
 		{
-		  "name": "Додає пункт \"Парсер\" в меню",
+		  "name": "Добавляет пункт \"Парсер\" в меню",
 		  "author": "@lampa",
 		  "link": "http://cub.red/plugin/etor",
-		  "descr": "Плагін для ТВ, на яких Lampa встановлена через офіційні магазини LG Store і Tizen App Store. Включає в настройках відображення пунктів Парсер і Torrserver",
+		  "descr": "Плагин для ТВ, на которых Lampa установлена через официальные магазины LG Store и Tizen App Store. Включает в настройках отображение пунктов Парсер и Torrserver",
 		  "available_lampa": 1
 		},
 	        {
-		  "name": "Публічні парсери",
+		  "name": "Публичные парсеры",
 		  "author": "@lme_chat",
 		  "link": "https://lampame.github.io/main/pubtorr.js",
-		  "descr": "Збірник публічних парсерів з відображенням статуса доступності",
+		  "descr": "Сборник публичных парсеров отображением статуса доступности",
 		  "available_lampa": 1
 		},
 	   	{
 		  "name": "Shikimori catalog",
 		  "author": "@lme_chat",
 		  "link": "https://lampame.github.io/main/shikimori.js",
-		  "descr": "Відображає інформацію по аниме з Shikimori, також намагається знайти по оригинальній назві в TMDB",
+		  "descr": "Отображает информацию по аниме с Shikimori, так же пытается найти по оригинальному названию на ТМДБ",
 		  "available_lampa": 1
 		},
 		{
-		  "name": "Тип керування",
+		  "name": "Тип управления",
 		  "author": "@nemiroff",
 		  "link": "https://nemiroff.github.io/lampa/select_weapon.js",
-		  "descr": "Дозволяє вибрати тип керування (Пульт без мишки, Пульт з мишкою, Тачскрін), а також скинути тип керування обраний раніше",
+		  "descr": "Позволяет выбрать тип управления (Пульт без мышки, Пульт с мышью, Тачскрин), а так же сбросить тип управления выбранный ранее",
 		  "available_lampa": 1
 		},
 	        {
-		  "name": "Додаткові категорії",
+		  "name": "Дополнительные категории",
 		  "author": "@lme_chat",
 		  "link": "https://lampame.github.io/main/nc/nc.js",
-		  "descr": "Додавання категорій Мультфільмів, Netflix, Концерти, і інше",
+		  "descr": "Добавление категорий Мультфильмы, Netflix, Концерты, и прочее",
 		  "available_lampa": 1
 		},
 		{
-		  "name": "Старий стиль (Закладки, Подобається, Пізніше)",
+		  "name": "Старый стиль (Закладки, Нравится, Позже)",
 		  "author": "@VitalikPVA",
 		  "link": "http://github.freebie.tom.ru/want.js",
-		  "descr": "Повертає в головне меню старий стиль відображення пунктів (Закладки, Подобається, Пізніше)",
+		  "descr": "Возвращает в главное меню старый стиль отображения пунктов (Закладки, Нравится, Позже)",
 		  "available_lampa": 1
 		},
 		{
-		  "name": "Скидання налаштувань субтитрів",
+		  "name": "Сброс настроек субтитров",
 		  "author": "@t_anton",
 		  "link": "https://nb557.github.io/plugins/reset_subs.js",
-		  "descr": "Сбрасывает настройки субтитрів по замовчуванням",
+		  "descr": "Сбрасывает настройки субтитров по умолчанию",
 		  "available_lampa": 1
 		},
 	        {
-		  "name": "Імпорт/Експорт історії, закладок",
+		  "name": "Импорт/Экспорт истории, закладок",
 		  "author": "@helpiptv",
 		  "link": "https://skaz.tv/export.js",
-		  "descr": "Дозволяє зберегти історію і закладки і відновлювати по ID",
+		  "descr": "Позволяет сохранять историю и закладки и восстанавливать по ID",
 		  "available_lampa": 1
 		},
 		{
-		  "name": "Вимкненнятача",
+		  "name": "Выключение тача",
 		  "author": "@t_anton",
 		  "link": "https://nb557.github.io/plugins/not_mobile.js",
-		  "descr": "Вимикає сенсорное керування, якщо вно було включено по помилці",
+		  "descr": "Выключает сенсорное управление, если оно было включено по ошибке",
 		  "available_lampa": 1
 		}
       ],
       "hpu": "control"
     },
     {
-      "title": "Телебачення",
+      "title": "Телевидение",
       "results": [
 		 {
 		  "name": "ТВ by skaz",
 		  "author": "@helpiptv",
 		  "link": "http://skaz.tv/tv.js",
-		  "descr": "Телебачення і Онлайн 4к. 1500+ каналів по підписці, IPTV плейлисти, тест через @skaztv_bot",
+		  "descr": "Телевидение и Онлайн 4к. 1500+ каналов по подписке, IPTV плейлисты, тест через @skaztv_bot",
 		  "available_lampa": 1
 		},
 		{
 		  "name": "Kulik",
 		  "author": "@SawamuraRen",
 		  "link": "http://cdn.kulik.uz/cors",
-		  "descr": "перегляд IPTV каналів, відсортованих по різним категоріям. Є можливість поміняти стиль плагіна, сервер мовлення, а також добавити канали в обране",
+		  "descr": "Просмотр IPTV каналов, отсортированных по различным категориям. Есть возможность поменять стиль плагина, сервер вещания, а также добавить каналы в избранное",
 		  "available_lampa": 1
-		}, 
+		}, {
+		  "name": "ТВ by skaz (резерв для KZ, BY)",
+		  "author": "@helpiptv",
+		  "link": "http://skaztv.online/tv.js",
+		  "descr": "Телевидение и Онлайн 4к. 1500+ каналов по подписке, IPTV плейлисты, тест через @skaztv_bot",
+		  "available_lampa": 1
+		}
       ],
       "hpu": "tv"
     },
     {
-      "title": "Різне",
+      "title": "Разное",
       "results": [
 	      	 {
-      		"name": "Рейтинг CUB в картці фільму",
+      		"name": "Рейтинг CUB в карточке фильма",
       		"author": "RootU",
       		"link": "https://plugin.rootu.top/cub-rating.js",
-      		"descr": "Виводить средний рейтинг (загальну оцінку) на основі реакцій користувачів",
+      		"descr": "Выводит средний рейтинг (общую оценкую) на основе реакций пользователей",
       		"available_lampa": 1
  	   	},
 	        {
       		"name": "Настройка шапки",
       		"author": "@and7ey",
       		"link": "https://and7ey.github.io/lampa/head_filter.js",
-      		"descr": "Додає можливість приховати елементи в шпці програми Лампа",
+      		"descr": "Добавляет возможность скрыть элементы в шапке приложения Лампа",
       		"available_lampa": 1
  	   	},
 		{
-      		"name": "Логотипи замість назви",
+      		"name": "Логотипы вместо названий",
       		"author": "@helpiptv",
       		"link": "https://lampaplugins.github.io/store/logo.js",
-      		"descr": "Відображає логотипи фільмів, замість назви в карточках",
+      		"descr": "Отображает логотипы фильмов, вместо названий в карточках",
       		"available_lampa": 1
  	   	},
+	  	{
+      		"name": "Кинопоиск",
+      		"author": "@and7ey",
+      		"link": "https://and7ey.github.io/lampa/kinopoisk.js",
+      		"descr": "Отображает в приложении список фильмов из папки Буду смотреть на Кинопоиске",
+      		"available_lampa": 1
+ 	 	  },
 	    	  {
 		  "name": "SomaFM",
 		  "author": "@tsynik",
 		  "link": "https://tsynik.github.io/lampa/soma.js",
-		  "descr": "Радіо для Lampa",
+		  "descr": "Радио для Lampa",
 		  "available_lampa": 1
 		},
 	     	 {
-		  "name": "Радіо Рекорд",
+		  "name": "Радио Рекорд",
 		  "author": "@helpiptv",
 		  "link": "https://lampaplugins.github.io/store/record.js",
-		  "descr": "Радіо Рекорд",
+		  "descr": "Радио Рекорд",
+		  "available_lampa": 1
+		},
+	      	{
+		  "name": "Отзывы/рецензии с КиноПоиск",
+		  "author": "@helpiptv",
+		  "link": "https://skaz.tv/o.js",
+		  "descr": "Отзывы с КиноПоиск",
 		  "available_lampa": 1
 		},
 	      {
-		  "name": "Коментарі до фільмам від Rezka",
+		  "name": "Комментарии к фильмам от Rezka",
 		  "author": "@BDV_Burik",
 		  "link": "https://bdvburik.github.io/rezkacomment.js",
-		  "descr": "Коментарі з сайта Rezka в карточках фільмів, сериалів",
+		  "descr": "Комментарии с сайта Rezka в карточках фильмов, сериалов",
 		  "available_lampa": 1
 		},
 	       {
-		  "name": "Оригінальні назви",
+		  "name": "Оригинальные названия",
 		  "author": "@BDV_Burik",
 		  "link": "https://bdvburik.github.io/title.js",
-		  "descr": "Додає оригінальні назви до фільмів, сериалів.",
+		  "descr": "Добавляет оригинальные названия к фильмам, сериалам.",
 		  "available_lampa": 1
 		},
 		{
-		  "name": "Презагрузка ts",
+		  "name": "Предзагрузка ts",
 		  "author": "@rootu",
 		  "link": "https://plugin.rootu.top/ts-preload.js",
-		  "descr": "Плагін візуалізації предзагрузки торрентів для вбудованого клієнта TorrServer",
+		  "descr": "Плагин визуализации предзагрузки торрентов для встроенного клиента TorrServer",
 		  "available_lampa": 1
 		},
 		{
-		  "name": "Приємні дрібниці",
+		  "name": "Приятные мелочи",
 		  "author": "@AndreyURL54",
 		  "link": "http://skaztv.online/js/tricks.js",
-		  "descr": "Доповнення затребуваних функцій і дизайну, яких вам не вистачало. (mod. Без перевірки на MSX)",
+		  "descr": "Дополнение некоторых востребованных функций и дизайна, которых вам не хватало. (mod. Без проверки на MSX)",
 		  "available_lampa": 1
 		},
 		{
-		  "name": "Відключення Websocket",
+		  "name": "Отключение Websocket",
 		  "author": "@rootu",
 		  "link": "http://plugin.rootu.top/wsoff.js",
-		  "descr": "Плагін відключає протокол Websocket, допомагає при помилкаї на деяких устройствах",
+		  "descr": "Плагин отключает протокол Websocket, помогает при ошибках на некоторых устройствах",
 		  "available_lampa": 1
 		}
       ],
