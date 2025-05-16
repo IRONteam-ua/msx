@@ -44,6 +44,20 @@
    },
    "items": [
       {
+         "title": "{col:#1ac9b8}LAMPA",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.",
+               "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
+         "action": "link:http://lampa.mx"
+      },
+      {
          "title": "{col:#1ac9b8}Prisma TV",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -84,20 +98,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
          "action": "link:http://msx.atodo.fun/"
-      },
-      {
-         "title": "{col:#1ac9b8}LAMPA",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.",
-               "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
-         "action": "link:http://lampa.mx"
       },
       {
          "title": "{col:#1ac9b8}Lampa | NoName",
@@ -141,7 +141,7 @@
          "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
          "action": "link:http://lampa.land"
       },
-       {
+      {
          "title": "{col:#1ac9b8}UN Censored",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -169,7 +169,7 @@
          "image": "https://ironteam-ua.github.io/msx/img/netflix.png",
          "action": "link:http://netfix.cc"
       },
-           {
+      {
          "title": "{col:#1ac9b8}GetsTV",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -253,7 +253,7 @@
          "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
          "action": "link:https://www.youtube.com/tv#/"
       },
-        {
+      {
          "title": "{col:#1ac9b8}YouTube Kids",
          "titleFooter": "Відеоролики",
          "selection": {
@@ -281,7 +281,7 @@
          "image": "https://ironteam-ua.github.io/msx/img/tiktok.png",
          "action": "link:link:https://tv.tiktok.com/webos"
       },
-       {
+      {
          "title": "{col:#1ac9b8}Online TV",
          "titleFooter": "Телебачення",
          "selection": {
