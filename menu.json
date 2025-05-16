@@ -44,7 +44,7 @@
    },
    "items": [
       {
-         "title": "{col:#1ac9b8}Prisma_TV",
+         "title": "{col:#1ac9b8}Prisma TV",
          "titleFooter": "Фільми та серіали",
          "selection": {
             "important": true,
@@ -148,7 +148,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+               "text": "{col:msx-white}Forkplayer{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів.",
                "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
@@ -162,7 +162,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:yellow}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+               "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів.",
                "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
