@@ -2,14 +2,9 @@
     'use strict';
 	Lampa.Lang.add({
         pirate_store: {
-            ru: "Пиратские плагины",
-            en: "Pirate Store",
-            uk: "Піратські плагіни",
-            be: "Пірацкія плагіны",
-            zh: "盜版插件",
-            pt: "Pirate Store",
-            bg: "Пиратски добавки",
-			he: "תוספים פיראטיים"
+            ru: "Дополнительные плагины",
+            en: "Additional plugins",
+            uk: "Додаткові плагіни",
         }
     });
     function addStore() {
@@ -23,7 +18,7 @@
         if (e.name == 'main') {
             e.body.find('[data-component="pirate_store"]').on('hover:enter', function() {
                 Lampa.Extensions.show({
-                    store: 'https://lampaplugins.github.io/store/extensions.json',
+                    store: 'https://ironteam-ua.github.io/msx/MODS/Lampa/extensions.json',
                     with_installed: true
                 });
             });
