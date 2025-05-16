@@ -153,7 +153,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/forkd.png",
-          "action": "link:http://browser.appinfo.su/"
+         "action": "link:http://browser.appinfo.su/"
       },
       {
          "title": "{col:#1ac9b8}Forkplayer NEW",
@@ -167,7 +167,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/forknew.png",
-          "action": "link:http://browser.appfxml.com/"
+         "action": "link:http://browser.appfxml.com/"
       },
       {
          "title": "{col:#1ac9b8}GetsTV",
@@ -267,7 +267,7 @@
          "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
          "action": "link:http://widget.ottplayer.tv/"
       },
-            {
+      {
          "title": "{col:#1ac9b8}OTT-play FOSS",
          "titleFooter": "IPTV player",
          "selection": {
@@ -309,7 +309,7 @@
          "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
          "action": "link:http://icva.mx/"
       },
-            {
+      {
          "title": "{col:#1ac9b8}Інструкції",
          "titleFooter": "",
          "selection": {
@@ -325,4 +325,3 @@
       }
    ]
 }
-
