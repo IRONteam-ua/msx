@@ -321,7 +321,7 @@
             }
          },
          "image": "",
-         "action": "open:https://ironteam-ua.github.io/msxinstructions.json"
+         "action": "link:https://ironteam-ua.github.io/msxinstructions.json"
       }
    ]
 }
