@@ -169,19 +169,19 @@
          "image": "https://ironteam-ua.github.io/msx/img/netflix.png",
          "action": "link:http://netfix.cc"
       },
-      {
-         "title": "{col:#1ac9b8}Online TV",
-         "titleFooter": "Телебачення",
+           {
+         "title": "{col:#1ac9b8}GetsTV",
+         "titleFooter": "Фільми та серіали",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Online TV{col}{br}{col:yellow}=========={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
-               "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png"
+               "text": "{col:msx-white}GetsTV{col}{br}{col:yellow}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
+               "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
-         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
+         "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
+         "action": "link:http://getstv.com/app/"
       },
       {
          "title": "{col:#1ac9b8}Forkplayer",
@@ -210,20 +210,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/forknew.png",
          "action": "link:http://browser.appfxml.com/"
-      },
-      {
-         "title": "{col:#1ac9b8}GetsTV",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}GetsTV{col}{br}{col:yellow}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-               "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
-         "action": "link:http://getstv.com/app/"
       },
       {
          "title": "{col:#1ac9b8}X-SMART TV",
@@ -294,6 +280,20 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/tiktok.png",
          "action": "link:link:https://tv.tiktok.com/webos"
+      },
+       {
+         "title": "{col:#1ac9b8}Online TV",
+         "titleFooter": "Телебачення",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Online TV{col}{br}{col:yellow}=========={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
+               "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
+         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
       {
          "title": "{col:#1ac9b8}Mytuner mobi",
