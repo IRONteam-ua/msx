@@ -100,7 +100,7 @@
          "action": "link:http://lampa.mx"
       },
       {
-         "title": "{col:#1ac9b8}Lampa|{col} NoName",
+         "title": "{col:#1ac9b8}Lampa | NoName",
          "titleFooter": "Фільми та серіали",
          "selection": {
             "important": true,
@@ -156,6 +156,20 @@
          "action": "link:http://bylampa.online/"
       },
       {
+         "title": "{col:#1ac9b8}Netflix",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Netflix{col}{br}{col:yellow}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів",
+               "image": "https://ironteam-ua.github.io/msx/img/netflix.png"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/netflix.png",
+         "action": "link:http://netfix.cc"
+      },
+      {
          "title": "{col:#1ac9b8}Online TV",
          "titleFooter": "Телебачення",
          "selection": {
@@ -171,7 +185,7 @@
       },
       {
          "title": "{col:#1ac9b8}Forkplayer",
-         "titleFooter": "",
+         "titleFooter": "Плеєри",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -238,20 +252,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/deeplex.png",
          "action": "link:http://smart.deeplex.cc"
-      },
-      {
-         "title": "{col:#1ac9b8Netflix",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Netflix{col}{br}{col:yellow}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів",
-               "image": "https://ironteam-ua.github.io/msx/img/netflix.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/netflix.png",
-         "action": "link:http://netfix.cc"
       },
       {
          "title": "{col:#1ac9b8}YouTube",
