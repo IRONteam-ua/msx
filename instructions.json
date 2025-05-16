@@ -1,33 +1,21 @@
 {
-  "type": "menu",
-  "title": "Wiki Інструкція MSX",
-  "layout": "1",
-  "items": [
-    {
-      "title": "Вступ",
-      "type": "info",
-      "description": "Це інструкція для перегляду Wiki в Media Station X."
+    "headline": "Instructions",
+    "background": "https://ironteam-ua.github.io/msx/img/tv.png",
+    "menu": [
+ {
+      "title": "Інструкція 1",
+      "action": "open_instruction",
+      "content": "Це текст прикладу інструкції 1. Тут ти можеш змінити цей текст на свій."
     },
     {
-      "title": "Як додати плагін в Lampa",
-      "type": "info",
-      "description": "1. Відкрийте меню 'Розширення'.\n2. Натисніть 'Додати плагін'.\n3. Введіть URL.\n4. Підтвердіть."
+      "title": "Інструкція 2",
+      "action": "open_instruction",
+      "content": "Це текст прикладу інструкції 2. Замінюй як хочеш."
     },
     {
-      "title": "Корисні посилання",
-      "type": "menu",
-      "items": [
-        {
-          "title": "Офіційний сайт MSX",
-          "type": "web",
-          "url": "https://mediastationx.com"
-        },
-        {
-          "title": "GitHub MSX",
-          "type": "web",
-          "url": "https://github.com/MediastationX"
-        }
-      ]
+      "title": "Інструкція 3",
+      "action": "open_instruction",
+      "content": "Інструкція 3: тут показаний зразок тексту."
     }
-  ]
+    ]
 }
