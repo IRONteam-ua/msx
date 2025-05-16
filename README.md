@@ -42,11 +42,17 @@ Mail: ihor@ironteam.com.ua
 📂 Структура репозиторію
 
 msx/
+
 ├── MODS/
+│ 
 │   └── Lampa/
+│ 
 │       └── plugins.js
+│ 
 ├── menu.json
+│ 
 ├── instructions.html
+│ 
 └── README.md
 
 📄 Ліцензія
