@@ -127,6 +127,20 @@
          "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
          "action": "link:http://lampa.land"
       },
+       {
+         "title": "{col:#1ac9b8}UN Censored",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:yellow} Відсутня реклама! відкрив і дивишся.",
+               "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
+         "action": "link:http://bylampa.online/"
+      },
       {
          "title": "{col:#1ac9b8}Online TV",
          "titleFooter": "Телебачення",
@@ -182,20 +196,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
          "action": "link:http://getstv.com/app/"
-      },
-      {
-         "title": "{col:#1ac9b8}UN Censored",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:yellow} Відсутня реклама! відкрив і дивишся.",
-               "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
-         "action": "link:http://bylampa.online/"
       },
       {
          "title": "{col:#1ac9b8}Deeplex",
