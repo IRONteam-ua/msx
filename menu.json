@@ -50,7 +50,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.",
+               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.{br} {col:red} Перегляньте інструкції, що в кінці для розуміння як користуватись сервісом",
                "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
             }
          },
@@ -64,7 +64,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:yellow} Відсутня реклама! відкрив і дивишся.",
+               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:yellow} Відсутня реклама! відкрив і дивишся. Перегляньте інструкції, що в кінці для розуміння як користуватись сервісом",
                "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
             }
          },
