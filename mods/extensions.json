@@ -115,6 +115,41 @@
             "title": "Керування",
             "results": [
                 {
+                    "name": "Вихід",
+                    "author": "@tsynik",
+                    "link": "https://tsnik.github.io/lampa/e.js",
+                    "descr": "Плагін додає пункт вихід до головного меню",
+                    "available_lampa": 1
+                },
+                {
+                    "name": "Гарячі клавіші",
+                    "author": "@nnmd",
+                    "link": "https://nnmdd.github.io/lampa_hotkeys/hotkeys.js",
+                    "descr": "Плагін відкриває меню плеєра лампи по кнопках пульта: 5 - плейлист, 8 - аудіодоріжки, 0 - субтитри, клавіші каналів +/- - наступний/попередній файл в плейлисті.",
+                    "available_lampa": 1
+                },
+                {
+                    "name": "DLNA (Tizen, Orsay)",
+                    "author": "",
+                    "link": "https://bylampa.github.io/dlna.js",
+                    "descr": "Плагін працює на пристроях Orsay для Tizen (1.9.1 версія і вище).",
+                    "available_lampa": 1
+                },
+                {
+                    "name": "Сортування головного меню",
+                    "author": "@RootU",
+                    "link": "https://193.233.134.21/plugins/memusort",
+                    "descr": "Плагін дозволяє відредагувати головне меню на свій смак (приховання, переміщення пунктів меню) Працює на сенсорних пристроях.",
+                    "available_lampa": 1
+                },
+                {
+                    "name": "Бінд (Переналаштування) кнопок",
+                    "author": "@Juri_Z",
+                    "link": "https://apxubatop.github.io/lmpPlugins/tvbuttontst.js",
+                    "descr": "Плагін дозволяє керувати кольоровими кнопками на пульті з ТВ пульта фільтрами в карточках онлайну чи торентах.",
+                    "available_lampa": 1
+                },
+                {
                     "name": "Трейлери з iTunes",
                     "author": "@RootU",
                     "link": "https://plugin.rootu.top/trailers.js",
