@@ -138,7 +138,7 @@
                 {
                     "name": "Сортування головного меню",
                     "author": "@RootU",
-                    "link": "https://github.com/IRONteam-ua/msx/blob/main/mods/sorting.js",
+                    "link": "https://ironteam.ua.github.io/msx/mods/sorting.js",
                     "descr": "Плагін дозволяє відредагувати головне меню на свій смак (приховання, переміщення пунктів меню) Працює на сенсорних пристроях.",
                     "available_lampa": 1
                 },
