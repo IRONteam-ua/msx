@@ -6,128 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Меню інструкцій</title>
        <style>
-        body {
-            background-color: #121212;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-            scroll-behavior: smooth;
-        }
-
-        h1 {
-            color: #1ac9b8;
-            border-bottom: 2px solid #1ac9b8;
-            padding-bottom: 5px;
-        }
-
-        h2 {
-            color: #ffcc00;
-            margin-top: 30px;
-        }
-
-        p,
-        li {
-            font-size: 16px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        a {
-            color: #1ac9b8;
-            text-decoration: none;
-            font-size: 20px;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .note {
-            background-color: #222;
-            border-left: 5px solid #1ac9b8;
-            padding: 10px;
-            margin: 20px 0;
-        }
-         /* qrcode */
-          .qrcode-box {
-    position: fixed;
-    top: 100px;
-    right: 20px;
-    background-color: #222;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #1ac9b8;
-    z-index: 1000;
-    width: 180px;
-  }
-
-  .qrcode-box p {
-    color: #1ac9b8;
-    font-size: 16px;
-    margin: 0 0 10px 0;
-  }
-
-  .qrcode-box img {
-    width: 150px;
-  }
-
-  .qrcode-box .desc {
-    font-size: 14px;
-    color: #aaa;
-    margin-top: 10px;
-  }
-
-  /* 📱 Приховати QR-блок на екранах до 768px */
-  @media (max-width: 768px) {
-    .qrcode-box {
-      display: none;
+    /* === Загальні стилі для тіла сторінки === */
+    body {
+        background-color: #121212;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+        scroll-behavior: smooth;
     }
 
-        /* кнопки */
-        .nav-btn {
-            position: fixed;
-            background-color: #1ac9b8;
-            color: #000;
-            padding: 12px 14px;
-            border-radius: 50%;
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center;
-            text-decoration: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-            transition: background-color 0.3s, transform 0.2s;
-            z-index: 999;
-        }
+    /* === Заголовки === */
+    h1 {
+        color: #1ac9b8;
+        border-bottom: 2px solid #1ac9b8;
+        padding-bottom: 5px;
+    }
 
-        .nav-btn:hover {
-            background-color: #17b0a2;
-            transform: scale(1.1);
-        }
+    h2 {
+        color: #ffcc00;
+        margin-top: 30px;
+    }
 
-        /* Розташування */
-        .up {
-            bottom: 100px;
-            right: 50px;
-        }
+    /* === Текст, списки === */
+    p, li {
+        font-size: 16px;
+    }
 
-        .left {
-            bottom: 50px;
-            right: 100px;
-        }
+    ul {
+        padding-left: 20px;
+    }
 
-        .right {
-            bottom: 50px;
-            right: 0px;
-        }
+    /* === Посилання === */
+    a {
+        color: #1ac9b8;
+        text-decoration: none;
+        font-size: 20px;
+    }
 
-        .down {
-            bottom: 0px;
-            right: 50px;
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* === Інформаційний блок === */
+    .note {
+        background-color: #222;
+        border-left: 5px solid #1ac9b8;
+        padding: 10px;
+        margin: 20px 0;
+    }
+
+    /* === Блок з QR-кодом === */
+    .qrcode-box {
+        position: fixed;
+        top: 100px;
+        right: 20px;
+        background-color: #222;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #1ac9b8;
+        z-index: 1000;
+        width: 180px;
+    }
+
+    .qrcode-box p {
+        color: #1ac9b8;
+        font-size: 16px;
+        margin: 0 0 10px 0;
+    }
+
+    .qrcode-box img {
+        width: 150px;
+    }
+
+    .qrcode-box .desc {
+        font-size: 14px;
+        color: #aaa;
+        margin-top: 10px;
+    }
+
+    /* === QR-блок зникає на екранах до 768px (наприклад, телефони) === */
+    @media (max-width: 768px) {
+        .qrcode-box {
+            display: none;
         }
-    </style>
+    }
+
+    /* === Кнопки навігації === */
+    .nav-btn {
+        position: fixed;
+        background-color: #1ac9b8;
+        color: #000;
+        padding: 12px 14px;
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        transition: background-color 0.3s, transform 0.2s;
+        z-index: 999;
+    }
+
+    .nav-btn:hover {
+        background-color: #17b0a2;
+        transform: scale(1.1);
+    }
+
+    /* === Позиції кнопок === */
+    .up {
+        bottom: 100px;
+        right: 50px;
+    }
+
+    .left {
+        bottom: 50px;
+        right: 100px;
+    }
+
+    .right {
+        bottom: 50px;
+        right: 0px;
+    }
+
+    .down {
+        bottom: 0px;
+        right: 50px;
+    }
+</style>
+
 
 </head>
 
