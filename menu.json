@@ -372,11 +372,11 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Інструкції{col}{br}{col:yellow}=========={br}{col:msx-white}Як користуватись сервісом.",
-               "image": ""
+               "text": "{col:msx-white}Інструкції{col}{br}{col:yellow}=========={br}{col:msx-white}Тут зібрані інструкції, як користуватись сервісом.",
+               "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions.png"
             }
          },
-         "image": "",
+         "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions.png",
          "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html"
       }
    ]
