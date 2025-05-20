@@ -72,20 +72,6 @@
          "action": "link:http://bylampa.online/"
       },
       {
-         "title": "{col:#1ac9b8}Prisma TV",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Prisma_TV{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:yellow} Відсутня реклама! відкрив і дивишся.",
-               "image": "https://ironteam-ua.github.io/msx/img/prisma-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
-         "action": "link:https://prisma.ws/"
-      },
-      {
          "title": "{col:#1ac9b8}ATODO",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -112,6 +98,20 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
          "action": "link:http://msx.atodo.fun/"
+      },
+            {
+         "title": "{col:#1ac9b8}Prisma TV",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Prisma_TV{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:yellow} Відсутня реклама! відкрив і дивишся.",
+               "image": "https://ironteam-ua.github.io/msx/img/prisma-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
+         "action": "link:https://prisma.ws/"
       },
       {
          "title": "{col:#1ac9b8}Lampa | NoName",
