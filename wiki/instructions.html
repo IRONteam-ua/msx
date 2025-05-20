@@ -52,7 +52,7 @@
             margin: 20px 0;
         }
          /* qrcode */
-         .qrcode-box {
+          .qrcode-box {
     position: fixed;
     top: 100px;
     right: 20px;
@@ -63,14 +63,6 @@
     z-index: 1000;
     width: 180px;
   }
-
-             /* 📱 На екранах до 768px (мобілки та планшети) — переміщаємо QR блок угору */
-  @media (max-width: 768px) {
-    .qrcode-box {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
 
   .qrcode-box p {
     color: #1ac9b8;
@@ -87,6 +79,12 @@
     color: #aaa;
     margin-top: 10px;
   }
+
+  /* 📱 Приховати QR-блок на екранах до 768px */
+  @media (max-width: 768px) {
+    .qrcode-box {
+      display: none;
+    }
 
         /* кнопки */
         .nav-btn {
@@ -139,13 +137,7 @@
     <div class="note">
         Виберіть розділ, щоб перейти до відповідної інструкції. Повна версія доступна за адресою: <br>
         <a href="https://ironteam-ua.github.io/msx/wiki/instructions.html" target="_blank">https://ironteam-ua.github.io/msx/wiki/instructions.html</a>
-    </div>
-<div class="qrcode-box">
-  <p>📲 Відкрий у телефоні</p>
-  <img src="https://ironteam-ua.github.io/msx/img/qrcode_instructions.png" alt="QR-код до інструкції">
-  <p class="desc">Скануй цей код, щоб швидко відкрити сторінку інструкції на телефоні або планшеті</p>
-</div>
-    
+    </div>    
     <ol>
         <li><a href="lampa.html">Додавання парсерів (кінотеатрів) у Lampa</a></li>
         <li><a href="fork.html">Як користуватись ForkPlayer</a></li>
@@ -154,10 +146,10 @@
         <li><a href="questions.html">Часті запитання</a></li>
         <li><a href="help.html">Підтримка</a></li>
     </ol>
-<div style="position: fixed; top: 100px; right: 20px; background-color: #222; padding: 15px; border-radius: 10px; box-shadow: 0 0 10px #1ac9b8;">
-    <p style="color: #1ac9b8; font-size: 16px; margin: 0 0 10px 0;">📲 Відкрий у телефоні</p>
-    <img src="https://ironteam-ua.github.io/msx/img/qrcode_instructions.png" alt="QR-код до інструкції" width="150">
-    <p style="font-size: 14px; color: #aaa; margin-top: 10px;">Скануй цей код, щоб швидко відкрити сторінку інструкції на телефоні або планшеті</p>
+<div class="qrcode-box">
+  <p>📲 Відкрий у телефоні</p>
+  <img src="https://ironteam-ua.github.io/msx/img/qrcode_instructions.png" alt="QR-код до інструкції">
+  <p class="desc">Скануй цей код, щоб швидко відкрити сторінку інструкції на телефоні або планшеті</p>
 </div>
     
     <!-- Кнопки -->
