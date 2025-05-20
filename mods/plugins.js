@@ -18,7 +18,7 @@
         if (e.name == 'main') {
             e.body.find('[data-component="pirate_store"]').on('hover:enter', function() {
                 Lampa.Extensions.show({
-                    store: 'https://ironteam-ua.github.io/msx/MODS/Lampa/extensions.json',
+                    store: 'https://ironteam-ua.github.io/msx/mods/extensions.json',
                     with_installed: true
                 });
             });
