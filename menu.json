@@ -50,7 +50,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.{br} {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом",
+               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.{br} {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
             }
          },
@@ -190,7 +190,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів.",
+               "text": "{col:msx-white}Forkplayer{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
@@ -204,7 +204,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів.",
+               "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
