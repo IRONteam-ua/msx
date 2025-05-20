@@ -117,7 +117,7 @@
                 {
                     "name": "Вихід",
                     "author": "@tsynik",
-                    "link": "https://tsnik.github.io/lampa/e.js",
+                    "link": "https://tsynik.github.io/lampa/e.js",
                     "descr": "Плагін додає пункт вихід до головного меню",
                     "available_lampa": 1
                 },
@@ -138,14 +138,14 @@
                 {
                     "name": "Сортування головного меню",
                     "author": "@RootU",
-                    "link": "https://193.233.134.21/plugins/memusort",
+                    "link": "https://193.233.134.21/plugins/menusort",
                     "descr": "Плагін дозволяє відредагувати головне меню на свій смак (приховання, переміщення пунктів меню) Працює на сенсорних пристроях.",
                     "available_lampa": 1
                 },
                 {
                     "name": "Бінд (Переналаштування) кнопок",
                     "author": "@Juri_Z",
-                    "link": "https://apxubatop.github.io/lmpPlugins/tvbuttontst.js",
+                    "link": "https://apxubatop.github.io/lmpPlugs/tvbuttontst.js",
                     "descr": "Плагін дозволяє керувати кольоровими кнопками на пульті з ТВ пульта фільтрами в карточках онлайну чи торентах.",
                     "available_lampa": 1
                 },
