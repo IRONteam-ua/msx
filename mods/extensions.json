@@ -12,10 +12,10 @@
                     "available_lampa": 1
                 },
                 {
-                    "name": "Телебачення by Skaz ",
-                    "author": "@helpiptv",
-                    "link": "http://skaz.tv/tv.js",
-                    "descr": "Телебачення в Онлайн 4к. 1500+ каналів по підписці, IPTV плейлисти, тест через @skaztv_bot",
+                    "name": "Онлайн Cinema",
+                    "author": "@cinema",
+                    "link": "https://bylampa.github.io/cinema.js",
+                    "descr": "Плагін для перегляду фільмів і серіалів онлайн.",
                     "available_lampa": 1
                 },
                 {
@@ -32,6 +32,13 @@
             "title": "Відео",
             "results": [
                 {
+                    "name": "Онлайн Cinema",
+                    "author": "@cinema",
+                    "link": "https://bylampa.github.io/cinema.js",
+                    "descr": "Плагін для перегляду фільмів і серіалів онлайн.",
+                    "available_lampa": 1
+                },
+                           {
                     "name": "MODS's",
                     "author": "@modss_group",
                     "link": "http://lampa.stream/modss",
@@ -43,6 +50,20 @@
                     "author": "@t_anton",
                     "link": "https://nb557.github.io/plugins/online_mod.js",
                     "descr": "Фільми і Серіали в онлайн",
+                    "available_lampa": 1
+                },
+                {
+                    "name": "Онлайн Filmix",
+                    "author": "@rik",
+                    "link": "https://bwa.to/plugins/prestige.js",
+                    "descr": "Онлайн плагін з єдиним джерелом Filmix (працює при наявності акаунта)",
+                    "available_lampa": 1
+                },
+                                {
+                    "name": "Showy",
+                    "author": "@showy",
+                    "link": "https://showwwwy.com/m.js",
+                    "descr": "Плагін для перегляду фільмів та серіалів онлайн",
                     "available_lampa": 1
                 },
                 {
