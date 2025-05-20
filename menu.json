@@ -50,7 +50,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.{br} {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом.",
+               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:yellow}Для перегляду торентів потрібен TorrServe.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
             }
          },
@@ -64,7 +64,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом",
+               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
             }
          },
@@ -120,7 +120,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}LAMPA NoName{col}{br}{col:yellow}=========={br}{col:msx-white}Вже Налаштована для перегляду контенту онлайн.{col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом",
+               "text": "{col:msx-white}LAMPA NoName{col}{br}{col:yellow}=========={br}{col:msx-white}Вже Налаштована для перегляду контенту онлайн.{col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png"
             }
          },
@@ -134,7 +134,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Lamp!she{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:yellow}Програма не призначена для роботи через MediaStation X і може працювати некоректно. Для перегляду торентів потрібен TorrServe {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом.",
+               "text": "{col:msx-white}Lamp!she{col}{br}{col:yellow}=========={br}{col:msx-white}Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:yellow}Програма не призначена для роботи через MediaStation X і може працювати некоректно. Для перегляду торентів потрібен TorrServe {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/lampishe-pic.gif"
             }
          },
@@ -162,7 +162,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Netflix{col}{br}{col:yellow}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів. {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом",
+               "text": "{col:msx-white}Netflix{col}{br}{col:yellow}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів. {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/netflix.png"
             }
          },
@@ -190,7 +190,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом.",
+               "text": "{col:msx-white}Forkplayer{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
@@ -204,7 +204,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {col:black} Перегляньте інструкції меню, що в кінці для розуміння як користуватись сервісом.",
+               "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:yellow}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
             }
          },
