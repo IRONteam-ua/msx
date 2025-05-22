@@ -2,5 +2,5 @@
     "name": "IRON's MSX SERVER",
     "version": "1.2.1",
     "parameter": "content:https://ironteam-ua.github.io/msx/menu.json",
-        "welcome": "none"
+        "welcome": "В цій версії додані нові кінотеатри та додана інструкція (як користуватись сервісом) "
 }
