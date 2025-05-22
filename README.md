@@ -19,7 +19,7 @@ MSX — це набір плагінів, парсерів та IPTV-інстр�
 
 Введіть URL:
 
-https://ironteam-ua.github.io/msx/MODS/Lampa/plugins.js
+https://ironteam-ua.github.io/msx/mods/plugins.js
 
 Перезавантажте додаток.
 
