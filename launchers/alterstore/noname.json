@@ -27,7 +27,7 @@
             "layout": "1,3,6,2",
             "offset": "0,0,0,1",
             "headline": "",
-            "text": "Параметр {col:white}ЗАПУСТИТИ{col}{br} дозволяє ознайомитися та користуватися MSX NoName Launcher не залишаючи портал ZUMO.{br}{br}Параметр {col:white}Встановити{col}: {br}вихід з порталу ZUMO та заміна стартової адреси на {col:red}msx.nnmtv.pw"
+            "text": "Параметр {col:white}ЗАПУСТИТИ{col}{br} дозволяє ознайомитися та користуватися MSX NoName Launcher не залишаючи портал ZUMO.{br}{br}Параметр {col:white}Встановити{col}: {br}вихід з порталу ZUMO та заміна стартової адреси."
          }
       ]
    },
