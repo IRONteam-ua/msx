@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="title">Меню інструкцій</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { background: #121212; color: white; font-family: sans-serif; padding: 20px; }
+        a { color: #1ac9b8; }
+        .note, .qrcode-box { background: #222; padding: 10px; border-left: 5px solid #1ac9b8; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+<h1 id="title">Меню інструкцій</h1>
+
+<div class="note">
+    <p id="note-text">Завантаження…</p>
+    <a id="note-link" href="#">Посилання</a>
+</div>
+
+<ol id="menu-list"></ol>
+
+<div class="qrcode-box">
+    <p id="qrcode-title"></p>
+    <img src="https://ironteam-ua.github.io/msx/img/qrcode_instructions.png" width="250">
+    <p id="qrcode-desc"></p>
+</div>
+
+<!-- Навігаційні кнопки -->
+<div style="margin-top: 40px;">
+    <button id="btn-up"></button>
+    <button id="btn-left"></button>
+    <button id="btn-right"></button>
+    <button id="btn-down"></button>
+</div>
+
+<script>
+    async function loadLang(lang = 'uk') {
+        const res = await fetch(`lang/${lang}.json`);
+        const data = await res.json();
+
+        document.getElementById('title').textContent = data.title;
+        document.getElementById('note-text').textContent = data.note;
+        document.getElementById('note-link').href = data.note_link;
+        document.getElementById('note-link').textContent = data.note_link;
+
+        const menuList = document.getElementById('menu-list');
+        menuList.innerHTML = '';
+        data.menu.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            menuList.appendChild(li);
+        });
+
+        document.getElementById('qrcode-title').textContent = data.qrcode_title;
+        document.getElementById('qrcode-desc').textContent = data.qrcode_desc;
+
+        document.getElementById('btn-up').textContent = data.buttons.up;
+        document.getElementById('btn-left').textContent = data.buttons.left;
+        document.getElementById('btn-right').textContent = data.buttons.right;
+        document.getElementById('btn-down').textContent = data.buttons.down;
+    }
+
+    // Завантаження української мови за замовчуванням
+    loadLang();
+</script>
+
+</body>
+</html>
