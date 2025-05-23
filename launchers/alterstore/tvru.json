@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустити",
-         "action": "ccontent:https://github.com/tvru/tvru.github.io/raw/refs/heads/main/msx/menu.json"
+         "action": "content:https://github.com/tvru/tvru.github.io/raw/refs/heads/main/msx/menu.json"
       },
       {
          "type": "button",
