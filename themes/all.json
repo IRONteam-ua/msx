@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "background": "https://ironteam-ua.github.io/msx/img/dam.jpg",
+   "background": "https://ironteam-ua.github.io/msx/img/dem.jpg",
    "headline": "Все",
    "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
