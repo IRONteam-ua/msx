@@ -42,7 +42,8 @@
       },
       {
          "type": "separator"
-      },      {
+        },
+      {
          "icon": "help",
          "label": "Інструкції",
          "data": "https://ironteam-ua.github.io/msx/wiki/instructions.html"
