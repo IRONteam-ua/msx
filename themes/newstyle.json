@@ -16,22 +16,22 @@
             {
          "icon": "movie",
          "label": "Безкоштовне кіно",
-         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
+         "data": "https://ironteam-ua.github.io/msx/themes/free_films.jsom"
       },
       {
          "icon": "live-tv",
          "label": "IPTV додатки",
-         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
+         "data": "https://ironteam-ua.github.io/msx/themes/iptv.jsom"
       },
       {
          "icon": "movie-filter",
          "label": "Всі додатки з фільмами",
-         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
+         "data": "https://ironteam-ua.github.io/msx/themes/all_films.jsom"
       },
       {
          "icon": "devices-other",
          "label": "Інші медіаплатформи",
-         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
+         "data": "https://ironteam-ua.github.io/msx/themes/other.jsom"
       },
       {
          "type": "separator"
@@ -39,7 +39,7 @@
       {
          "icon": "dvr",
          "label": "Альтернативні сттартові параметри",
-         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
+         "data": "https://github.com/IRONteam-ua/msx/themes/alternative.json"
       },
       {
          "type": "separator"
