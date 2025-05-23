@@ -16,7 +16,7 @@
             "type": "space",
             "layout": "7,0,4,6",
             "offset": "0.9,-1,0.2,1.67",
-            "color": "#424242"
+            "color": "#353535"
          },
          {
             "id": "image",
@@ -44,7 +44,7 @@
    },
    "items": [
             {
-         "title": "{col:black}UN Censored",
+         "title": "{col:msx-black}UN Censored",
          "titleFooter": "Фільми та серіали",
          "selection": {
             "important": true,
