@@ -5,7 +5,7 @@
    "headline": "TV",
    "version": "1.2.2",
    "background": "https://ironteam-ua.github.io/msx/img/warapper.jpg",
-   "logo": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
+   "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
    "logoSize": "large",
    "preload": "next",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
