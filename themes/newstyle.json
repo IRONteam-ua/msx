@@ -9,35 +9,40 @@
       },
       {
          "icon": "menu",
-         "label": "Все приложения",
+         "label": "Всі програми",
          "data": "https://ironteam-ua.github.io/msx/themes/all.json"
       },
-      {
-         "icon": "live-tv",
-         "label": "IPTV приложения",
+            {
+         "icon": "movie",
+         "label": "Безкоштовне кіно",
          "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
-         "icon": "movie",
-         "label": "Бесплатное кино",
+         "icon": "live-tv",
+         "label": "IPTV додатки",
          "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "icon": "movie-filter",
-         "label": "Всё кино",
+         "label": "Всі додатки з фільмами",
          "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "icon": "devices-other",
-         "label": "Другие медиплатформы",
+         "label": "Інші медіаплатформи",
          "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "type": "separator"
       },
-      {
+            {
          "icon": "dvr",
-         "label": "Альтернативные стартовые параметры",
+         "label": "Старий стартовий параметр",
+         "data": "https://github.com/IRONteam-ua/msx/themes/oldstyle.json"
+      },
+            {
+         "icon": "dvr",
+         "label": "Альтернативні сттартові параметри",
          "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
