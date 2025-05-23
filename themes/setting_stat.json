@@ -1,5 +1,5 @@
 {
-   "headline": "Выбор темы WALS_MSX",
+   "headline": "Вибір теми ZUMO",
    "type": "list",
    "version": "2.5.0",
    "parameter": "content: https://ironteam-ua.github.io/msx/themes/setting_stat.json",
@@ -57,10 +57,31 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
-               "image": "https://wals09.github.io/msx/tema/lite.jpg"
+               "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/them_icon/lite.png",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
+         "action": "start",
+         "data": {
+            "name": "BASIC",
+            "version": "1.0.0",
+            "parameter": "https://ironteam-ua.github.io/msx/menu.json",
+            "welcome": "none"
+         }
+      },
+        {
+         "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
+               "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/resize.png",
          "action": "start",
          "data": {
             "name": "BASIC",
