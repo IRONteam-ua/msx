@@ -8,35 +8,46 @@
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "next",
    "overlay": {
-         "items": [
-      {
-        "type": "space",
-        "round": false,
-        "layout": "0,0,12,8",
-        "offset": "0,0,0,0",
-        "color": "msx-black-soft"
-      },
-      {
-        "id": "text",
-        "type": "space",
-        "layout": "0,1,12,6",
-        "headline": "",
-        "text": "",
-        "style": {
-          "font-size": "24px",
-          "padding": "20px"
-        }
-      }
-    ]
-  },
-  "template": {
-    "type": "default",
-    "layout": "0,0,12,1",
-    "area": "0,1,12,7",
-    "imageWidth": 0,
-    "textWidth": 12
-  },
-  "items": [
+      "items": [
+         {
+            "type": "space",
+            "round": false,
+            "layout": "5,0,7,6",
+            "offset": "0,-1,1,1.7",
+            "color": "msx-black-soft"
+         },
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
+         },
+         {
+            "id": "image",
+            "type": "space",
+            "layout": "5,2,7,4",
+            "offset": "0.4,0,0,0",
+            "image": "none",
+            "imageFiller": "cover"
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "6,1,5,2",
+            "headline": "",
+            "text": ""
+         }
+      ]
+   },
+   "template": {
+      "type": "default",
+      "layout": "0,0,4,1",
+      "area": "0,1,5,5",
+      "imageWidth": 1,
+      "imageFiller": "cover"
+   },
+   "items": [
       {
          "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА",
          "color": "transparent",
@@ -49,16 +60,7 @@
                "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
-         "action": "start",
-         "data": {
-            "name": "BASIC",
-            "version": "1.0.0",
-            "parameter": "https://ironteam-ua.github.io/msx/menu.json",
-            "welcome": "none"
-         }
-      },
-        {
+         {
          "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
          "color": "transparent",
          "focus": true,
