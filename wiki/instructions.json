@@ -1,15 +1,21 @@
 {
-  "title": "📘 Інструкції",
+  "title": "📘 Меню інструкцій",
   "layout": "1",
   "items": [
     {
-      "title": "🔧 Відкрити інструкцію у браузері",
-      "description": "Переглянь повну версію інструкції",
-      "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions.png",
+      "title": "Додавання плагінів у Lampa",
       "action": {
         "type": "link",
-        "url": "https://ironteam-ua.github.io/msx/wiki/instructions.html"
+        "url": "https://ironteam-ua.github.io/msx/wiki/lampa.html"
+      }
+    },
+    {
+      "title": "Як користуватись ForkPlayer",
+      "action": {
+        "type": "link",
+        "url": "https://ironteam-ua.github.io/msx/wiki/fork.html"
       }
     }
+    // додай інші пункти
   ]
 }
