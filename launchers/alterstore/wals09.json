@@ -52,7 +52,7 @@
          "data": {
             "name": "TVRU",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/moovestile/menu_ms.json",
+            "parameter": "menu:https://wals09.github.io/msx/moovestile/menu_ms.json",
             "welcome": "none"
          }
       }
