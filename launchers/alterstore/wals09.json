@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустити",
-         "action": "menu:https://wals09.github.io/msx/moovestile/menu_ms.json"
+         "action": "menu:https://wals09.github.io/msx/mooviestile/menu_ms.json"
       },
       {
          "type": "button",
@@ -52,7 +52,7 @@
          "data": {
             "name": "TVRU",
             "version": "1.0.0",
-            "parameter": "menu:https://wals09.github.io/msx/moovestile/menu_ms.json",
+            "parameter": "menu:https://wals09.github.io/msx/mooviestile/menu_ms.json",
             "welcome": "none"
          }
       }
