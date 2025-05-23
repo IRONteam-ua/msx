@@ -39,7 +39,7 @@
                "text": "Наш старий лаунчер ZUMO"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/logo.png",
+         "image": "https://ironteam-ua.github.io/msx/img/zumo_logo..png",
          "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/zumo.json"
       },
       {
@@ -88,7 +88,7 @@
                "text": "Лаунчер-магазин приложений APPFXML STORE"
             }
          },
-         "image": "https://msx.appfxml.com/msx/appfxmlstore_m.png",
+         "image": "https://ironteam-ua.github.io/msx/img/appfxmlstore_m.png",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/appfxml.json"
       },
       {
@@ -101,7 +101,7 @@
                "text": "Запуск web приложений."
             }
          },
-         "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
+         "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/tvru.json"
       },
       {
@@ -114,7 +114,7 @@
                "text": "Запуск web приложений"
             }
          },
-         "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
+         "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/msx_cc_ua.json"
       }
    ]
