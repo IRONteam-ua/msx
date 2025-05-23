@@ -25,7 +25,7 @@
       {
          "icon": "movie-filter",
          "label": "Всі додатки з фільмами",
-         "data": "https://ironteam-ua.github.io/msx/launchers/all_films.jsom"
+         "data": "https://ironteam-ua.github.io/msx/launchers/all_films.json"
       },
       {
          "icon": "devices-other",
