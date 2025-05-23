@@ -1,6 +1,6 @@
 {    
     "name": "IRON's MSX SERVER",
     "version": "1.2.2",
-    "parameter": "content:https://ironteam-ua.github.io/msx/themes/newstyle.json",
+    "parameter": "menu: https://ironteam-ua.github.io/msx/themes/newstyle.json",
         "welcome": "none "
 }
