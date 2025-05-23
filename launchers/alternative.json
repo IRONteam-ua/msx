@@ -76,7 +76,7 @@
                "text": "Може не працювати на старих версіях MSX і на старих пристроях"
             }
          },
-         "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
+         "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/msxplayer_v4.json"
       },
       {
