@@ -1,0 +1,63 @@
+{
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
+   "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
+   "headline": "",
+   "menu": [
+      {
+         "type": "separator"
+      },
+      {
+         "icon": "menu",
+         "label": "Всі програми",
+         "data": "https://ironteam-ua.github.io/msx/launchers/all_apps.json"
+      },
+            {
+         "icon": "movie",
+         "label": "Безкоштовне кіно",
+         "data": "https://ironteam-ua.github.io/msx/launchers/free_films.jsom"
+      },
+      {
+         "icon": "movie-filter",
+         "label": "Всі додатки з фільмами",
+         "data": "https://ironteam-ua.github.io/msx/launchers/all_films.json"
+      },
+      {
+         "icon": "devices-other",
+         "label": "Інші медіаплатформи",
+         "data": "https://ironteam-ua.github.io/msx/launchers/other.jsom"
+      },
+      {
+         "icon": "live-tv",
+         "label": "IPTV додатки",
+         "data": "https://ironteam-ua.github.io/msx/launchers/iptv.jsom"
+      },
+      {
+         "type": "separator"
+      },
+      {
+         "icon": "dvr",
+         "label": "Альтернативні стартові параметри",
+         "data": "https://ironteam-ua.github.io/msx/launchers/alternative.json"
+      },
+      {
+         "type": "separator"
+        },
+      {
+         "icon": "help",
+         "label": "Інструкції",
+         "data": "https://ironteam-ua.github.io/msx/wiki/instructions.json"
+      },
+      {
+         "icon": "wallpaper",
+         "label": "Тема",
+         "data": "https://ironteam-ua.github.io/msx/themes/thems.json"
+      },
+      {
+         "type": "separator"
+      },
+      {
+         "type": "settings"
+      }
+   ]
+}
