@@ -1,7 +1,7 @@
 {
    "type": "list",
    "headline": "NoName портал",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "preload": "next",
    "captionUnderlay": 1,
    "underlay": {
