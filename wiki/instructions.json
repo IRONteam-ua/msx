@@ -24,14 +24,6 @@
             "color": "red"
          },
          {
-            "id": "image",
-            "type": "space",
-            "layout": "5,2,7,4",
-            "offset": "0.4,0,0,0",
-            "image": "none",
-            "imageFiller": "cover"
-         },
-         {
             "id": "text",
             "type": "space",
             "layout": "6,1,5,2",
@@ -49,14 +41,14 @@
    },
    "items": [
       {
-         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА",
+         "title": "{col:msx-white}Інструкція для додавання парсерів (кінотеатрів) для перегляду в Lampa:",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
+               "text": "{col:#ffcc00}Інструкція для додавання парсерів (кінотеатрів) для перегляду в Lampa:{col}{br}Основная тема без фонового изображения",
                "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
             }
          },
