@@ -27,7 +27,7 @@
             "layout": "1,3,6,2",
             "offset": "0,0,0,1",
             "headline": "",
-            "text": "Параметр {col:white}ЗАПУСТИТИ{col}{br} дозволяє ознайомитися та користуватися MSX NoName Launcher не залишаючи портал ZUMO.{br}{br}Параметр {col:white}Встановити{col}: {br}вихід з порталу ZUMO та заміна стартової адреси на {col:red}msx.nnmtv.pw"
+            "text": "Параметр {col:white}ЗАПУСТИТИ{col}{br} дозволяє ознайомитися та користуватися ZUMO Launcher не залишаючи портал ZUMO.{br}{br}Параметр {col:white}Встановити{col}: {br}вихід з порталу ZUMO та заміна стартової адреси на {col:red}ironteam-ua/github.io/msx/menu.json"
          }
       ]
    },
@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустити",
-         "action": "content:http://msx.nnmtv.pw/msx/menu.json"
+         "action": "content:ironteam-ua/github.io/msx/menu.json"
       },
       {
          "type": "button",
@@ -52,7 +52,7 @@
          "data": {
             "name": "NoName",
             "version": "1.0.0",
-            "parameter": "content:http://msx.nnmtv.pw/msx/menu.json",
+            "parameter": "content:ironteam-ua/github.io/msx/menu.json",
             "welcome": "none"
          }
       }
