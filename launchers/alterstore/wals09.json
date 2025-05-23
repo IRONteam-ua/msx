@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустити",
-         "action": "ccontent:https://wals09.github.io/msx/moovestile/menu_ms.json"
+         "action": "content:https://wals09.github.io/msx/moovestile/menu_ms.json"
       },
       {
          "type": "button",
