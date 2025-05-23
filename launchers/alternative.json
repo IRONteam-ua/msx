@@ -51,7 +51,7 @@
                "text": "Може не працювати на старих версіях MSX і на старих пристроях"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/noname.jpg",
+         "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname _launch.json"
       },
       {
@@ -63,7 +63,7 @@
                "text": "Запуск web додатка."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/noname.jpg",
+         "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname.json"
       },
       {
