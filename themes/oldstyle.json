@@ -44,7 +44,7 @@
    },
    "items": [
             {
-         "title": "{col:msx-black}UN Censored",
+         "title": "{col:#e6e6fa}UN Censored",
          "titleFooter": "Фільми та серіали",
          "selection": {
             "important": true,
