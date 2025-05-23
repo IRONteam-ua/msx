@@ -10,27 +10,27 @@
       {
          "icon": "menu",
          "label": "Все приложения",
-         "data": "https://wals09.github.io/msx/mooviestile/all.json"
+         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "icon": "live-tv",
          "label": "IPTV приложения",
-         "data": "https://wals09.github.io/msx/mooviestile/iptv.json"
+         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "icon": "movie",
          "label": "Бесплатное кино",
-         "data": "https://wals09.github.io/msx/mooviestile/free_kino.json"
+         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "icon": "movie-filter",
          "label": "Всё кино",
-         "data": "https://wals09.github.io/msx/mooviestile/full_kino.json"
+         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "icon": "devices-other",
          "label": "Другие медиплатформы",
-         "data": "https://wals09.github.io/msx/mooviestile/social.json"
+         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "type": "separator"
@@ -38,7 +38,7 @@
       {
          "icon": "dvr",
          "label": "Альтернативные стартовые параметры",
-         "data": "https://wals09.github.io/msx/mooviestile/store.json"
+         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "type": "separator"
@@ -46,7 +46,7 @@
       {
          "icon": "wallpaper",
          "label": "Тема",
-         "data": "https://wals09.github.io/msx/tema/panel_tems.json"
+         "data": "https://github.com/IRONteam-ua/msx/themes/all.json"
       },
       {
          "type": "separator"
