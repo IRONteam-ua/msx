@@ -49,7 +49,7 @@
    },
    "items": [
       {
-         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА",
+         "titleHeader": "{col:msx-white}ОСНОВНА ТЕМА",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -59,8 +59,16 @@
                "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
                "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
             }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
+         "action": "start",
+         "data": {
+            "name": "BASIC",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu.json",
+            "welcome": "none"
          }
-        },
+      },
          {
          "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
          "color": "transparent",
