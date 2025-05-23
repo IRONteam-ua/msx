@@ -1,117 +1,117 @@
 {
-    "name": "IRON's MSX SERVER",
-    "type": "list",
-    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-    "headline": "Free-Films",
-    "version": "1.3.1",
-    "background": "https://ironteam-ua.github.io/msx/img/candy.jpg",
-    "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
-    "logoSize": "large",
-    "preload": "next",
-    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
-    "action": "[settings:validate_links:0|home]",
-    "overlay": {
-        "items": [
-            {
-                "type": "space",
-                "layout": "7,0,4,6",
-                "offset": "0.9,-1,0.2,1.67",
-                "color": "#353535"
-            },
-            {
-                "id": "image",
-                "type": "space",
-                "layout": "8,0,4,3",
-                "image": ""
-            },
-            {
-                "id": "text",
-                "type": "space",
-                "layout": "8,3,4,3",
-                "headline": "",
-                "text": ""
-            }
-        ]
-    },
-    "template": {
-        "type": "default",
-        "layout": "0,0,4,2",
-        "area": "0,0,8,6",
-        "wrapperColor": "msx-glass",
-        "imageWidth": 2,
-        "color": "msx-glass",
-        "imageFiller": "cover"
-    },
-    "items": [
-        {
-            "title": "{col:#e6e6fa}Online TV",
-            "titleFooter": "Телебачення",
-            "selection": {
-                "important": true,
-                "action": "[update:content:overlay:image|update:content:overlay:text]",
-                "data": {
-                    "text": "{col:msx-white}Online TV{col}{br}{col:grey}=========={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
-                    "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png"
-                }
-            },
-            "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
-            "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
-        },
-        {
-            "title": "{col:#e6e6fa}OTT-player",
-            "titleFooter": "IPTV player",
-            "selection": {
-                "important": true,
-                "action": "[update:content:overlay:image|update:content:overlay:text]",
-                "data": {
-                    "text": "{col:msx-white}OTT-player{col}{br}{col:grey}=========={br}{col:msx-white}Мультиплатформна програма та онлайн-сервіс для управління IPTV плейлистами.",
-                    "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png"
-                }
-            },
-            "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
-            "action": "link:http://widget.ottplayer.tv/"
-        },
-        {
-            "title": "{col:#e6e6fa}OTT-play FOSS",
-            "titleFooter": "IPTV player",
-            "selection": {
-                "important": true,
-                "action": "[update:content:overlay:image|update:content:overlay:text]",
-                "data": {
-                    "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:grey}Не містить політичних гасел. Немає плейлистів.",
-                    "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
-                }
-            },
-            "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
-            "action": "link:http://ottp.eu.org/f/"
-        },
-        {
-            "title": "{col:#e6e6fa}DRM-play",
-            "titleFooter": "IPTV player",
-            "selection": {
-                "important": true,
-                "action": "[update:content:overlay:image|update:content:overlay:text]",
-                "data": {
-                    "text": "{col:msx-white}DRM-play{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. НЕ містить nagware коду, модулів аналітики та інших сюрпризів.{br}{col:grey}Є тестовий плейлист)) та містить програму передач з архівом.",
-                    "image": "https://ironteam-ua.github.io/msx/img/drm-pic.gif"
-                }
-            },
-            "image": "https://ironteam-ua.github.io/msx/img/drm-logo.png",
-            "action": "link:http://drm-play.com"
-        },
-        {
-            "title": "{col:#e6e6fa}ICVA",
-            "titleFooter": "IPTV player",
-            "selection": {
-                "important": true,
-                "action": "[update:content:overlay:image|update:content:overlay:text]",
-                "data": {
-                    "text": "{col:msx-white}ICVA{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
-                    "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png"
-                }
-            },
-            "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
-            "action": "link:http://icva.mx/"
-        },
-    ]
+	"name": "IRON's MSX SERVER",
+	"type": "list",
+	"extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+	"headline": "Free-Films",
+	"version": "1.3.1",
+	"background": "https://ironteam-ua.github.io/msx/img/candy.jpg",
+	"logo": "https://ironteam-ua.github.io/msx/img/logo.png",
+	"logoSize": "large",
+	"preload": "next",
+	"dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
+	"action": "[settings:validate_links:0|home]",
+	"overlay": {
+		"items": [
+			{
+				"type": "space",
+				"layout": "7,0,4,6",
+				"offset": "0.9,-1,0.2,1.67",
+				"color": "#353535"
+			},
+			{
+				"id": "image",
+				"type": "space",
+				"layout": "8,0,4,3",
+				"image": ""
+			},
+			{
+				"id": "text",
+				"type": "space",
+				"layout": "8,3,4,3",
+				"headline": "",
+				"text": ""
+			}
+		]
+	},
+	"template": {
+		"type": "default",
+		"layout": "0,0,4,2",
+		"area": "0,0,8,6",
+		"wrapperColor": "msx-glass",
+		"imageWidth": 2,
+		"color": "msx-glass",
+		"imageFiller": "cover"
+	},
+	"items": [
+		{
+			"title": "{col:#e6e6fa}Online TV",
+			"titleFooter": "Телебачення",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}Online TV{col}{br}{col:grey}=========={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
+					"image": "https://ironteam-ua.github.io/msx/img/tv-logo.png"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
+			"action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
+		},
+		{
+			"title": "{col:#e6e6fa}OTT-player",
+			"titleFooter": "IPTV player",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}OTT-player{col}{br}{col:grey}=========={br}{col:msx-white}Мультиплатформна програма та онлайн-сервіс для управління IPTV плейлистами.",
+					"image": "https://ironteam-ua.github.io/msx/img/ottplayer.png"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
+			"action": "link:http://widget.ottplayer.tv/"
+		},
+		{
+			"title": "{col:#e6e6fa}OTT-play FOSS",
+			"titleFooter": "IPTV player",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}OTT-play FOSS{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:grey}Не містить політичних гасел. Немає плейлистів.",
+					"image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
+			"action": "link:http://ottp.eu.org/f/"
+		},
+		{
+			"title": "{col:#e6e6fa}DRM-play",
+			"titleFooter": "IPTV player",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}DRM-play{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. НЕ містить nagware коду, модулів аналітики та інших сюрпризів.{br}{col:grey}Є тестовий плейлист)) та містить програму передач з архівом.",
+					"image": "https://ironteam-ua.github.io/msx/img/drm-pic.gif"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/drm-logo.png",
+			"action": "link:http://drm-play.com"
+		},
+		{
+			"title": "{col:#e6e6fa}ICVA",
+			"titleFooter": "IPTV player",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}ICVA{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
+					"image": "https://ironteam-ua.github.io/msx/img/icva-logo.png"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
+			"action": "link:http://icva.mx/"
+		}
+	]
 }
