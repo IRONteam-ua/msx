@@ -1,0 +1,34 @@
+	
+type	"list"
+headline	"Теми Zumo"
+dictionary	"https://ironteam-ua.github.io/msx/lang/ua.jso"
+preload	"next"
+captionUnderlay	1
+underlay	
+items	
+0	
+type	"space"
+round	false
+layout	"0,0,8,1"
+offset	"-1,0,2,-0.8"
+color	"red"
+1	
+id	"text"
+type	"space"
+layout	"1,0,6,2"
+offset	"0,0.5,0,0"
+headline	""
+text	"{br}Портал {col:white}WALS_msx{col} предоставляет возможность применить различные темы интерфейса. Доступны как статические так и динамические темы"
+template	
+layout	"0,0,6,1"
+offset	"0,1.3,0,0"
+area	"1,1,6,4"
+imageFiller	"cover"
+color	"transparent"
+items	
+0	
+label	"Выбрати статичну тему інтерфейсу"
+action	"content:https://ironteam-ua.github.io/msx/themes/setting_stat.json"
+1	
+label	"Вибрати динамічну тему інтерфейсу"
+action	"content:https://ironteam-ua.github.io/msx/themes/setting_live.json"
