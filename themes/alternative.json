@@ -30,6 +30,18 @@
       "imageFiller": "cover"
    },
    "items": [
+        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ZUMO old Launcher",
+               "text": "Наш старий лаунчер ZUMO"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/logo.png",
+         "action": "panel:https://ironteam-ua.github.io/msx/menu.json"
+      },
       {
          "selection": {
             "important": true,
