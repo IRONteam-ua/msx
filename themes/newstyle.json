@@ -38,7 +38,7 @@
       {
          "icon": "dvr",
          "label": "Альтернативні сттартові параметри",
-         "data": "https://github.com/IRONteam-ua/msx/themes/alternative.json"
+         "data": "https://ironteam-ua.github.io/msx/themes/alternative.json"
       },
       {
          "type": "separator"
