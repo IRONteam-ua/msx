@@ -128,7 +128,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/wals0909.json"
+         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/wals09.json"
       }
    ]
 }
