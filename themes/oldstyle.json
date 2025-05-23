@@ -1,383 +1,383 @@
 {
-   "name": "IRON's MSX SERVER",
-   "type": "list",
-   "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "headline": "TV",
-   "version": "1.2.2",
-   "background": "https://ironteam-ua.github.io/msx/img/dem.jpg",
-   "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
-   "logoSize": "large",
-   "preload": "next",
-   "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
-   "action": "[settings:validate_links:0|home]",
-   "overlay": {
-      "items": [
-         {
-            "type": "space",
-            "layout": "7,0,4,6",
-            "offset": "0.9,-1,0.2,1.67",
-            "color": "#353535"
-         },
-         {
-            "id": "image",
-            "type": "space",
-            "layout": "8,0,4,3",
-            "image": ""
-         },
-         {
-            "id": "text",
-            "type": "space",
-            "layout": "8,3,4,3",
-            "headline": "",
-            "text": ""
-         }
-      ]
-   },
-   "template": {
-      "type": "default",
-      "layout": "0,0,4,2",
-      "area": "0,0,8,6",
-      "wrapperColor": "msx-glass",
-      "imageWidth": 2,
-      "color": "msx-glass",
-      "imageFiller": "cover"
-   },
-   "items": [
+    "name": "IRON's MSX SERVER",
+    "type": "list",
+    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+    "headline": "TV",
+    "version": "1.3.1",
+    "background": "https://ironteam-ua.github.io/msx/img/dem.jpg",
+    "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
+    "logoSize": "large",
+    "preload": "next",
+    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
+    "action": "[settings:validate_links:0|home]",
+    "overlay": {
+        "items": [
             {
-         "title": "{col:#e6e6fa}UN Censored",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}UN Censored{col}{br}{col:grey}=========={br}{col:white}MOD Лампи. Lampa mod для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
-         "action": "link:http://bylampa.online/"
-      },
+                "type": "space",
+                "layout": "7,0,4,6",
+                "offset": "0.9,-1,0.2,1.67",
+                "color": "#353535"
+            },
             {
-         "title": "{col:#e6e6fa}LAMPA",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:grey}=========={br}{col:white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:grey}Для перегляду торентів потрібен TorrServe.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
-         "action": "link:http://lampa.mx"
-      },
-      {
-         "title": "{col:#e6e6fa}ATODO",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ATODO{col}{br}{col:grey}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів. Працює без розширень, тобто. відкрив і дивишся.",
-               "image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
-         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
-      },
-      {
-         "title": "{col:#e6e6fa}ATODO web",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ATODO{col}{br}{col:grey}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів.",
-               "image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
-         "action": "link:http://msx.atodo.fun/"
-      },
+                "id": "image",
+                "type": "space",
+                "layout": "8,0,4,3",
+                "image": ""
+            },
             {
-         "title": "{col:#e6e6fa}Prisma TV",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Prisma_TV{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:grey} Відсутня реклама! відкрив і дивишся.",
-               "image": "https://ironteam-ua.github.io/msx/img/prisma-pic.gif"
+                "id": "text",
+                "type": "space",
+                "layout": "8,3,4,3",
+                "headline": "",
+                "text": ""
             }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
-         "action": "link:https://prisma.ws/"
-      },
-      {
-         "title": "{col:#e6e6fa}Lampa | NoName",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}LAMPA NoName{col}{br}{col:grey}=========={br}{col:msx-white}Вже Налаштована для перегляду контенту онлайн.{col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
-         "action": "link:http://lampa.nnmtv.pw/"
-      },
-      {
-         "title": "{col:#e6e6fa}GetsTV 3.0",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}GetsTV{col}{br}{col:grey}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-               "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
-         "action": "link:http://getstv.com/app/"
-      },
-      {
-         "title": "{col:#e6e6fa}GetsTV LG (webos)",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}GetsTV{col}{br}{col:grey}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-               "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
-         "action": "link:http://getstv.ru/app/webos/index.html"
-      },
-      {
-         "title": "{col:#e6e6fa}Forkplayer",
-         "titleFooter": "Плеєри",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:grey}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/forkd.png",
-         "action": "link:http://browser.appinfo.su/"
-      },
-      {
-         "title": "{col:#e6e6fa}Forkplayer NEW",
-         "titleFooter": "Плеєри",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:grey}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/forknew.png",
-         "action": "link:http://browser.appfxml.com/"
-      },
-            {
-         "title": "{col:#e6e6fa}Lamp!she",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Lamp!she{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:grey}Програма не призначена для роботи через MediaStation X і може працювати некоректно. Для перегляду торентів потрібен TorrServe {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/lampishe-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
-         "action": "link:https://web.lampishe.cc/"
-      },
-      {
-         "title": "{col:#e6e6fa}Lampa Land",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:grey}Для перегляду торентів потрібен TorrServe.",
-               "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
-         "action": "link:http://lampa.land"
-      },
-      {
-         "title": "{col:#e6e6fa}Netflix",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Netflix{col}{br}{col:grey}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів. {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/netflix.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/netflix.png",
-         "action": "link:http://netfix.cc"
-      },
-      {
-         "title": "{col:#e6e6fa}Deeplex",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Deeplex{col}{br}{col:grey}=========={br}{col:msx-white}Deeplex – новий онлайн-кінотеатр з великим каталогом фільмів, серіалів та мультфільмів.",
-               "image": "https://ironteam-ua.github.io/msx/img/deeplex.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/deeplex.png",
-         "action": "link:http://smart.deeplex.cc"
-      },
-      {
-         "title": "{col:#e6e6fa}YouTube",
-         "titleFooter": "Відеоролики",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}YouTUBE{col}{br}{col:grey}=========={br}{col:msx-white}Відеохостинг, що надає користувачам послуги зберігання, доставки та показу відео.",
-               "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://www.youtube.com/tv#/"
-      },
-      {
-         "title": "{col:#e6e6fa}YouTube Kids",
-         "titleFooter": "Відеоролики",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}YouTUBE Kids{col}{br}{col:grey}=========={br}{col:msx-white}Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей.",
-               "image": "https://ironteam-ua.github.io/msx/img/ytkids.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/ytkids.png",
-         "action": "link:link:https://www.youtube.com/tv/kids"
-      },
-      {
-         "title": "{col:#e6e6fa}tiktok LG (webos)",
-         "titleFooter": "Відеоролики",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}tiktok{col}{br}{col:grey}=========={br}{col:msx-white}TikTok – це програма для перегляду відео в короткій формі.",
-               "image": "https://ironteam-ua.github.io/msx/img/tiktok.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/tiktok.png",
-         "action": "link:link:https://tv.tiktok.com/webos"
-      },
-      {
-         "title": "{col:#e6e6fa}Online TV",
-         "titleFooter": "Телебачення",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Online TV{col}{br}{col:grey}=========={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
-               "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
-         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
-      },
-      {
-         "title": "{col:#e6e6fa}Mytuner mobi",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}myTuner{col}{br}{col:grey}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
-               "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png",
-         "action": "link:https://devices.mytuner.mobi/"
-      },
-      {
-         "title": "{col:#e6e6fa}OTT-player",
-         "titleFooter": "IPTV player",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}OTT-player{col}{br}{col:grey}=========={br}{col:msx-white}Мультиплатформна програма та онлайн-сервіс для управління IPTV плейлистами.",
-               "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
-         "action": "link:http://widget.ottplayer.tv/"
-      },
-      {
-         "title": "{col:#e6e6fa}OTT-play FOSS",
-         "titleFooter": "IPTV player",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:grey}Не містить політичних гасел. Немає плейлистів.",
-               "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
-         "action": "link:http://ottp.eu.org/f/"
-      },
-      {
-         "title": "{col:#e6e6fa}DRM-play",
-         "titleFooter": "IPTV player",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. НЕ містить nagware коду, модулів аналітики та інших сюрпризів.{br}{col:grey}Є тестовий плейлист)) та містить програму передач з архівом.",
-               "image": "https://ironteam-ua.github.io/msx/img/drm-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/drm-logo.png",
-         "action": "link:http://drm-play.com"
-      },
-      {
-         "title": "{col:#e6e6fa}ICVA",
-         "titleFooter": "IPTV player",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ICVA{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
-               "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
-         "action": "link:http://icva.mx/"
-      },
-      {
-         "title": "{col:#e6e6fa}Інструкції",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Інструкції{col}{br}{col:grey}=========={br}{col:msx-white}Тут зібрані інструкції, як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions.png"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions.png",
-         "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html"
-      }
-   ]
+        ]
+    },
+    "template": {
+        "type": "default",
+        "layout": "0,0,4,2",
+        "area": "0,0,8,6",
+        "wrapperColor": "msx-glass",
+        "imageWidth": 2,
+        "color": "msx-glass",
+        "imageFiller": "cover"
+    },
+    "items": [
+        {
+            "title": "{col:#e6e6fa}UN Censored",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}UN Censored{col}{br}{col:grey}=========={br}{col:white}MOD Лампи. Lampa mod для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
+            "action": "link:http://bylampa.online/"
+        },
+        {
+            "title": "{col:#e6e6fa}LAMPA",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}LAMPA{col}{br}{col:grey}=========={br}{col:white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:grey}Для перегляду торентів потрібен TorrServe.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
+            "action": "link:http://lampa.mx"
+        },
+        {
+            "title": "{col:#e6e6fa}ATODO",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}ATODO{col}{br}{col:grey}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів. Працює без розширень, тобто. відкрив і дивишся.",
+                    "image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
+            "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+        },
+        {
+            "title": "{col:#e6e6fa}ATODO web",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}ATODO{col}{br}{col:grey}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів.",
+                    "image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
+            "action": "link:http://msx.atodo.fun/"
+        },
+        {
+            "title": "{col:#e6e6fa}Prisma TV",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Prisma_TV{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:grey} Відсутня реклама! відкрив і дивишся.",
+                    "image": "https://ironteam-ua.github.io/msx/img/prisma-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
+            "action": "link:https://prisma.ws/"
+        },
+        {
+            "title": "{col:#e6e6fa}Lampa | NoName",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}LAMPA NoName{col}{br}{col:grey}=========={br}{col:msx-white}Вже Налаштована для перегляду контенту онлайн.{col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
+            "action": "link:http://lampa.nnmtv.pw/"
+        },
+        {
+            "title": "{col:#e6e6fa}GetsTV 3.0",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}GetsTV{col}{br}{col:grey}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
+                    "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
+            "action": "link:http://getstv.com/app/"
+        },
+        {
+            "title": "{col:#e6e6fa}GetsTV LG (webos)",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}GetsTV{col}{br}{col:grey}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
+                    "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
+            "action": "link:http://getstv.ru/app/webos/index.html"
+        },
+        {
+            "title": "{col:#e6e6fa}Forkplayer",
+            "titleFooter": "Плеєри",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Forkplayer{col}{br}{col:grey}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/forkd.png",
+            "action": "link:http://browser.appinfo.su/"
+        },
+        {
+            "title": "{col:#e6e6fa}Forkplayer NEW",
+            "titleFooter": "Плеєри",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:grey}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/forknew.png",
+            "action": "link:http://browser.appfxml.com/"
+        },
+        {
+            "title": "{col:#e6e6fa}Lamp!she",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Lamp!she{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:grey}Програма не призначена для роботи через MediaStation X і може працювати некоректно. Для перегляду торентів потрібен TorrServe {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/lampishe-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
+            "action": "link:https://web.lampishe.cc/"
+        },
+        {
+            "title": "{col:#e6e6fa}Lampa Land",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}LAMPA{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:grey}Для перегляду торентів потрібен TorrServe.",
+                    "image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
+            "action": "link:http://lampa.land"
+        },
+        {
+            "title": "{col:#e6e6fa}Netflix",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Netflix{col}{br}{col:grey}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів. {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/netflix.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/netflix.png",
+            "action": "link:http://netfix.cc"
+        },
+        {
+            "title": "{col:#e6e6fa}Deeplex",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Deeplex{col}{br}{col:grey}=========={br}{col:msx-white}Deeplex – новий онлайн-кінотеатр з великим каталогом фільмів, серіалів та мультфільмів.",
+                    "image": "https://ironteam-ua.github.io/msx/img/deeplex.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/deeplex.png",
+            "action": "link:http://smart.deeplex.cc"
+        },
+        {
+            "title": "{col:#e6e6fa}YouTube",
+            "titleFooter": "Відеоролики",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}YouTUBE{col}{br}{col:grey}=========={br}{col:msx-white}Відеохостинг, що надає користувачам послуги зберігання, доставки та показу відео.",
+                    "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
+            "action": "link:https://www.youtube.com/tv#/"
+        },
+        {
+            "title": "{col:#e6e6fa}YouTube Kids",
+            "titleFooter": "Відеоролики",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}YouTUBE Kids{col}{br}{col:grey}=========={br}{col:msx-white}Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей.",
+                    "image": "https://ironteam-ua.github.io/msx/img/ytkids.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/ytkids.png",
+            "action": "link:link:https://www.youtube.com/tv/kids"
+        },
+        {
+            "title": "{col:#e6e6fa}tiktok LG (webos)",
+            "titleFooter": "Відеоролики",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}tiktok{col}{br}{col:grey}=========={br}{col:msx-white}TikTok – це програма для перегляду відео в короткій формі.",
+                    "image": "https://ironteam-ua.github.io/msx/img/tiktok.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/tiktok.png",
+            "action": "link:link:https://tv.tiktok.com/webos"
+        },
+        {
+            "title": "{col:#e6e6fa}Online TV",
+            "titleFooter": "Телебачення",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Online TV{col}{br}{col:grey}=========={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
+                    "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
+            "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
+        },
+        {
+            "title": "{col:#e6e6fa}Mytuner mobi",
+            "titleFooter": "",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}myTuner{col}{br}{col:grey}=========={br}{col:msx-white}безкоштовні інтернет-радіо та подкасти",
+                    "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png",
+            "action": "link:https://devices.mytuner.mobi/"
+        },
+        {
+            "title": "{col:#e6e6fa}OTT-player",
+            "titleFooter": "IPTV player",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}OTT-player{col}{br}{col:grey}=========={br}{col:msx-white}Мультиплатформна програма та онлайн-сервіс для управління IPTV плейлистами.",
+                    "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
+            "action": "link:http://widget.ottplayer.tv/"
+        },
+        {
+            "title": "{col:#e6e6fa}OTT-play FOSS",
+            "titleFooter": "IPTV player",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:grey}Не містить політичних гасел. Немає плейлистів.",
+                    "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
+            "action": "link:http://ottp.eu.org/f/"
+        },
+        {
+            "title": "{col:#e6e6fa}DRM-play",
+            "titleFooter": "IPTV player",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}DRM-play{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. НЕ містить nagware коду, модулів аналітики та інших сюрпризів.{br}{col:grey}Є тестовий плейлист)) та містить програму передач з архівом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/drm-pic.gif"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/drm-logo.png",
+            "action": "link:http://drm-play.com"
+        },
+        {
+            "title": "{col:#e6e6fa}ICVA",
+            "titleFooter": "IPTV player",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}ICVA{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
+                    "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
+            "action": "link:http://icva.mx/"
+        },
+        {
+            "title": "{col:#e6e6fa}Інструкції",
+            "titleFooter": "",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Інструкції{col}{br}{col:grey}=========={br}{col:msx-white}Тут зібрані інструкції, як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions.png",
+            "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html"
+        }
+    ]
 }
