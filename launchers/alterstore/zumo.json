@@ -50,7 +50,7 @@
          "label": "Встановити",
          "action": "start",
          "data": {
-            "name": "Zumo",
+            "name": "Zumo old",
             "version": "1.2.1",
             "parameter": "content:https://ironteam-ua.github.io/msx/launchers/alterstore/zumo_launcher.json",
             "welcome": "none"
