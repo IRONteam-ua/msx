@@ -4,7 +4,7 @@
    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "headline": "TV",
    "version": "1.2.2",
-   "background": "https://ironteam-ua.github.io/msx/img/wrapper.jpg",
+   "background": "https://ironteam-ua.github.io/msx/img/dem.jpg",
    "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
    "logoSize": "large",
    "preload": "next",
