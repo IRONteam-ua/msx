@@ -61,131 +61,19 @@
       },  
     "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html"
     },
-    {
-      "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
+     {
+      "titleHeader": "{col:#1ac9b8}Додавання плагінів (парсерів, кінотеатрів тощо) у Lampa",
       "color": "transparent",
       "focus": true,
       "selection": {
         "important": true,
         "action": "[update:content:overlay:image|update:content:overlay:text]",
         "data": {
-          "text": "{col:msx-white}Основна тема {col}{br}Основна тема без фонового зображення",
-          "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
+          "text": "{col:#ffcc00}Інструкція для додавання парсерів (кінотеатрів) для перегляду в Lampa: {col}{br}Для перегляду фільмів ви маєте додати сервери, щоб переглядати відео{br}{br}1. Запустіть додаток Lampa.{br}2. Перейдіть в налаштування (іконка шестерні угорі){br}3. Перейдіть до низу і натисніть на \"Розширення\"{br}4. Натисніть на \"додати плагін\"{br}5. Введіть посилання https://ironteam-ua.github.io/msx/mods/plugins.js{br}6. Якщо плагін помічений галочкою і ви побачили повідомлення, що плагін встановлено, перезавантажте додаток{br}7. Після цього в налаштуваннях (там, де шестерня) при прокрутці в низу з'явиться новий пункт меню \"Додаткові плагіни\"{br}8. Ви можете встановити будь-який плагін{br}9. З рекомендованих: Онлайн Cinema, Онлайн Мод, BwaJ, Публічні парсери та додаткові категорії (у всіх плагінах ліворуч внизу має стояти галочка про активацію).{br}{br}Для активації плагінів ви маєте перезавантажити додаток.{br}{br}Аналоги (Альтернативні додатки): Lam!she, Lampa NoName, Uncensored - тут ці плагіни можна активувати в самому додатку, їх потрібно увімкнути в меню"
         }
-      },
-      "image": "https://ironteam-ua.github.io/msx/themes/img/resize.png",
-      "action": "start",
-      "data": {
-        "name": "BASIC",
-        "version": "1.0.0",
-        "parameter": "content:https://wals09.github.io/msx/menu.json",
-        "welcome": "none"
-      }
-    },
-    {
-      "titleHeader": "{col:msx-white}CLASSIC",
-      "color": "transparent",
-      "focus": true,
-      "selection": {
-        "important": true,
-        "action": "[update:content:overlay:image|update:content:overlay:text]",
-        "data": {
-          "text": "{col:msx-white}CLASSIC{col}{br}Класична оболонка MSX",
-          "image": "https://wals09.github.io/msx/tema/classic.jpg"
-        }
-      },
-      "image": "https://wals09.github.io/msx/tema/them_icon/classic.png",
-      "action": "start",
-      "data": {
-        "name": "CLASSIC",
-        "version": "1.0.0",
-        "parameter": "content:https://wals09.github.io/msx/menu_classic.json",
-        "welcome": "none"
-      }
-    },
-    {
-      "titleHeader": "{col:msx-white}CLASSIC compact",
-      "color": "transparent",
-      "focus": true,
-      "selection": {
-        "important": true,
-        "action": "[update:content:overlay:image|update:content:overlay:text]",
-        "data": {
-          "text": "{col:msx-white}CLASSIC compact{col}{br}Класична оболонка MSX, компактний вигляд",
-          "image": "https://wals09.github.io/msx/tema/classic_compact.jpg"
-        }
-      },
-      "image": "https://wals09.github.io/msx/tema/them_icon/classic_compact.png",
-      "action": "start",
-      "data": {
-        "name": "CLASSIC",
-        "version": "1.0.0",
-        "parameter": "content:https://wals09.github.io/msx/menu_classic_compact.json",
-        "welcome": "none"
-      }
-    },
-    {
-      "titleHeader": "{col:msx-white}ТЕМА «ЗИМА»",
-      "color": "transparent",
-      "focus": true,
-      "selection": {
-        "important": true,
-        "action": "[update:content:overlay:image|update:content:overlay:text]",
-        "data": {
-          "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимова тема оформлення",
-          "image": "https://wals09.github.io/msx/tema/зима.png"
-        }
-      },
-      "image": "https://github.com/wals09/msx/blob/main/tema/them_icon/зима.png?raw=true",
-      "action": "start",
-      "data": {
-        "name": "BASIC Lite",
-        "version": "1.0.0",
-        "parameter": "content:https://wals09.github.io/msx/зима.json",
-        "welcome": "none"
-      }
-    },
-    {
-      "titleHeader": "{col:msx-white}ТЕМА «WHITE»",
-      "color": "transparent",
-      "focus": true,
-      "selection": {
-        "important": true,
-        "action": "[update:content:overlay:image|update:content:overlay:text]",
-        "data": {
-          "text": "{col:msx-white}Тема «WHITE»{col}{br}Тема у світлих тонах",
-          "image": "https://wals09.github.io/msx/tema/wite.jpg"
-        }
-      },
-      "image": "https://wals09.github.io/msx/tema/them_icon/white.png",
-      "action": "start",
-      "data": {
-        "name": "BASIC Lite",
-        "version": "1.0.0",
-        "parameter": "content:https://wals09.github.io/msx/menu_white.json",
-        "welcome": "none"
-      }
-    },
-    {
-      "titleHeader": "{col:msx-white}ТЕМА «ОСЕНЬ»",
-      "color": "transparent",
-      "focus": true,
-      "selection": {
-        "important": true,
-        "action": "[update:content:overlay:image|update:content:overlay:text]",
-        "data": {
-          "text": "{col:msx-white}Тема «ОСЕНЬ»",
-          "image": "https://wals09.github.io/msx/tema/осень.png"
-        }
-      },
-      "image": "https://wals09.github.io/msx/tema/them_icon/осень.png",
-      "action": "start",
-      "data": {
-        "name": "BASIC Lite",
-        "version": "1.0.0",
-        "parameter": "content:https://wals09.github.io/msx/осень.json",
-        "welcome": "none"
-      }
+      },  
+    "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html"
+    }
     }
   ]
 }
