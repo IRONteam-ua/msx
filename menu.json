@@ -142,7 +142,7 @@
          "action": "link:http://getstv.com/app/"
       },
       {
-         "title": "{col:#1ac9b8}GetsTV 2.0",
+         "title": "{col:#1ac9b8}GetsTV LG (webos)",
          "titleFooter": "Фільми та серіали",
          "selection": {
             "important": true,
@@ -268,7 +268,7 @@
          "action": "link:link:https://www.youtube.com/tv/kids"
       },
       {
-         "title": "{col:#1ac9b8}tiktok",
+         "title": "{col:#1ac9b8}tiktok LG (webos)",
          "titleFooter": "Відеоролики",
          "selection": {
             "important": true,
