@@ -51,7 +51,7 @@
       {
          "icon": "wallpaper",
          "label": "Тема",
-         "data": "https://github.com/IRONteam-ua/msx/launchers/all.json"
+         "data": "https://ironteam-ua.github.io/msx/themes/thems.json"
       },
       {
          "type": "separator"
