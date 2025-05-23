@@ -10,7 +10,7 @@
       {
          "icon": "menu",
          "label": "Всі програми",
-         "data": "https://ironteam-ua.github.io/msx/launchers/oldstyle.json"
+         "data": "https://ironteam-ua.github.io/msx/launchers/all_apps.json"
       },
             {
          "icon": "movie",
