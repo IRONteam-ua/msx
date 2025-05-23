@@ -47,7 +47,7 @@
       {
          "icon": "help",
          "label": "Інструкції",
-         "data": "https://ironteam-ua.github.io/msx/wiki/instructions.html"
+         "data": "https://ironteam-ua.github.io/msx/wiki/instructions.json"
       },
       {
          "icon": "wallpaper",
