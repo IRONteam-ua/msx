@@ -59,7 +59,8 @@
                "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
                "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
             }
-         },
+         }
+        },
          {
          "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
          "color": "transparent",
