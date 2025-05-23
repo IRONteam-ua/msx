@@ -126,6 +126,20 @@
             },
             "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
             "action": "link:http://lampa.nnmtv.pw/"
-        }
+        },
+        {
+            "title": "{col:#e6e6fa}Netflix",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Netflix{col}{br}{col:grey}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів. {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "image": "https://ironteam-ua.github.io/msx/img/netflix.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/netflix.png",
+            "action": "link:http://netfix.cc"
+        },
     ]
 }
