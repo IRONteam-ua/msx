@@ -43,7 +43,21 @@
       "imageFiller": "cover"
    },
    "items": [
-      {
+            {
+         "title": "{col:#1ac9b8}UN Censored",
+         "titleFooter": "Фільми та серіали",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Lampa mod для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+               "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
+         "action": "link:http://bylampa.online/"
+      },
+            {
          "title": "{col:#1ac9b8}LAMPA",
          "titleFooter": "Фільми та серіали",
          "selection": {
@@ -56,20 +70,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
          "action": "link:http://lampa.mx"
-      },
-            {
-         "title": "{col:#1ac9b8}UN Censored",
-         "titleFooter": "Фільми та серіали",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
-               "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
-         "action": "link:http://bylampa.online/"
       },
       {
          "title": "{col:#1ac9b8}ATODO",
