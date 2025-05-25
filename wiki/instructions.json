@@ -9,16 +9,15 @@
     "items": [
       {
         "type": "space",
-        "layout": "0,0,4,12",
+        "layout": "0,0,4,10", 
         "color": "msx-black-soft",
         "background": "msx-glass"
       },
       {
+        "type": "space",       
         "id": "content_text",
-        "type": "text",
-        "layout": "4,0,8,12",
-        "color": "msx-white",
-        "text": "Оберіть пункт зліва",
+        "layout": "4,0,8,10",  
+        "text": "{col:msx-white}Оберіть пункт зліва",
         "font-size": "medium",
         "scrollable": true
       }
@@ -26,16 +25,17 @@
   },
   "template": {
     "type": "default",
-    "layout": "0,0,12,12",
-    "area": "0,0,4,12",
+    "layout": "0,0,12,10",     
+    "area": "0,0,4,10",        
     "scrollable": true
   },
   "items": [
     {
       "title": "Як користуватись ForkPlayer",
       "color": "transparent",
-      "selectable": true,
-      "action": "[update:content:overlay:content_text]",
+      "selectable": true,    
+      "focus": true,        
+      "action": "[update:overlay:content_text]",
       "data": {
         "text": "{col:msx-white}Як користуватись Fork Player{col}{br}{br}ForkPlayer — це медіабраузер для телевізорів з підтримкою Smart TV.{br}{col:msx-yellow}Основи навігації:{col}{br}• Переміщення — стрілки пульта{br}• Відкривати — кнопка OK{br}• Назад — кнопка Return/Back{br}{br}{col:msx-yellow}Як шукати відео:{col}{br}1. У головному меню → «Пошук»{br}2. Введіть назву (екранна клавіатура){br}3. Результати з: Rezka, HDGO, Spyder{br}{br}{col:msx-yellow}Рекомендовані сервіси:{col}{br}• Spyder — агрегатор хостингів{br}• Rezka — HD якість{br}• HDGO — український дубляж{br}{br}{col:msx-yellow}Додавання сервісів:{col}{br}1. Налаштування → Пошукові системи{br}2. Активуйте зі списку{br}3. Для деяких потрібні плагіни{br}{br}{col:msx-yellow}Закладки:{col}{br}1. Наведіть на контент → Меню{br}2. «Додати в закладки»{br}3. Доступ у «Мої закладки»"
       }
