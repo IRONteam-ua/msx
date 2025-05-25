@@ -50,7 +50,7 @@
                 "important": true,
                 "action": "[update:content:overlay:image|update:content:overlay:text]",
                 "data": {
-                    "text": "{col:msx-white}UN Censored{col}{br}{col:grey}==============================={br}{col:white}MOD Лампи. Lampa mod для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "text": "{col:msx-white}UN Censored{col}{br}{col:grey}=================================={br}{col:white}MOD Лампи. Lampa mod для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                     "image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
                 }
             },
