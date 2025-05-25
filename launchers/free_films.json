@@ -1,0 +1,145 @@
+{
+	"name": "IRON's MSX SERVER",
+	"type": "list",
+	"extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+	"headline": "Free-Films",
+	"version": "1.3.1",
+	"background": "https://ironteam-ua.github.io/msx/themes/wrappers/wrapper-grey.jpg",
+	"logo": "https://ironteam-ua.github.io/msx/img/logo.png",
+	"logoSize": "large",
+	"preload": "next",
+	"dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
+	"action": "[settings:validate_links:0|home]",
+	"overlay": {
+		"items": [
+			{
+				"type": "space",
+				"layout": "7,0,4,6",
+				"offset": "0.9,-1,0.2,1.67",
+				"color": "#353535"
+			},
+			{
+				"id": "image",
+				"type": "space",
+				"layout": "8,0,4,3",
+				"image": ""
+			},
+			{
+				"id": "text",
+				"type": "space",
+				"layout": "8,3,4,3",
+				"headline": "",
+				"text": ""
+			}
+		]
+	},
+	"template": {
+		"type": "default",
+		"layout": "0,0,4,2",
+		"area": "0,0,8,6",
+		"wrapperColor": "msx-glass",
+		"imageWidth": 2,
+		"color": "msx-glass",
+		"imageFiller": "cover"
+	},
+	"items": [
+		{
+			"title": "{col:#e6e6fa}UN Censored",
+			"titleFooter": "Фільми та серіали",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}UN Censored{col}{br}{col:grey}=========={br}{col:white}MOD Лампи. Lampa mod для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+					"image": "https://ironteam-ua.github.io/msx/img/un-censored-pic.gif"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
+			"action": "link:http://bylampa.online/"
+		},
+		{
+			"title": "{col:#e6e6fa}LAMPA",
+			"titleFooter": "Фільми та серіали",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}LAMPA{col}{br}{col:grey}=========={br}{col:white}Відмінний додаток для перегляду фільмів і серіалів онлайн або через торрент..{br}{col:grey}Для перегляду торентів потрібен TorrServe.{br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+					"image": "https://ironteam-ua.github.io/msx/img/lampa-pic.gif"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
+			"action": "link:http://lampa.mx"
+		},
+		{
+			"title": "{col:#e6e6fa}ATODO",
+			"titleFooter": "Фільми та серіали",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}ATODO{col}{br}{col:grey}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів. Працює без розширень, тобто. відкрив і дивишся.",
+					"image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
+			"action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+		},
+		{
+			"title": "{col:#e6e6fa}ATODO web",
+			"titleFooter": "Фільми та серіали",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}ATODO{col}{br}{col:grey}=========={br}{col:msx-white}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів.",
+					"image": "https://ironteam-ua.github.io/msx/img/atodo-pic.gif"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
+			"action": "link:http://msx.atodo.fun/"
+		},
+		{
+			"title": "{col:#e6e6fa}Prisma TV",
+			"titleFooter": "Фільми та серіали",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}Prisma_TV{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів. {br} {col:grey} Відсутня реклама! відкрив і дивишся.",
+					"image": "https://ironteam-ua.github.io/msx/img/prisma-pic.gif"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
+			"action": "link:https://prisma.ws/"
+		},
+		{
+			"title": "{col:#e6e6fa}Lampa | NoName",
+			"titleFooter": "Фільми та серіали",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}LAMPA NoName{col}{br}{col:grey}=========={br}{col:msx-white}Вже Налаштована для перегляду контенту онлайн.{col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+					"image": "https://ironteam-ua.github.io/msx/img/lampaNN.png"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
+			"action": "link:http://lampa.nnmtv.pw/"
+		},
+		{
+			"title": "{col:#e6e6fa}Netflix",
+			"titleFooter": "Фільми та серіали",
+			"selection": {
+				"important": true,
+				"action": "[update:content:overlay:image|update:content:overlay:text]",
+				"data": {
+					"text": "{col:msx-white}Netflix{col}{br}{col:grey}=========={br}{col:msx-white}Стрімінговий сервіс фільмів та серіалів. {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+					"image": "https://ironteam-ua.github.io/msx/img/netflix.png"
+				}
+			},
+			"image": "https://ironteam-ua.github.io/msx/img/netflix.png",
+			"action": "link:http://netfix.cc"
+		}
+	]
+}
