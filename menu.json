@@ -35,6 +35,11 @@
       {
          "type": "separator"
       },
+            {
+         "icon": "cloud",
+         "label": "Підключення до хмарних серверів",
+         "data": "https://ironteam-ua.github.io/msx/launchers/cloud.json"
+      },
       {
          "icon": "dvr",
          "label": "Альтернативні стартові параметри",
