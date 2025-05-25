@@ -12,7 +12,7 @@
          {
             "type": "space",
             "round": false,
-            "layout": "5,0,7,6",
+            "layout": "0,0,3,6",
             "offset": "0,-1,1,1.7",
             "color": "msx-black-soft"
          },
@@ -26,15 +26,7 @@
          {
             "id": "text",
             "type": "space",
-            "layout": "5,2,7,4",
-            "offset": "0.4,0,0,0",
-            "image": "none",
-            "imageFiller": "cover"
-         },
-         {
-            "id": "text",
-            "type": "space",
-            "layout": "6,1,5,2",
+            "layout": "3,0,9,2",
             "headline": "",
             "text": ""
          }
