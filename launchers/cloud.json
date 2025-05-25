@@ -40,7 +40,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/soundcloud.png",
-         "action": "mwnu:user:https://sc.msx.benzac.de/msx/service.php"
+         "action": "menu:user:https://sc.msx.benzac.de/msx/service.php"
       },
       {
          "selection": {
@@ -52,7 +52,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/google-drive.png",
-         "action": "mwnu:user:https://gd.msx.benzac.de/msx/service.php"
+         "action": "menu:user:https://gd.msx.benzac.de/msx/service.php"
       },
       {
          "selection": {
@@ -64,32 +64,31 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/onedrive.png",
-         "action": "mwnu:user:https://od.msx.benzac.de/msx/service.php"
+         "action": "menu:user:https://od.msx.benzac.de/msx/service.php"
       },
       {
-         "badge": "MSXPlayer v4",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "MSXPlayer - V4",
-               "text": "Може не працювати на старих версіях MSX і на старих пристроях"
+               "headline": "Dropbox MSX",
+               "text": "Dropbox MSX – це сервіс, який надає доступ до ваших файлів Dropbox (тобто відео, аудіо та зображень) через програму Media Station X."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/msxplayer_v4.json"
+         "image": "https://ironteam-ua.github.io/msx/img/dropbox.png",
+         "action": "menu:user:https://db.msx.benzac.de/msx/service.php"
       },
       {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "APPFXML STORE",
-               "text": "Лаунчер-магазин приложений APPFXML STORE"
+               "headline": "Node Browser MSX",
+               "text": "Node Browser MSX – це сервіс, який надає доступ до файлів вашого локального сервера Node.js (тобто відео, аудіо та зображень) через програму Media Station X."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/appfxmlstore_m.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/appfxml.json"
+         "action": "menu:request:interaction:init@https://nb.msx.benzac.de/interaction"
       },
       {
          "badge": "MSX CC UA",
