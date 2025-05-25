@@ -128,34 +128,6 @@
             "action": "link:http://lampa.nnmtv.pw/"
         },
         {
-            "title": "{col:#e6e6fa}GetsTV 3.0",
-            "titleFooter": "Фільми та серіали",
-            "selection": {
-                "important": true,
-                "action": "[update:content:overlay:image|update:content:overlay:text]",
-                "data": {
-                    "text": "{col:msx-white}GetsTV{col}{br}{col:grey}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-                    "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
-                }
-            },
-            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
-            "action": "link:http://getstv.com/app/"
-        },
-        {
-            "title": "{col:#e6e6fa}GetsTV LG (webos)",
-            "titleFooter": "Фільми та серіали",
-            "selection": {
-                "important": true,
-                "action": "[update:content:overlay:image|update:content:overlay:text]",
-                "data": {
-                    "text": "{col:msx-white}GetsTV{col}{br}{col:grey}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-                    "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg"
-                }
-            },
-            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.jpg",
-            "action": "link:http://getstv.ru/app/webos/index.html"
-        },
-        {
             "title": "{col:#e6e6fa}Forkplayer",
             "titleFooter": "Плеєри",
             "selection": {
@@ -238,6 +210,34 @@
             },
             "image": "https://ironteam-ua.github.io/msx/img/deeplex.png.png",
             "action": "link:http://smart.deeplex.cc"
+        },
+                {
+            "title": "{col:#e6e6fa}GetsTV 3.0",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}GetsTV{col}{br}{col:grey}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
+                    "image": "https://ironteam-ua.github.io/msx/img/ggetstv_logo.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
+            "action": "link:http://getstv.com/app/"
+        },
+        {
+            "title": "{col:#e6e6fa}GetsTV LG (webos)",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}GetsTV{col}{br}{col:grey}=========={br}{col:msx-white}Найбільша база фільмів на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
+                    "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
+            "action": "link:http://getstv.ru/app/webos/index.html"
         },
         {
             "title": "{col:#e6e6fa}YouTube",
