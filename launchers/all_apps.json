@@ -205,7 +205,7 @@
                 "action": "[update:content:overlay:image|update:content:overlay:text]",
                 "data": {
                     "text": "{col:msx-white}Deeplex{col}{br}{col:grey}=========={br}{col:msx-white}Deeplex – новий онлайн-кінотеатр з великим каталогом фільмів, серіалів та мультфільмів.",
-                    "image": "https://ironteam-ua.github.io/msx/img/deeplex.png"
+                    "image": "https://ironteam-ua.github.io/msx/img/deeplex2.png"
                 }
             },
             "image": "https://ironteam-ua.github.io/msx/img/deeplex2.png",
