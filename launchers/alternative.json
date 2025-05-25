@@ -85,7 +85,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "APPFXML STORE",
-               "text": "Лаунчер-магазин приложений APPFXML STORE"
+               "text": "Лаунчер-магазин додатків APPFXML STORE"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/appfxmlstore_m.png",
@@ -98,7 +98,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "MSX CC UA Portal",
-               "text": "Запуск web приложений"
+               "text": "Запуск web додатків."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
@@ -111,7 +111,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "TV RU Portal",
-               "text": "Запуск web приложений."
+               "text": "Запуск web додатків."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
