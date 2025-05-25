@@ -23,7 +23,7 @@
         "important": true,
         "action": "[update:content:overlay:text]",
         "data": {
-          "text": "{col:msx-white}Основна тема {col}{br}Базовий варіант оформлення"
+          "text": ""
         }
       },
       "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
