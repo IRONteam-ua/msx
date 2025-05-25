@@ -52,7 +52,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/google-drive.png",
-         "action": "menu:user:https://gd.msx.benzac.de/msx/service.php"
+         "action": "menu:request:interaction:init@https://gd.msx.benzac.de/interaction"
       },
       {
          "selection": {
@@ -64,7 +64,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/onedrive.png",
-         "action": "menu:request:interaction:init@https://od.msx.benzac.de/msx/service.php"
+         "action": "menu:request:interaction:init@https://od.msx.benzac.de/interaction"
       },
       {
          "selection": {
@@ -76,7 +76,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/dropbox.png",
-         "action": "menu:request:interaction:init@https://db.msx.benzac.de/msx/service.php"
+         "action": "menu:request:interaction:init@https://db.msx.benzac.de/interaction"
       },
       {
          "selection": {
