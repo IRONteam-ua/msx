@@ -7,45 +7,35 @@
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "next",
-   "overlay": {
-      "items": [
-         {
-            "type": "space",
-            "round": false,
-            "layout": "5,0,7,6",
-            "offset": "0,-1,1,1.7",
-            "color": "msx-black-soft"
-         },
-         {
-            "type": "space",
-            "round": false,
-            "layout": "0,0,12,1",
-            "offset": "-1,0,2,-0.8",
-            "color": "red"
-         },
-         {
-            "id": "image",
-            "type": "space",
-            "layout": "5,2,7,4",
-            "offset": "0.4,0,0,0",
-            "image": "none",
-            "imageFiller": "none"
-         },
-         {
-            "id": "text",
-            "type": "space",
-            "layout": "6,1,5,2",
-            "headline": "",
-            "text": ""
-         }
-      ]
-   },
-   "template": {
-      "type": "default",
+  "overlay": {
+  "items": [
+    {
+      "type": "space",
+      "round": false,
+      "layout": "0,0,12,2",
+      "offset": "0,0,0,0",
+      "color": "msx-black-soft"
+    },
+    {
+      "type": "space",
+      "round": false,
       "layout": "0,0,12,1",
-      "area": "0,1,12,6",
-      "imageWidth": 1,
-      "imageFiller": "none"
+      "offset": "0,0,0,0",
+      "color": "red"
+    },
+    {
+      "id": "text",
+      "type": "space",
+      "layout": "0,1,12,1",
+      "headline": "",
+      "text": ""
+    }
+  ]
+},
+"template": {
+  "type": "default",
+  "layout": "0,2,12,1",
+  "area": "0,3,12,3"
    },
    "items": [
       {
