@@ -4,7 +4,7 @@
 	"extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
 	"headline": "Free-Films",
 	"version": "1.3.1",
-	"background": "https://ironteam-ua.github.io/msx/img/candy.jpg",
+	"background": "https://ironteam-ua.github.io/msx/themes/wrappers/wrapper-grey.jpg",
 	"logo": "https://ironteam-ua.github.io/msx/img/logo.png",
 	"logoSize": "large",
 	"preload": "next",
