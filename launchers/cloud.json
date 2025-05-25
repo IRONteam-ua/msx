@@ -100,7 +100,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/twitch.png",
-         "action": "menu:request:interaction:init@http://ttv.msx.benzac.de/interaction"
+         "action": "menu:request:interaction:init@httpі://ttv.msx.benzac.de/interaction"
       }
    ]
 }
