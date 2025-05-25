@@ -37,7 +37,7 @@
       "selectable": true,
       "action": "[update:content:overlay:content_text]",
       "data": {
-        "text": "{col:msx-white}Як користуватись Fork Player{col}{br}{br}" +
+        "text": "{col:msx-white}Як користуватись Fork Player{col}{br}{br}"
                 "ForkPlayer — це медіабраузер для телевізорів з підтримкою Smart TV.{br}"
                 "{col:msx-yellow}Основи навігації:{col}{br}"
                 "• Переміщення — стрілки пульта{br}"
