@@ -1,5 +1,6 @@
 {
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "background": "https://ironteam-ua.github.io/msx/themes/wrappers/wrapper-grey.jpg",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
    "headline": "",
