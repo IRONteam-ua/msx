@@ -39,14 +39,12 @@
             "text": ""
          }
       ]
-   },
-   "template": {
-      "type": "default",
-      "layout": "0,0,4,1",
-      "area": "0,1,5,5",
-      "imageWidth": 1,
-      "imageFiller": "cover"
-   },
+  },
+  "template": {
+    "type": "default",
+    "layout": "0,0,12,1",
+    "area": "0,1,12,6"
+  },
    "items": [
       {
          "titleHeader": "{col:msx-white}ОСНОВНА ТЕМА",
