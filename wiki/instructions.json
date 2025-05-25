@@ -7,35 +7,27 @@
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "next",
-  "overlay": {
-  "items": [
-    {
-      "type": "space",
-      "round": false,
-      "layout": "0,0,12,2",
-      "offset": "0,0,0,0",
-      "color": "msx-black-soft"
-    },
-    {
-      "type": "space",
-      "round": false,
+   "overlay": {
+      "items": [
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,9,6", // розширений лівий блок (контент)
+            "offset": "0,-1,1,1.7",
+            "color": "msx-black-soft"
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "9,0,3,2", // правий блок без іконок, тільки текст
+            "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения"
+         }
+      ]
+   },
+   "template": {
+      "type": "default",
       "layout": "0,0,12,1",
-      "offset": "0,0,0,0",
-      "color": "red"
-    },
-    {
-      "id": "text",
-      "type": "space",
-      "layout": "0,1,12,1",
-      "headline": "",
-      "text": ""
-    }
-  ]
-},
-"template": {
-  "type": "default",
-  "layout": "0,2,12,1",
-  "area": "0,3,12,3"
+      "area": "0,1,12,5"
    },
    "items": [
       {
@@ -59,7 +51,7 @@
             "welcome": "none"
          }
       },
-         {
+      {
          "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
          "color": "transparent",
          "focus": true,
