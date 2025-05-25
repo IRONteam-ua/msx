@@ -29,7 +29,7 @@
             "layout": "5,2,7,4",
             "offset": "0.4,0,0,0",
             "image": "none",
-            "imageFiller": "cover"
+            "imageFiller": "none"
          },
          {
             "id": "text",
@@ -39,14 +39,14 @@
             "text": ""
          }
       ]
-  },
+   },
    "template": {
       "type": "default",
       "layout": "0,0,4,1",
       "area": "0,1,5,5",
-      "imageWidth": 0,
+      "imageWidth": 1,
       "imageFiller": "none"
-  },
+   },
    "items": [
       {
          "titleHeader": "{col:msx-white}ОСНОВНА ТЕМА",
@@ -57,8 +57,10 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
+               "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
             }
          },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
          "action": "start",
          "data": {
             "name": "BASIC",
