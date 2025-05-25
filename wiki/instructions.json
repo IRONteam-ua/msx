@@ -1,91 +1,91 @@
       {
-  "headline": "Інструкція Media Station X",
-  "type": "list",
-  "version": "1.0.0",
-  "parameter": "none",
-  "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
-  "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-  "items": [
-    {
-      "titleHeader": "1. Завантаження",
-      "color": "transparent",
-      "focus": true,
-      "selection": {
-        "important": true,
-        "data": {
-          "text": "Знайдіть у програмі Media Station X в LG Store або Samsung Apps і виконайте інсталяцію."
-        }
+         "headline": "Інструкція Media Station X",
+         "type": "list",
+         "version": "1.0.0",
+         "parameter": "none",
+         "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
+         "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+         "items": [
+            {
+               "titleHeader": "1. Завантаження",
+               "color": "transparent",
+               "focus": true,
+               "selection": {
+                  "important": true,
+                  "data": {
+                     "text": "Знайдіть у програмі Media Station X в LG Store або Samsung Apps і виконайте інсталяцію."
+                  }
+               }
+            },
+            {
+               "titleHeader": "2. Запуск",
+               "color": "transparent",
+               "selection": {
+                  "important": true,
+                  "data": {
+                     "text": "Запустіть програму Media Station X."
+                  }
+               }
+            },
+            {
+               "titleHeader": "3. Налаштування",
+               "color": "transparent",
+               "selection": {
+                  "important": true,
+                  "data": {
+                     "text": "Відкрийте Налаштування → Плейлист (Start Parameter) → Так (Setup)."
+                  }
+               }
+            },
+            {
+               "titleHeader": "4. Введення адреси",
+               "color": "transparent",
+               "selection": {
+                  "important": true,
+                  "data": {
+                     "text": "Введіть адресу плейлиста: ironteam-ua.github.io"
+                  }
+               }
+            },
+            {
+               "titleHeader": "5. Підтвердження",
+               "color": "transparent",
+               "selection": {
+                  "important": true,
+                  "data": {
+                     "text": "Натисніть Так (Setup). Готово!"
+                  }
+               }
+            },
+            {
+               "titleHeader": "6. Повна інструкція",
+               "color": "transparent",
+               "selection": {
+                  "important": true,
+                  "data": {
+                     "text": "Для повної інструкції відкрийте: https://tv.ironteam-ua/wiki/instruction.html"
+                  }
+               }
+            },
+            {
+               "titleHeader": "7. Порада",
+               "color": "transparent",
+               "selection": {
+                  "important": false,
+                  "data": {
+                     "text": "Якщо портал не відкривається — перевірте правильність адреси та доступ до інтернету."
+                  }
+               }
+            },
+            {
+               "titleHeader": "QR-код",
+               "color": "transparent",
+               "selection": {
+                  "important": false,
+                  "data": {
+                     "text": "![QR](https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png)"
+                  }
+               }
+            }
+         ]
       }
-    },
-    {
-      "titleHeader": "2. Запуск",
-      "color": "transparent",
-      "selection": {
-        "important": true,
-        "data": {
-          "text": "Запустіть програму Media Station X."
-        }
-      }
-    },
-    {
-      "titleHeader": "3. Налаштування",
-      "color": "transparent",
-      "selection": {
-        "important": true,
-        "data": {
-          "text": "Відкрийте Налаштування → Плейлист (Start Parameter) → Так (Setup)."
-        }
-      }
-    },
-    {
-      "titleHeader": "4. Введення адреси",
-      "color": "transparent",
-      "selection": {
-        "important": true,
-        "data": {
-          "text": "Введіть адресу плейлиста: ironteam-ua.github.io"
-        }
-      }
-    },
-    {
-      "titleHeader": "5. Підтвердження",
-      "color": "transparent",
-      "selection": {
-        "important": true,
-        "data": {
-          "text": "Натисніть Так (Setup). Готово!"
-        }
-      }
-    },
-    {
-      "titleHeader": "6. Повна інструкція",
-      "color": "transparent",
-      "selection": {
-        "important": true,
-        "data": {
-          "text": "Для повної інструкції відкрийте: https://tv.ironteam-ua/wiki/instruction.html"
-        }
-      }
-    },
-    {
-      "titleHeader": "7. Порада",
-      "color": "transparent",
-      "selection": {
-        "important": false,
-        "data": {
-          "text": "Якщо портал не відкривається — перевірте правильність адреси та доступ до інтернету."
-        }
-      }
-    },
-    {
-      "titleHeader": "QR-код",
-      "color": "transparent",
-      "selection": {
-        "important": false,
-        "data": {
-          "text": "![QR](https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png)"
-        }
-      }
-    }
-  ]
-}
