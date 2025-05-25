@@ -1,178 +1,164 @@
 {
-   "headline": "Вибір теми ZUMO",
-   "type": "list",
-   "version": "2.5.0",
-   "parameter": "content: https://ironteam-ua.github.io/msx/themes/setting_stat.json",
-   "action": "[settings:validate_links:0|home]",
-   "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
-   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "preload": "next",
-  "overlay": {
-    "items": [
-      {
-        "type": "space",
-        "round": false,
-        "layout": "0,0,3,6", 
-        "color": "msx-black-soft",
-        "background": "msx-glass"  
-      },
-      {
-        "id": "text_content",
-        "type": "text",
-        "layout": "3,0,9,6", 
-        "color": "msx-white",
-        "text": "Тут буде текст...",
-        "font-size": "medium",
-        "align": "left",
-        "scrollable": true   
-      }
-    ]
-  },
+  "headline": "Вибір теми ZUMO",
+  "type": "list",
+  "version": "2.5.0",
+  "parameter": "content: https://ironteam-ua.github.io/msx/themes/setting_stat.json",
+  "action": "[settings:validate_links:0|home]",
+  "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
+  "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+  "preload": "next",
   "template": {
     "type": "default",
-    "layout": "0,0,12,6",  
-    "area": "3,0,9,6"       
-},
-   "items": [
-      {
-         "titleHeader": "{col:msx-white}ОСНОВНА ТЕМА",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
-               "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
-         "action": "start",
-         "data": {
-            "name": "BASIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu.json",
-            "welcome": "none"
-         }
+    "layout": "0,0,12,6",
+    "area": "3,0,9,6"
+  },
+  "items": [
+    {
+      "titleHeader": "{col:msx-white}ОСНОВНА ТЕМА",
+      "color": "transparent",
+      "focus": true,
+      "selection": {
+        "important": true,
+        "action": "[update:content:overlay:image|update:content:overlay:text]",
+        "data": {
+          "text": "{col:msx-white}Основна тема {col}{br}Основна тема без фонового зображення",
+          "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
+        }
       },
-         {
-         "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
-               "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/resize.png",
-         "action": "start",
-         "data": {
-            "name": "BASIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}CLASSIC",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}CLASSIC{col}{br}Классическая оболочка MSX",
-               "image": "https://wals09.github.io/msx/tema/classic.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/classic.png",
-         "action": "start",
-         "data": {
-            "name": "CLASSIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_classic.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}CLASSIC compact",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}CLASSIC compact{col}{br}Классическая оболочка MSX, компактный вид",
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/classic_compact.png",
-         "action": "start",
-         "data": {
-            "name": "CLASSIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_classic_compact.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}ТЕМА «ЗИМА»",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимняя тема оформления",
-            }
-         },
-         "action": "start",
-         "data": {
-            "name": "BASIC Lite",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/зима.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}ТЕМА «WHITE»",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Тема «WHITE»{col}{br}Тема в светлых тонах",
-            }
-         },
-         "action": "start",
-         "data": {
-            "name": "BASIC Lite",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_white.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}ТЕМА «ОСЕНЬ»",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Тема «ОСЕНЬ»",
-            }
-         },
-         "action": "start",
-         "data": {
-            "name": "BASIC Lite",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/осень.json",
-            "welcome": "none"
-         }
+      "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
+      "action": "start",
+      "data": {
+        "name": "BASIC",
+        "version": "1.0.0",
+        "parameter": "content:https://wals09.github.io/msx/menu.json",
+        "welcome": "none"
       }
-   ]
+    },
+    {
+      "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
+      "color": "transparent",
+      "focus": true,
+      "selection": {
+        "important": true,
+        "action": "[update:content:overlay:image|update:content:overlay:text]",
+        "data": {
+          "text": "{col:msx-white}Компактна тема {col}{br}Компактний варіант основної теми",
+          "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
+        }
+      },
+      "image": "https://ironteam-ua.github.io/msx/themes/img/resize.png",
+      "action": "start",
+      "data": {
+        "name": "COMPACT",
+        "version": "1.0.0",
+        "parameter": "content:https://wals09.github.io/msx/menu_compact.json",
+        "welcome": "none"
+      }
+    },
+    {
+      "titleHeader": "{col:msx-white}CLASSIC",
+      "color": "transparent",
+      "focus": true,
+      "selection": {
+        "important": true,
+        "action": "[update:content:overlay:image|update:content:overlay:text]",
+        "data": {
+          "text": "{col:msx-white}CLASSIC{col}{br}Класична оболонка MSX",
+          "image": "https://wals09.github.io/msx/tema/classic.jpg"
+        }
+      },
+      "image": "https://wals09.github.io/msx/tema/them_icon/classic.png",
+      "action": "start",
+      "data": {
+        "name": "CLASSIC",
+        "version": "1.0.0",
+        "parameter": "content:https://wals09.github.io/msx/menu_classic.json",
+        "welcome": "none"
+      }
+    },
+    {
+      "titleHeader": "{col:msx-white}CLASSIC compact",
+      "color": "transparent",
+      "focus": true,
+      "selection": {
+        "important": true,
+        "action": "[update:content:overlay:image|update:content:overlay:text]",
+        "data": {
+          "text": "{col:msx-white}CLASSIC compact{col}{br}Класична оболонка MSX, компактний вигляд",
+          "image": ""
+        }
+      },
+      "image": "https://wals09.github.io/msx/tema/them_icon/classic_compact.png",
+      "action": "start",
+      "data": {
+        "name": "CLASSIC_COMPACT",
+        "version": "1.0.0",
+        "parameter": "content:https://wals09.github.io/msx/menu_classic_compact.json",
+        "welcome": "none"
+      }
+    },
+    {
+      "titleHeader": "{col:msx-white}ТЕМА «ЗИМА»",
+      "color": "transparent",
+      "focus": true,
+      "selection": {
+        "important": true,
+        "action": "[update:content:overlay:image|update:content:overlay:text]",
+        "data": {
+          "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимова тема оформлення",
+          "image": ""
+        }
+      },
+      "image": "",
+      "action": "start",
+      "data": {
+        "name": "WINTER",
+        "version": "1.0.0",
+        "parameter": "content:https://wals09.github.io/msx/winter.json",
+        "welcome": "none"
+      }
+    },
+    {
+      "titleHeader": "{col:msx-white}ТЕМА «WHITE»",
+      "color": "transparent",
+      "focus": true,
+      "selection": {
+        "important": true,
+        "action": "[update:content:overlay:image|update:content:overlay:text]",
+        "data": {
+          "text": "{col:msx-white}Тема «WHITE»{col}{br}Тема у світлих тонах",
+          "image": ""
+        }
+      },
+      "image": "",
+      "action": "start",
+      "data": {
+        "name": "WHITE",
+        "version": "1.0.0",
+        "parameter": "content:https://wals09.github.io/msx/menu_white.json",
+        "welcome": "none"
+      }
+    },
+    {
+      "titleHeader": "{col:msx-white}ТЕМА «ОСІНЬ»",
+      "color": "transparent",
+      "focus": true,
+      "selection": {
+        "important": true,
+        "action": "[update:content:overlay:image|update:content:overlay:text]",
+        "data": {
+          "text": "{col:msx-white}Тема «ОСІНЬ»{col}{br}Осіння тема оформлення",
+          "image": ""
+        }
+      },
+      "image": "",
+      "action": "start",
+      "data": {
+        "name": "AUTUMN",
+        "version": "1.0.0",
+        "parameter": "content:https://wals09.github.io/msx/autumn.json",
+        "welcome": "none"
+      }
+    }
+  ]
 }
