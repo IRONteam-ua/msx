@@ -12,14 +12,14 @@
          {
             "type": "space",
             "round": false,
-            "layout": "0,0,9,6",
+            "layout": "0,0,3,6",
             "offset": "0,-1,1,1.7",
             "color": "msx-black-soft"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "9,0,3,2",
+            "layout": "3,0,9,2",
             "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения"
          }
       ]
@@ -27,7 +27,7 @@
    "template": {
       "type": "default",
       "layout": "0,0,12,1",
-      "area": "0,1,12,5"
+      "area": "3,2,9,4"
    },
    "items": [
       {
