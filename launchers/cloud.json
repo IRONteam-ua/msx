@@ -35,36 +35,36 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "SoundCloud",
+               "headline": "MSX SoundCloud",
                "text": "SoundCloud® MSX – це сервіс, який надає базовий доступ до треків SoundCloud."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/SoundCloud.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/SoundCloud.json"
+         "image": "https://ironteam-ua.github.io/msx/img/soundcloud.png",
+         "action": "mwnu:user:https://sc.msx.benzac.de/msx/service.php"
       },
       {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "MSX NoName Launcher",
-               "text": "Може не працювати на старих версіях MSX і на старих пристроях"
+               "headline": "MSX Google Drive",
+               "text": "Google Drive MSX – це сервіс, який надає доступ до ваших файлів Google Диска (тобто відео, аудіо та зображень) через програму Media Station X."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/noname _launch.json"
+         "image": "https://ironteam-ua.github.io/msx/img/google-drive.png",
+         "action": "mwnu:user:https://gd.msx.benzac.de/msx/service.php"
       },
       {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "NoName Portal",
-               "text": "Запуск web додатка."
+               "headline": "OneDrive MSX",
+               "text": "OneDrive MSX – це служба, яка надає доступ до ваших файлів OneDrive (тобто відео, аудіо та зображень) через програму Media Station X."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/noname.json"
+         "image": "https://ironteam-ua.github.io/msx/img/onedrive.png",
+         "action": "mwnu:user:https://od.msx.benzac.de/msx/service.php"
       },
       {
          "badge": "MSXPlayer v4",
