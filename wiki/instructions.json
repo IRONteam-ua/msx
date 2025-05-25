@@ -42,8 +42,8 @@
    },
    "template": {
       "type": "default",
-      "layout": "0,0,4,1",
-      "area": "0,1,5,5",
+      "layout": "0,0,12,1",
+      "area": "0,1,12,6",
       "imageWidth": 1,
       "imageFiller": "none"
    },
