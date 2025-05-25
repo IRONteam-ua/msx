@@ -15,7 +15,7 @@
             {
          "icon": "movie",
          "label": "Безкоштовне кіно",
-         "data": "https://ironteam-ua.github.io/msx/launchers/free_films.jsom"
+         "data": "https://ironteam-ua.github.io/msx/launchers/free_films.json"
       },
       {
          "icon": "movie-filter",
@@ -25,12 +25,12 @@
       {
          "icon": "devices-other",
          "label": "Інші медіаплатформи",
-         "data": "https://ironteam-ua.github.io/msx/launchers/other.jsom"
+         "data": "https://ironteam-ua.github.io/msx/launchers/other.json"
       },
       {
          "icon": "live-tv",
          "label": "IPTV додатки",
-         "data": "https://ironteam-ua.github.io/msx/launchers/iptv.jsom"
+         "data": "https://ironteam-ua.github.io/msx/launchers/iptv.json"
       },
       {
          "type": "separator"
