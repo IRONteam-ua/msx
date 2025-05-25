@@ -91,43 +91,16 @@
          "action": "menu:request:interaction:init@https://nb.msx.benzac.de/interaction"
       },
       {
-         "badge": "MSX CC UA",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "MSX CC UA Portal",
-               "text": "Запуск web приложений"
+               "headline": "Twitch MSX",
+               "text": "Twitch MSX — це сервіс, який надає базовий доступ до контенту Twitch через програму Media Station X."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/msx_cc_ua.json"
-      },
-            {
-         "badge": "TV RU",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "TV RU Portal",
-               "text": "Запуск web приложений."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/tvru.json"
-      },
-            {
-         "badge": "Walso9",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Wals09 Portal",
-               "text": "Запуск web додатків."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/msx-icon.png",
-         "action": "panel:https://ironteam-ua.github.io/msx/launchers/alterstore/wals09.json"
+         "image": "https://ironteam-ua.github.io/msx/img/twitch.png",
+         "action": "menu:request:interaction:init@https:/ttv.msx.benzac.de/interaction"
       }
    ]
 }
