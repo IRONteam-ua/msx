@@ -29,13 +29,14 @@
   "template": {
     "type": "default",
     "layout": "0,0,12,12",
-    "area": "0,0,4,12"
+    "area": "0,0,4,12", 
+    "scrollable": true 
   },
   "items": [
     {
       "title": "ОСНОВНА ТЕМА",
       "color": "transparent",
-      "selectable": true,
+      "selectable": true, 
       "action": "[update:content:overlay:content_text]",
       "data": {
         "text": "{col:msx-white}Основна тема{col}{br}Базовий варіант оформлення"
@@ -44,7 +45,7 @@
     {
       "title": "КОМПАКТНА ТЕМА",
       "color": "transparent",
-      "selectable": true,
+      "selectable": true, 
       "action": "[update:content:overlay:content_text]",
       "data": {
         "text": "{col:msx-white}Компактна тема{col}{br}Для екранів з малою роздільною здатністю"
@@ -53,7 +54,7 @@
     {
       "title": "CLASSIC",
       "color": "transparent",
-      "selectable": true,
+      "selectable": true, 
       "action": "[update:content:overlay:content_text]",
       "data": {
         "text": "{col:msx-white}CLASSIC{col}{br}Класичний стиль MSX 2.0"
@@ -62,7 +63,7 @@
     {
       "title": "ТЕМА «ЗИМА»",
       "color": "transparent",
-      "selectable": true,
+      "selectable": true, 
       "action": "[update:content:overlay:content_text]",
       "data": {
         "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимове оформлення в синіх тонах"
