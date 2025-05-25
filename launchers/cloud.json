@@ -87,7 +87,7 @@
                "text": "Node Browser MSX – це сервіс, який надає доступ до файлів вашого локального сервера Node.js (тобто відео, аудіо та зображень) через програму Media Station X."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/appfxmlstore_m.png",
+         "image": "https://ironteam-ua.github.io/msx/img/node_b.png",
          "action": "menu:request:interaction:init@https://nb.msx.benzac.de/interaction"
       },
       {
