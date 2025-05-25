@@ -37,7 +37,7 @@
       },
             {
          "icon": "cloud",
-         "label": "Підключення до хмарних серверів",
+         "label": "Хмарні серверіси",
          "data": "https://ironteam-ua.github.io/msx/launchers/cloud.json"
       },
       {
