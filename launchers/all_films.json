@@ -210,8 +210,20 @@
             },
             "image": "https://ironteam-ua.github.io/msx/img/deeplex.png.png",
             "action": "link:http://smart.deeplex.cc"
+        },
+          {
+            "title": "{col:#e6e6fa}Deeplex",
+            "titleFooter": "Фільми та серіали",
+            "selection": {
+                "important": true,
+                "action": "[update:content:overlay:image|update:content:overlay:text]",
+                "data": {
+                    "text": "{col:msx-white}Deeplex{col}{br}{col:grey}=========={br}{col:msx-white}Deeplex – новий онлайн-кінотеатр з великим каталогом фільмів, серіалів та мультфільмів.",
+                    "image": "https://ironteam-ua.github.io/msx/img/deeplex2.png"
+                }
+            },
+            "image": "https://ironteam-ua.github.io/msx/img/deeplex2.png",
+            "action": "link:http://smart.deeplex.cc"
         }
-   
-
     ]
 }
