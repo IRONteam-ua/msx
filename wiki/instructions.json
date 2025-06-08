@@ -19,7 +19,7 @@
       {
         "id": "text",
         "type": "space",
-        "layout": "3.5,0,9,6",
+        "layout": "4,0,9,6",
         "text": "",
         "scroll": true,
         "round": false,
