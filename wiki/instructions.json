@@ -12,14 +12,14 @@
     {
       "type": "space",
       "round": false,
-      "layout": "3,0,9,6",  // правий блок чорний
+      "layout": "3,0,9,6",
       "offset": "0,0,0,0",
       "color": "msx-black"
     },
     {
       "id": "text",
       "type": "space",
-      "layout": "3,0,9,6",  // той самий розмір
+      "layout": "3,0,9,6",
       "text": "",
       "scroll": true,
       "round": false,
@@ -29,8 +29,8 @@
 },
 "template": {
   "type": "default",
-  "layout": "0,0,5,1.5",  // заголовки
-  "area": "0,1,5,5",      // меню зліва
+  "layout": "0,0,5,1.5",
+  "area": "0,1,5,5",
   "imageWidth": 1,
   "imageFiller": "cover"
 },
