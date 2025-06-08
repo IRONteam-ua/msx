@@ -7,32 +7,32 @@
   "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
   "preload": "next",
-"overlay": {
-  "items": [
-    {
-      "type": "space",
-      "round": false,
-      "layout": "3,0,9,6",
-      "offset": "0,0,0,0",
-      "color": "msx-black"
-    },
-    {
-      "id": "text",
-      "type": "space",
-      "layout": "3,0,9,6",
-      "text": "",
-      "scroll": true,
-      "round": false,
-      "color": "msx-black"
-    }
-  ]
-},
 "template": {
   "type": "default",
   "layout": "0,0,5,1.5",
   "area": "0,1,5,5",
   "imageWidth": 1,
   "imageFiller": "cover"
+},
+"overlay": {
+  "items": [
+    {
+      "type": "space",
+      "round": false,
+      "layout": "5,0,7,6",
+      "offset": "0,0,0,0",
+      "color": "msx-black"
+    },
+    {
+      "id": "text",
+      "type": "space",
+      "layout": "5,0,7,6",
+      "text": "",
+      "scroll": true,
+      "round": false,
+      "color": "msx-black"
+    }
+  ]
 },
   "items": [
     {
