@@ -51,7 +51,7 @@
 				"action": "[update:content:overlay:image|update:content:overlay:text]",
 				"data": {
 					"text": "{col:msx-white}Online TV{col}{br}{col:grey}================================={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
-					"image": "https://ironteam-ua.github.io/msx/img/tv.png"
+					"image": "https://ironteam-ua.github.io/msx/img/tv.jpg"
 				}
 			},
 			"image": "https://ironteam-ua.github.io/msx/img/tv-logo.png",
