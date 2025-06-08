@@ -50,7 +50,7 @@
 				"important": true,
 				"action": "[update:content:overlay:image|update:content:overlay:text]",
 				"data": {
-					"text": "{col:msx-white}Online TV{col}{br}{col:grey}=========={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
+					"text": "{col:msx-white}Online TV{col}{br}{col:grey}================================={br}{col:msx-white}Телебачення від провейдерів та безкоштовні сервери.",
 					"image": "https://ironteam-ua.github.io/msx/img/tv.png"
 				}
 			},
@@ -64,7 +64,7 @@
 				"important": true,
 				"action": "[update:content:overlay:image|update:content:overlay:text]",
 				"data": {
-					"text": "{col:msx-white}OTT-player{col}{br}{col:grey}=========={br}{col:msx-white}Мультиплатформна програма та онлайн-сервіс для управління IPTV плейлистами.",
+					"text": "{col:msx-white}OTT-player{col}{br}{col:grey}================================={br}{col:msx-white}Мультиплатформна програма та онлайн-сервіс для управління IPTV плейлистами.",
 					"image": "https://ironteam-ua.github.io/msx/img/ottplayer.png"
 				}
 			},
@@ -78,7 +78,7 @@
 				"important": true,
 				"action": "[update:content:overlay:image|update:content:overlay:text]",
 				"data": {
-					"text": "{col:msx-white}OTT-play FOSS{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:grey}Не містить політичних гасел. Немає плейлистів.",
+					"text": "{col:msx-white}OTT-play FOSS{col}{br}{col:grey}================================={br}{col:msx-white}MOD відомого плеєра Ott-Play з підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. {br}{col:grey}Не містить політичних гасел. Немає плейлистів.",
 					"image": "https://ironteam-ua.github.io/msx/img/ottp-foss-pic.gif"
 				}
 			},
@@ -92,7 +92,7 @@
 				"important": true,
 				"action": "[update:content:overlay:image|update:content:overlay:text]",
 				"data": {
-					"text": "{col:msx-white}DRM-play{col}{br}{col:grey}=========={br}{col:msx-white}MOD відомого плеєра Ott-Play із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. НЕ містить nagware коду, модулів аналітики та інших сюрпризів.{br}{col:grey}Є тестовий плейлист)) та містить програму передач з архівом.",
+					"text": "{col:msx-white}DRM-play{col}{br}{col:grey}================================={br}{col:msx-white}MOD відомого плеєра Ott-Play із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. НЕ містить nagware коду, модулів аналітики та інших сюрпризів.{br}{col:grey}Є тестовий плейлист)) та містить програму передач з архівом.",
 					"image": "https://ironteam-ua.github.io/msx/img/drm-pic.gif"
 				}
 			},
@@ -106,7 +106,7 @@
 				"important": true,
 				"action": "[update:content:overlay:image|update:content:overlay:text]",
 				"data": {
-					"text": "{col:msx-white}ICVA{col}{br}{col:grey}=========={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
+					"text": "{col:msx-white}ICVA{col}{br}{col:grey}================================={br}{col:msx-white}Відмінний IPTV player від розробників LAMPA, в якому Ви знайдете можливість перегляду своїх плейлистів.",
 					"image": "https://ironteam-ua.github.io/msx/img/icva-logo.png"
 				}
 			},
