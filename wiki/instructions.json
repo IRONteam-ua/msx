@@ -30,7 +30,7 @@
   "template": {
     "type": "default",
     "layout": "0,0,4.5,1.5",
-    "area": "0,1,4.5,5",
+    "area": "0,1,5.5,5",
     "imageWidth": 1,
     "imageFiller": "cover"
   },
