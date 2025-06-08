@@ -60,7 +60,7 @@
       }
     },
         {
-      "titleHeader": "{col:msx-white}Опис і інструкція до додатків в меню",
+      "titleHeader": "{col:msx-white}Опис додатків ZUMO",
       "color": "transparent",
       "focus": true,
       "selection": {
