@@ -50,7 +50,7 @@
                 "important": true,
                 "action": "[update:content:overlay:image|update:content:overlay:text]",
                 "data": {
-                    "text": "{col:msx-white}Forkplayer{col}{br}{col:grey}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "text": "{col:msx-white}Forkplayer{col}{br}{col:grey}================================={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                     "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
                 }
             },
@@ -64,7 +64,7 @@
                 "important": true,
                 "action": "[update:content:overlay:image|update:content:overlay:text]",
                 "data": {
-                    "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:grey}=========={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
+                    "text": "{col:msx-white}Forkplayer NEW{col}{br}{col:grey}================================={br}{col:msx-white}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом.",
                     "image": "https://ironteam-ua.github.io/msx/img/aforkplayer-1.jpg"
                 }
             },
@@ -78,7 +78,7 @@
                 "important": true,
                 "action": "[update:content:overlay:image|update:content:overlay:text]",
                 "data": {
-                    "text": "{col:msx-white}YouTUBE{col}{br}{col:grey}=========={br}{col:msx-white}Відеохостинг, що надає користувачам послуги зберігання, доставки та показу відео.",
+                    "text": "{col:msx-white}YouTUBE{col}{br}{col:grey}================================={br}{col:msx-white}Відеохостинг, що надає користувачам послуги зберігання, доставки та показу відео.",
                     "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png"
                 }
             },
@@ -92,7 +92,7 @@
                 "important": true,
                 "action": "[update:content:overlay:image|update:content:overlay:text]",
                 "data": {
-                    "text": "{col:msx-white}YouTUBE Kids{col}{br}{col:grey}=========={br}{col:msx-white}Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей.",
+                    "text": "{col:msx-white}YouTUBE Kids{col}{br}{col:grey}================================={br}{col:msx-white}Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей.",
                     "image": "https://ironteam-ua.github.io/msx/img/ytkids.png"
                 }
             },
@@ -106,7 +106,7 @@
                 "important": true,
                 "action": "[update:content:overlay:image|update:content:overlay:text]",
                 "data": {
-                    "text": "{col:msx-white}tiktok{col}{br}{col:grey}=========={br}{col:msx-white}TikTok – це програма для перегляду відео в короткій формі.",
+                    "text": "{col:msx-white}tiktok{col}{br}{col:grey}================================={br}{col:msx-white}TikTok – це програма для перегляду відео в короткій формі.",
                     "image": "https://ironteam-ua.github.io/msx/img/tiktok.png"
                 }
             },
