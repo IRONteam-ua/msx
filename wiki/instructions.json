@@ -78,8 +78,7 @@
   "selection": {
     "important": true,
     "title": "Відкрити інструкцію",
-    "thumbnail": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png",
-    "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html",
+    "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html"
       }
         }
   ]
