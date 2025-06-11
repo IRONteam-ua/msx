@@ -77,7 +77,7 @@
       "focus": true,
       "selection": {
         "important": true,
-"action": "[open:webview]",
+"action": "[open:url]",
 "data": {
   "url": "http://ironteam-ua.github.io/msx/wiki/fork.html"
         }
