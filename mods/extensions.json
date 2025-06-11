@@ -104,20 +104,6 @@
             ],
             "hpu": "video"
         },
-                {
-            "title": "Для дорослих",
-            "results": [
-
-                {
-                    "name": "Полуничка 18+",
-                    "author": "@sisi",
-                    "link": "https://sisi.am/pussy.js",
-                    "descr": "Онлайн перегляд контента для дорослих, більше 30 сайтів",
-                    "available_lampa": 1
-                }
-            ],
-            "hpu": "hot"
-        },
         {
             "title": "Керування",
             "results": [
@@ -338,6 +324,21 @@
                 }
             ],
             "hpu": "other"
+        },
+                        {
+            "title": "Для дорослих",
+            "results": [
+
+                {
+                    "name": "Полуничка 18+",
+                    "author": "@sisi",
+                    "link": "https://sisi.am/pussy.js",
+                    "descr": "Онлайн перегляд контента для дорослих, більше 30 сайтів",
+                    "available_lampa": 1
+                }
+            ],
+            "hpu": "hot"
         }
     ]
 }
+
