@@ -6,7 +6,7 @@
             en: "Additional plugins",
             ru: "Дополнительные плагины",
         }
-    })
+    });
     Lampa.Plugin.register('iron_store', {
             name: "IRON's Plugins",
             author: "@IRONteam"
