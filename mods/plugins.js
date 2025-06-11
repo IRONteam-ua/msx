@@ -7,10 +7,6 @@
             ru: "Дополнительные плагины",
         }
     });
-    Lampa.Plugin.register('iron_store', {
-            name: "IRON's Plugins",
-            author: "@IRONteam"
-        });
     function addStore() {
         if (Lampa.Settings.main && !Lampa.Settings.main().render().find('[data-component="iron_store"]').length) {
             var field = "<div class=\"settings-folder selector\" data-component=\"iron_store\" data-static=\"true\">\n\
