@@ -88,13 +88,6 @@
                     "available_lampa": 1
                 },
                 {
-                    "name": "Showy",
-                    "author": "Showy",
-                    "link": "http://showwwy.com/m.js",
-                    "descr": "Потрібна авторизація через телеграм бота. Онлайн, підтримка 4к",
-                    "available_lampa": 1
-                },
-                {
                     "name": "Онлайн Stream",
                     "author": "",
                     "link": "http://arkmv.ru/vod",
@@ -110,6 +103,20 @@
                 }
             ],
             "hpu": "video"
+        },
+                {
+            "title": "Для дорослих",
+            "results": [
+
+                {
+                    "name": "Полуничка 18+",
+                    "author": "@sisi",
+                    "link": "https://sisi.am/pussy.js",
+                    "descr": "Онлайн перегляд контента для дорослих, більше 30 сайтів",
+                    "available_lampa": 1
+                }
+            ],
+            "hpu": "hot"
         },
         {
             "title": "Керування",
@@ -334,4 +341,3 @@
         }
     ]
 }
-
