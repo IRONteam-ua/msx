@@ -71,16 +71,18 @@
         }
       }
     },
-        {
-      "titleHeader": "{col:msx-white}Повна існстукція",
-      "color": "transparent",
-      "focus": true,
-      "selection": {
-        "important": true,
-    "action": "[update:content:image]",
+{
+  "titleHeader": "{col:msx-white}Повна інструкція",
+  "color": "transparent",
+  "focus": true,
+  "selection": {
+    "important": true,
+    "action": "[update:content:overlay:text]",
     "data": {
-      "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png"
-        }
+      "text": "Відскануйте QR-код для перегляду повної інструкції:\n\n{img:https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png}\n\nАбо перейдіть за посиланням:\n{col:msx-white}https://ironteam-ua.github.io/msx/wiki/instructions.html{col}"
+    }
+  }
+}
       }
     }
   ]
