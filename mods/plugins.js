@@ -1,34 +1,54 @@
-(function() {
-    'use strict';
-	Lampa.Lang.add({
-        iron_store: {
-            ru: "Дополнительные плагины",
-            en: "Additional plugins",
-            uk: "Додаткові плагіни",
-        }
-    });
-    function addStore() {
-        if (Lampa.Settings.main && !Lampa.Settings.main().render().find('[data-component="iron_store"]').length) {
-            var field = "<div class=\"settings-folder selector\" data-component=\"iron_store\" data-static=\"true\">\n\t\t\t<div class=\"settings-folder__icon\">\n\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"white\"><path d=\"M19.428 13.341c-.59 0-1.133.177-1.588.478-.314.207-.69.106-.898-.208-.207-.314-.106-.69.208-.898a3.973 3.973 0 0 1 2.278-.685c2.206 0 4 1.794 4 4s-1.794 4-4 4h-3.571v-1.142c0-.49-.398-.888-.888-.888s-.888.398-.888.888v1.142h-3.572v-1.142c0-.49-.397-.888-.887-.888s-.889.398-.889.888v1.142h-3.57v-1.142c0-.49-.398-.888-.889-.888s-.889.398-.889.888v1.142H2c-1.103 0-2-.897-2-2s.897-2 2-2c.49 0 .888-.398.888-.888s-.398-.889-.888-.889c-1.103 0-2-.897-2-2s.897-2 2-2c.49 0 .888-.398.888-.888s-.398-.889-.888-.889c-1.103 0-2-.897-2-2s.897-2 2-2h3.571v1.143c0 .49.398.887.889.887s.889-.397.889-.887V4.572h3.57v1.143c0 .49.398.887.889.887s.889-.397.889-.887V4.572h3.572v1.143c0 .49.397.887.887.887s.888-.397.888-.887V4.572H20c1.103 0 2 .897 2 2s-.897 2-2 2c-.49 0-.888.398-.888.889s.398.888.888.888c1.103 0 2 .897 2 2s-.897 2-2 2z\"/></svg>\n\t\t\t</div>\n\t\t\t<div class=\"settings-folder__name\">"+Lampa.Lang.translate('iron_store')+"</div>\n\t\t</div>";
-            Lampa.Settings.main().render().find('[data-component="more"]').after(field);
-            Lampa.Settings.main().update();
-        }
-    }
-    Lampa.Settings.listener.follow('open', function(e) {
-        if (e.name == 'main') {
-            e.body.find('[data-component="iron_store"]').on('hover:enter', function() {
-                Lampa.Extensions.show({
-                    store: 'https://ironteam-ua.github.io/msx/mods/extensions.json',
-                    with_installed: true
+(() => {
+    let html = `<svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" d="M2,9 C2,7.34315 3.34315,6 5,6 L7.85279,6 C8.15014,6 8.33369,5.69148 8.21898,5.41714 C8.16269,5.28251 8.11486,5.14448 8.0827,5 C7.75165,3.51305 8.87451,2 10.5,2 C12.1255,2 13.2483,3.51305 12.9173,5 C12.8851,5.14448 12.8373,5.28251 12.781,5.41714 C12.6663,5.69148 12.8499,6 13.1472,6 L15,6 C16.6569,6 18,7.34315 18,9 L18,10.8528 C18,11.1501 18.3085,11.3337 18.5829,11.219 C18.7175,11.1627 18.8555,11.1149 19,11.0827 C20.4869,10.7517 22,11.8745 22,13.5 C22,15.1255 20.4869,16.2483 19,15.9173 C18.8555,15.8851 18.7175,15.8373 18.5829,15.781 C18.3085,15.6663 18,15.8499 18,16.1472 L18,19 C18,20.6569 16.6569,22 15,22 L13.1066,22 C12.8194,22 12.6341,21.7088 12.7164,21.4337 C12.7583,21.2937 12.7892,21.1502 12.8021,21 C12.9129,19.7075 11.8988,18.5 10.5,18.5 C9.1012,18.5 8.08712,19.7075 8.1979,21 C8.21078,21.1502 8.2417,21.2937 8.28358,21.4337 C8.36589,21.7088 8.18055,22 7.89338,22 L5,22 C3.34315,22 2,20.6569 2,19 L2,16.1066 C2,15.8194 2.29121,15.6341 2.56632,15.7164 C2.7063,15.7583 2.84976,15.7892 3,15.8021 C4.29252,15.9129 5.5,14.8988 5.5,13.5 C5.5,12.1012 4.29252,11.0871 3,11.1979 C2.84976,11.2108 2.7063,11.2417 2.56633,11.2836 C2.29121,11.3659 2,11.1806 2,10.8934 L2,9 Z"/></svg>`;
+
+    function startPlugin() {
+        // Створення вкладки
+        Lampa.SettingsApi.addComponent({
+            component: 'irons_store',
+            name: 'IRONs Store',
+            category: 'plugins',
+            type: 'card',
+            icon: html,
+            onclick: () => {
+                Lampa.Activity.push({
+                    url: '',
+                    title: 'IRONs Store',
+                    component: 'irons_store',
+                    page: 1
                 });
-            });
-        }
-    });
-    if (window.appready) addStore();
-    else {
-        Lampa.Listener.follow('app', function(e) {
-            if (e.type == 'ready') addStore();
+            }
+        });
+
+        // Реєстрація активності
+        Lampa.Component.add('irons_store', {
+            create: function () {
+                this.html = $('<div class="settings-content"><div class="about"><h1>IRONs Store</h1><p>Ласкаво просимо до IRONs Store!</p></div></div>');
+                this.scroll = new Lampa.Scroll({mask: true});
+                this.scroll.append(this.html);
+            },
+            render: function () {
+                return this.scroll.render();
+            },
+            destroy: function () {
+                this.scroll.destroy();
+                this.html.remove();
+            }
         });
     }
 
+    // Очікуємо готовність інтерфейсу
+    if (window.appready) startPlugin();
+    else {
+        Lampa.Listener.follow('app', function (e) {
+            if (e.type === 'ready') startPlugin();
+        });
+    }
+
+    // Інформація про плагін
+    Lampa.Plugin.register('IRONs_store', {
+        name: 'IRONs_store',
+        author: '@IRONteam',
+        version: '1.0.0',
+        description: 'Набір плагінів для Lampa'
+    });
 })();
