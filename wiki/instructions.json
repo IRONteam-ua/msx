@@ -81,8 +81,6 @@
     "data": {
       "text": "Відскануйте QR-код для перегляду повної інструкції:\n\n{img:https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png}\n\nАбо перейдіть за посиланням:\n{col:msx-white}https://ironteam-ua.github.io/msx/wiki/instructions.html{col}"
     }
-  }
-}
       }
     }
   ]
