@@ -1,59 +1,106 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ZUMO - Media Station X - Інструкція</title>
+  <title>ZUMO - MSX</title>
+  <link rel="icon" type="image/x-icon" href="https://tv.ironteam.com.ua/favicon.ico">
   <style>
     body {
-      background-color: #121212;
-      color: #ffffff;
+      background-color: #000;
+      color: #fff;
       font-family: Arial, sans-serif;
-      padding: 20px;
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
       line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
     }
+
+    .container {
+      max-width: 800px;
+      padding: 20px;
+    }
+
     h1 {
       color: #1ac9b8;
       font-size: 28px;
+      margin-bottom: 1em;
     }
+
     ol {
       margin-top: 20px;
       padding-left: 20px;
+      text-align: left;
     }
+
     li {
       margin-bottom: 10px;
     }
+
     a {
       color: #1ac9b8;
       text-decoration: none;
       font-weight: bold;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     .note {
       margin-top: 30px;
       padding: 15px;
-      background: #222;
+      background: #1e1e1e;
       border-left: 5px solid #1ac9b8;
+    }
+
+    .qr-container {
+      margin-top: 30px;
+    }
+
+    .qr-container img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .qr-container span {
+      color: #ccc;
     }
   </style>
 </head>
-<body>
-  <h1>ZUMO - Media Station X</h1>
-  <ol>
-    <li>Знайдіть у програмі <strong>Media Station X</strong> в LG Store або Samsung Apps і виконайте інсталяцію.</li>
-    <li>Запустіть програму <strong>Media Station X</strong>.</li>
-    <li>Відкрийте <strong>Налаштування → Плейлист (Start Parameter) → Так (Setup)</strong>.</li>
-    <li>Введіть адресу плейлиста: <br><strong>ironteam-ua.github.io</strong></li>
-    <li>Натисніть <strong>Так (Setup)</strong>. Готово!</li>
-    <li>Для повної інструкції відкрийте: <br>
-      <a href="https://ironteam-ua.github.io/msx/instruction.html" target="_blank">https://ironteam-ua.github.io/msx/instruction.html</a>
-    </li>
-  </ol>
 
-  <div class="note">
-    Якщо портал не відкривається — перевірте правильність адреси та доступ до інтернету.
+<body>
+  <div class="container">
+    <h1>ZUMO - Media Station X</h1>
+    <ol>
+      <li>Знайдіть у магазині <strong>LG Store</strong> або <strong>Samsung Apps</strong> програму <strong>Media Station
+          X</strong> та встановіть її.</li>
+      <li>Запустіть програму <strong>Media Station X</strong>.</li>
+      <li>Перейдіть у <strong>Налаштування → Плейлист (Start Parameter) → Так (Setup)</strong>.</li>
+      <li>Введіть адресу плейлиста:<br><br><strong>tv.ironteam.com.ua</strong><br></li>
+      <p>Альтернативний плейлист(якщо головний не відкривається): <strong>ironteam-ua.github.io</strong></p>
+      <li>Для повної інструкції відкрийте за посиланням нижче або відскануйте QR-код.</li>
+    </ol>
+
+    <div class="qr-container">
+      <img
+        src="https://api.qrserver.com/v1/create-qr-code/?data=https://ironteam-ua.github.io/msx/wiki/instructions.html&size=300x300"
+        alt="QR Code"><br>
+      <span>Скануй або відкрий: <br><a
+          href="https://ironteam-ua.github.io/msx/wiki/instructions.html">https://ironteam-ua.github.io/msx/wiki/instructions.html</a></span>
+    </div>
+
+    <div class="note">
+      Якщо портал не відкривається — перевірте правильність адреси та доступ до інтернету.
+    </div>
   </div>
 </body>
+
 </html>
