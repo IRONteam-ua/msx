@@ -1,19 +1,44 @@
 (function() {
     'use strict';
-	Lampa.Lang.add({
+    Lampa.Lang.add({
         pirate_store: {
             ru: "Дополнительные плагины",
             en: "Additional plugins",
-            uk: "Додаткові плагіни",
+            uk: "Додаткові плагіни"
+        },
+        pirate_store_descr: {
+            ru: "Разработчик: @IRONteam",
+            en: "Developer: @IRONteam",
+            uk: "Розробник: @IRONteam"
         }
     });
+
     function addStore() {
         if (Lampa.Settings.main && !Lampa.Settings.main().render().find('[data-component="pirate_store"]').length) {
-            var field = "<div class=\"settings-folder selector\" data-component=\"pirate_store\" data-static=\"true\">\n\t\t\t<div class=\"settings-folder__icon\">\n\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"512\" height=\"512\" x=\"0\" y=\"0\" viewBox=\"0 0 490 490\" xml:space=\"preserve\"><path d=\"M153.125 317.435h183.75v30.625h-183.75z\" fill=\"white\"></path><circle cx=\"339.672\" cy=\"175.293\" r=\"42.642\" fill=\"white\"></circle><path d=\"M420.914 0H69.086C30.999 0 0 30.999 0 69.086v351.829C0 459.001 30.999 490 69.086 490h351.829C459.001 490 490 459.001 490 420.914V69.086C490 30.999 459.001 0 420.914 0zM69.086 30.625h237.883c-17.146 20.912-42.277 47.893-75.177 74.575-9.514-12.906-26.35-19.331-42.586-14.613l-69.644 20.242c-20.778 6.039-32.837 27.98-26.798 48.758l6.475 22.278c-21.375 8-44.353 14.456-68.614 19.267V69.086c0-21.204 17.257-38.461 38.461-38.461zm390.289 390.289c0 21.204-17.257 38.461-38.461 38.461H69.086c-21.204 0-38.461-17.257-38.461-38.461V232.459c27.504-4.993 53.269-12.075 77.268-20.816l3.811 13.111c6.038 20.778 27.98 32.837 48.758 26.799l69.643-20.242c20.778-6.039 32.837-27.98 26.799-48.758l-13.481-46.382c50.532-39.47 84.67-80.759 102.687-105.546h74.805c21.204 0 38.461 17.257 38.461 38.461v351.828z\" fill=\"white\"></path></svg>\n\t\t\t</div>\n\t\t\t<div class=\"settings-folder__name\">"+Lampa.Lang.translate('pirate_store')+"</div>\n\t\t</div>";
+
+            var svgIcon = `<svg width="512px" height="512px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="white" d="M2,9 C2,7.34315 3.34315,6 5,6 L7.85,6 C8.15,6 8.33,5.69 8.22,5.42 C8.16,5.28 8.11,5.14 8.08,5 
+                C7.75,3.51 8.87,2 10.5,2 C12.13,2 13.25,3.51 12.92,5 C12.88,5.14 12.83,5.28 12.78,5.42 C12.66,5.69 12.85,6 13.15,6 
+                L15,6 C16.66,6 18,7.34 18,9 L18,10.85 C18,11.15 18.31,11.33 18.58,11.22 C18.72,11.16 18.86,11.11 19,11.08 
+                C20.49,10.75 22,11.87 22,13.5 C22,15.13 20.49,16.25 19,15.92 C18.86,15.89 18.72,15.84 18.58,15.78 
+                C18.31,15.67 18,15.85 18,16.15 L18,19 C18,20.66 16.66,22 15,22 L9,22 C7.34,22 6,20.66 6,19 L6,16.15 
+                C6,15.85 5.69,15.67 5.42,15.78 C5.28,15.84 5.14,15.89 5,15.92 C3.51,16.25 2,15.13 2,13.5 C2,11.87 3.51,10.75 5,11.08 
+                C5.14,11.11 5.28,11.16 5.42,11.22 C5.69,11.33 6,11.15 6,10.85 L6,9 Z"/>
+            </svg>`;
+
+            var field = `
+                <div class="settings-folder selector" data-component="pirate_store" data-static="true">
+                    <div class="settings-folder__icon">${svgIcon}</div>
+                    <div class="settings-folder__name">${Lampa.Lang.translate('pirate_store')}</div>
+                    <div class="settings-folder__descr">${Lampa.Lang.translate('pirate_store_descr')}</div>
+                </div>`;
+
             Lampa.Settings.main().render().find('[data-component="more"]').after(field);
             Lampa.Settings.main().update();
         }
     }
+
+    // Обробка кліку
     Lampa.Settings.listener.follow('open', function(e) {
         if (e.name == 'main') {
             e.body.find('[data-component="pirate_store"]').on('hover:enter', function() {
@@ -24,11 +49,11 @@
             });
         }
     });
+
     if (window.appready) addStore();
     else {
         Lampa.Listener.follow('app', function(e) {
             if (e.type == 'ready') addStore();
         });
     }
-
 })();
