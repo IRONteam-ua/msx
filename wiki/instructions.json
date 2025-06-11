@@ -72,14 +72,14 @@
       }
     },
         {
-      "titleHeader": "{col:msx-white}Часті запитання",
+      "titleHeader": "{col:msx-white}Повна існстукція",
       "color": "transparent",
       "focus": true,
       "selection": {
         "important": true,
-        "action": "[update:content:overlay:text]",
-        "data": {
-          "text": "... ..."
+    "action": "[update:content:image]",
+    "data": {
+      "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png"
         }
       }
     }
