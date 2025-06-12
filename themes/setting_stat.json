@@ -78,7 +78,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Легка тема {col}{br}Легка тема без лівого меню",
-               "image": "https://ironteam-ua.github.io/msx/themes/lite/lite.jpg"
+               "image": "https://ironteam-ua.github.io/msx/themes/lite/light.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
@@ -99,7 +99,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Компактна тема {col}{br}Компактна тема зі зменшеними іконками програм",
-               "image": "https://ironteam-ua.github.io/msx/themes/lite/lite.jpg"
+               "image": "https://ironteam-ua.github.io/msx/themes/compact/compact.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/resize.png",
