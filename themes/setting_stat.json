@@ -56,7 +56,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основна тема {col}{br}Основная тема",
+               "text": "{col:msx-white}Основна тема {col}{br}",
                "image": "https://ironteam-ua.github.io/msx/themes/img/basic.jpg"
             }
          },
@@ -98,8 +98,8 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
-               "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
+               "text": "{col:msx-white}Компактна тема {col}{br}Компактна тема зі зменшеними іконками програм",
+               "image": "https://ironteam-ua.github.io/msx/themes/lite/lite.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/resize.png",
