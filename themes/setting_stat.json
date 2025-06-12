@@ -57,15 +57,36 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
+               "image": "https://ironteam-ua.github.io/msx/themes/img/basic.jpg"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/basic.png",
+         "action": "start",
+         "data": {
+            "name": "BASIC",
+            "version": "1.0.0",
+            "parameter": "content:ttps://ironteam-ua.github.io/msx/menu.json",
+            "welcome": "none"
+         }
+      },
+            {
+         "titleHeader": "{col:msx-white}ЛЕГКА ТЕМА",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
                "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
          "action": "start",
          "data": {
-            "name": "BASIC",
+            "name": "LIGHT",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu.json",
+            "parameter": "content:https://ironteam-ua.github.io/msx/themes/light.json",
             "welcome": "none"
          }
       },
