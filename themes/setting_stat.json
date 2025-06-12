@@ -56,7 +56,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
+               "text": "{col:msx-white}Основна тема {col}{br}Основная тема",
                "image": "https://ironteam-ua.github.io/msx/themes/img/basic.jpg"
             }
          },
@@ -77,7 +77,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
+               "text": "{col:msx-white}Легка тема {col}{br}Легка тема без лівого меню",
                "image": "https://ironteam-ua.github.io/msx/themes/img/lite.jpg"
             }
          },
@@ -86,7 +86,7 @@
          "data": {
             "name": "LIGHT",
             "version": "1.0.0",
-            "parameter": "content:https://ironteam-ua.github.io/msx/themes/light.json",
+            "parameter": "content:https://ironteam-ua.github.io/msx/themes/lite/lite.json",
             "welcome": "none"
          }
       },
