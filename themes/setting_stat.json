@@ -63,7 +63,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/basic.png",
          "action": "start",
          "data": {
-            "name": "BASIC",
+            "name": "ZUMO",
             "version": "1.0.0",
             "parameter": "content:ttps://ironteam-ua.github.io/msx/menu.json",
             "welcome": "none"
@@ -84,7 +84,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/lite.png",
          "action": "start",
          "data": {
-            "name": "LIGHT",
+            "name": "ZUMO-LIGHT",
             "version": "1.0.0",
             "parameter": "content:https://ironteam-ua.github.io/msx/themes/lite/lite.json",
             "welcome": "none"
@@ -105,7 +105,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/resize.png",
          "action": "start",
          "data": {
-            "name": "BASIC",
+            "name": "ZUMO-COMPACT",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/menu.json",
             "welcome": "none"
