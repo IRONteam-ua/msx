@@ -41,23 +41,6 @@
       "imageFiller": "cover"
    },
    "items": [
-      {
-         "color": "transparent",
-         "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Тема оформлення",
-               "text": "Вибір теми оформлення ZUMO"
-            }
-         },
-         "action": "panel:https://ironteam-ua.github.io/msx/themes/panel_tems.json",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}26th Item"
-         }
-      },
  {
          "selection": {
             "important": true,
@@ -581,6 +564,23 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/tutkinolite.jpg",
          "action": "link:http://lite.tutkino.fun/"
+      },
+	     {
+         "color": "transparent",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Тема оформлення",
+               "text": "Вибір теми оформлення ZUMO"
+            }
+         },
+         "action": "panel:https://ironteam-ua.github.io/msx/themes/panel_tems.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}26th Item"
+         }
       },
       {
          "offset": "0,2.5,11,0",
