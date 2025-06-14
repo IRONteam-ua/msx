@@ -259,8 +259,8 @@
                "text": "Подборки IPTV каналов из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
-         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
+         "image": "https://ironteam-ua.github.io/msx/img/tv.jpg",
+         "action": "content: https://ironteam-ua.github.io/msx/launshers/relax.json",
          "properties": {
             "trigger:back": "player:stop"
          }
