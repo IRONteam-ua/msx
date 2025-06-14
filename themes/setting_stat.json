@@ -107,7 +107,7 @@
          "data": {
             "name": "ZUMO-COMPACT",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu.json",
+            "parameter": "content:https://ironteam-ua.github.io/msx/themes/compact/menu.json",
             "welcome": "none"
          }
       },
