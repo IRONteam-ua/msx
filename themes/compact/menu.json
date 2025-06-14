@@ -106,7 +106,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa{col:yellow}|{col} NoName",
+               "headline": "Lampa {col:yellow}|{col} NoName",
                "text": "Налаштована для перегляду контенту онлайн."
             }
          },
@@ -371,18 +371,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa.png",
          "action": "link:http://lampa.byskaz.ru/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Lampa{col:yellow}|{col} NoName",
-               "text": "Настроенная для просмотра контента онлайн. Благодарим уважаемого Noname."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lampaNN.png",
-         "action": "link: http://lampa.nnmtv.pw/"
       },
       {
          "selection": {
