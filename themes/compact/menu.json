@@ -166,6 +166,105 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
          "action": "link:http://browser.appinfo.su/"
       },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lamp!she {col:yellow}|{col} Lite",
+               "text": "Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:grey}Програма не призначена для роботи через MediaStation X і може працювати некоректно. Для перегляду торентів потрібен TorrServe."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
+         "action": "link:https://web.lampishe.cc/"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "LAMPA land",
+               "text": "Мод програми Лампа{br}Програма вже налаштована для он-лайн перегляду та перегляду iptv"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_land.png",
+         "action": "link:http://lampa.land"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "DEEPLEX",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "GetsTV",
+               "text": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
+         "action": "link:http://getstv.com/app/"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YouTUBE",
+               "text": "Он-лайн-сервіс для хостингу та перегляду відео"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/youtube.png",
+         "action": "link:https://www.youtube.com/tv#/"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YOUTUBE KIDS",
+               "text": "Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/ytkids.png",
+         "action": "link:https://www.youtube.com/tv/kids"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "TikTok {col:yellow}",
+               "text": "Тільки WebOS{col}{br}Hеофіційний додаток для webOS"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/tiktok.png",
+         "action": "link:https://tv.tiktok.com/webos"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "RELAX",
+               "text": "Подборки IPTV каналов из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
+         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
+      },
       {
          "focus": true,
          "selection": {
@@ -244,18 +343,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "LAMPA land",
-               "text": "Мод программы Лампа{br}Программа уже настроенная для он-лайн просмотра и просмотра iptv"
-            }
-         },
-         "image": "https://wals09.github.io/msx/lampa_land/icon.png",
-         "action": "link:http://lampa.land"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "Lampset (Набор Ламп 😁)",
                "text": "Подборка приложения \"LAMPA\" с альтернативными адресами на случай \"падения\" оригинальной или для постоянного использования. {br} Воспользуйтесь сохранением и переносом настроек на сайте {col:msx-blue}cub.red {col}что-бы не настраивать приложение заново."
             }
@@ -296,7 +383,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Lampa by Skaz",
-               "text": "Ппрограмма Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина."
+               "text": "Программа Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa.png",
@@ -452,18 +539,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "DEEPLEX",
-               "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
-         "action": "link:http://smart.deeplex.cc/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "IMPIRE BOOM",
                "text": "ИмперияBOOM представляет собой упорядоченные ссылки на медиа-контент: фильмы, сериалы, мультфильмы, IPTV, радио и т.п."
             }
@@ -482,18 +557,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/kinoboom.png",
          "action": "execute:info:extended:http://kb-team.club/msx/enter.php"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "GetsTV",
-               "text": " Фильмы и Мультфильмы. Крупнейшая база на любой вкус, обновляется ежедневно, новинки появляются сразу после премьеры в кинотеатре."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
-         "action": "panel:http://lg.getstv.ru/msx/msx.json"
       },
       {
          "selection": {
@@ -543,90 +606,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/okko.png",
          "action": "link:http://lge.okko.tv"
       },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "RUTUBE-WEB",
-               "text": "Pоссийский онлайн-сервис для хостинга и просмотра видео"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/rutube.png",
-         "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Яндекс Видео",
-               "text": "«Яндекс Видео» — сервис поиск по видеороликам от Яндекса с возможностью просмотра большинства найденных роликов на странице результатов поиска. Поиск производится на сторонних видеохостингах и новостных интернет-ресурсах."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/yandex.png",
-         "action": "link:https://yandex.ru/video/tvapp/?ui=tvapp"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "TikTok {col:yellow}",
-               "text": "Только WebOS{col}{br}Hеофициальное приложение для webOS"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/tiktok.png",
-         "action": "link:https://tv.tiktok.com/webos"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "VK Video",
-               "text": "Шоу любимых блогеров, свежие фильмы и сериалы, любимые телеканалы, прямые эфиры, мультфильмы для детей, спортивные трансляции, музыкальные новинки и многое другое "
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/vk.png",
-         "action": "panel:https://wals09.github.io/msx/vkvideo/vk_template.json"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "СМОТРИМ-WEB",
-               "text": "Pоссийская государственная мультимедийная онлайн-платформа, разработанная крупнейшим государственным медиахолдингом «ВГТРК»"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/smotrim.png",
-         "action": "link:https://tv.smotrim.ru"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "YouTUBE",
-               "text": "Oнлайн-сервис для хостинга и просмотра видео"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/youtube.png",
-         "action": "link:https://www.youtube.com/tv#/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "YOUTUBE KIDS",
-               "text": "Oтдельная версия популярного видеохостинга Youtube, нацеленная исключительно на детей."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/ytkids.png",
-         "action": "link:https://www.youtube.com/tv/kids"
-      },
+ 
       {
          "selection": {
             "important": true,
@@ -638,21 +618,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/multiki.png",
          "action": "content:https://wals09.github.io/msx/welcome.json"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "RELAX",
-               "text": "Подборки IPTV каналов из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
-         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
-         "properties": {
-            "trigger:back": "player:stop"
-         }
       },
       {
          "selection": {
