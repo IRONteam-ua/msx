@@ -259,7 +259,7 @@
                "text": "Підбірка релаксуючих відео з інтернету{br}."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/relax.jpg",
+         "image": "https://ironteam-ua.github.io/msx/img/relax.png",
          "action": "content: https://ironteam-ua.github.io/msx/launchers/relax.json",
          "properties": {
             "trigger:back": "player:stop"
