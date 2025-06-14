@@ -65,7 +65,7 @@
          "data": {
             "name": "ZUMO",
             "version": "1.0.0",
-            "parameter": "content:ttps://ironteam-ua.github.io/msx/menu.json",
+            "parameter": "content:https://ironteam-ua.github.io/msx/menu.json",
             "welcome": "none"
          }
       },
