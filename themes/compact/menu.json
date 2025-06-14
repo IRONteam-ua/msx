@@ -256,7 +256,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "RELAX",
-               "text": "Подборки IPTV каналов из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
+               "text": "Підбірка релаксуючих відео з інтернету{br}."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/tv.jpg",
@@ -272,7 +272,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "DRM-play",
-               "text": "IPTV плеер с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Тестовый плейлист для ознакомления с функциями плеера."
+               "text": "IPTV плеєр із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. Тестовий плейлист для ознайомлення з функціями програвача."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/drm.png",
@@ -323,7 +323,7 @@
                "text": "Cервис, позволяющий собрать все ваше IP-телевидение в один плейлист, настроить порядок каналов, получить электронный программный гид."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/ottplayer.png",
+         "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
          "action": "link:http://widget.ottplayer.tv"
       },
       {
