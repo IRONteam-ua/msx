@@ -583,56 +583,6 @@
          "action": "link:http://lite.tutkino.fun/"
       },
       {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "KION",
-               "text": "Только WebOS. Нужна подписка{br}Оригинальные сериалы, тысячи фильмов и более 180 ТВ-каналов. Удобный интерфейс, одновременный просмотр на 5 устройствах, система рекомендаций и детский профиль с безопасным контентом. Добро пожаловать в мир захватывающих историй!"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/kion.png",
-         "action": "link:https://kion.ru/EPG/smarttvlg/index.html"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "OKKO",
-               "text": "Только WebOS. Нужна подписка{br}Смотрите фильмы, сериалы, мультфильмы, ТВ-каналы и спортивные трансляции. Ежедневное обновление каталога, популярные новинки и классика кино — всё в одном месте."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/okko.png",
-         "action": "link:http://lge.okko.tv"
-      },
- 
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "МУЛЬТИКИ",
-               "text": "Смотрим мультфильмы онлайн. Коллекция мультфильмов советских времен и не только. Самые лучшие мультики из вашего детства!"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/multiki.png",
-         "action": "content:https://wals09.github.io/msx/welcome.json"
-      },
-      {
-         "selection": {
-            "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Дискотека 80-х",
-               "text": "Интернет-трансляции, ТВ-версии выступления звёзд на «Дискотеке 80-х» Yotube-каналa Avtoradio @Disco80s"
-            }
-         },
-         "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
-         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/translation.json"
-      },
-      {
          "offset": "0,2.5,11,0",
          "color": "msx-black-soft",
          "label": "{ico:msx-white:shop-2} Альтернативные магазины лаунчеры {ico:msx-white:shop-2}",
