@@ -343,11 +343,11 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampset (Набор Ламп 😁)",
-               "text": "Подборка приложения \"LAMPA\" с альтернативными адресами на случай \"падения\" оригинальной или для постоянного использования. {br} Воспользуйтесь сохранением и переносом настроек на сайте {col:msx-blue}cub.red {col}что-бы не настраивать приложение заново."
+               "headline": "Lampa Launchers (Набор Lamp)",
+               "text": "Добірка \"LAMPA\" з альтернативними адресами на випадок \"падіння\" оригінальною або для постійного використання."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lampset.png",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_launchers.png",
          "action": "panel: https://wals09.github.io/msx/lampset/template.json",
          "properties": {
             "trigger:back": "player:stop"
