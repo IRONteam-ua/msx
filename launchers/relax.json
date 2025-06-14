@@ -276,7 +276,7 @@
             }
          },
          "icon": "grey:auto-awesome-motion",
-         "action": "menu: hhttps://ironteam-ua.github.io/msx/menu.json",
+         "action": "menu: https://ironteam-ua.github.io/msx/menu.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
