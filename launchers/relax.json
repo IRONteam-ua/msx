@@ -181,7 +181,7 @@
          },
          "playerLabel": "Зима",
          "image": "https://cache.desktopnexus.com/thumbseg/681/681229-bigthumbnail.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=nz7UGgr5epQ&t=79s",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=l4VEQpBcOgA",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
