@@ -408,7 +408,7 @@
          "image": "https://ironteam-ua.github.io/msx/img/zumo_tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
-	              {
+	      {
          "title": "Тема оформлення",
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
