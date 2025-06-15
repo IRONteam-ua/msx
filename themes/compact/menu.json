@@ -396,6 +396,18 @@
          "image": "https://ironteam-ua.github.io/msx/img/zumo_films.png",
          "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
       },
+	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ZUMO TV",
+               "text": "Перегляд онлайн телебачення від ZUMO"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/zumo_tv.png",
+         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
+      },
       {
          "offset": "0,2.5,11,0",
          "color": "msx-black-soft",
