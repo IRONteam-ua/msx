@@ -181,7 +181,7 @@
          },
          "playerLabel": "Зима",
          "image": "https://cache.desktopnexus.com/thumbseg/681/681229-bigthumbnail.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=nz7UGgr5epQ",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=nz7UGgr5epQ&t=79s",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -200,7 +200,7 @@
          },
          "playerLabel": "Камін",
          "image": "https://i.pinimg.com/736x/fc/33/92/fc3392cfa74c1ec65a52545d97d9f08e.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=g6Ye4xwXyAw",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=g6Ye4xwXyAw&t=49s",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
