@@ -48,7 +48,7 @@
          },
          "playerLabel": "Ніч ",
          "image": "https://ws.shoutcast.com/images/contacts/b/beeb/beeb1dbe-82f5-4a41-96e9-4819fa8501d2/radios/fa6eee6f-446c-4405-bb8d-7eec67b10115/fa6eee6f-446c-4405-bb8d-7eec67b10115.png",
-         "action": "video: http://iptv.prosto.tv:7000/ch349/video.m3u8",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=n7N3kWbIux0",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
