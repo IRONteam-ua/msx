@@ -295,7 +295,7 @@
          },
          "playerLabel": "Камін",
          "image": "https://i.pinimg.com/736x/fc/33/92/fc3392cfa74c1ec65a52545d97d9f08e.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id==mSX3OyW9Rao",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=mSX3OyW9Rao",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -314,7 +314,7 @@
          },
          "playerLabel": "Космос",
          "image": "https://i1.sndcdn.com/artworks-WlaDkVWOvRgZYL2r-NdKIDA-t500x500.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=ztVV54sPOns",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=ztVV54sPOns",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
