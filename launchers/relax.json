@@ -257,7 +257,7 @@
          },
          "playerLabel": "Акваріум",
          "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
-         "action": "video:play:http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+         "action": "video:resolve:request:interaction:http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4@http://msx.benzac.de/interaction/play.html",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
