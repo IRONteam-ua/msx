@@ -426,7 +426,7 @@
          }
       },   
       {
-         "offset": "0,2.5,5,0",
+         "offset": "0,2.5,3,0",
          "color": "msx-black-soft",
          "label": "{ico:msx-white:help} Інструкції {ico:msx-white:help}",
          "selection": {
