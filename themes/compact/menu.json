@@ -401,18 +401,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "NetFix",
-               "text": "NetFix - приложение (на базе программы Lampa) для просмотра фильмов и сериалов онлайн! Не требуется никаких настроек. Запустил и смотри. Просмотр торрентов не предусмотрен.{br}ВАЖНО: Нужна регистрация! Нужна оплаченная подписка! Есть тестовый период"
-            }
-         },
-         "image": "https://github.com/wals09/repo/blob/main/netfix/icon.png?raw=true",
-         "action": "link:http://netfix.cc"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "MOOVIES",
                "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций"
             }
