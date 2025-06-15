@@ -207,7 +207,7 @@
          }
       },
        {
-         "titleHeader": "{col:msx-white}Весна",
+         "titleHeader": "{col:msx-white}Весна ",
          "selection": {
             "important": true,
             "background": "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3NwcmluZy1lcXVpbm94LTMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0=",
@@ -226,7 +226,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Зима",
+         "titleHeader": "{col:msx-white}Зима ",
          "selection": {
             "important": true,
             "background": "https://www.desktopbackground.org/download/1920x1200/2010/05/04/12214_wallpapers-hd-winter_1920x1200_h.jpg",
@@ -245,7 +245,7 @@
          }
       },
         {
-         "titleHeader": "{col:msx-white}Осінь",
+         "titleHeader": "{col:msx-white}Осінь ",
          "selection": {
             "important": true,
             "background": "https://www.usatoday.com/gcdn/media/2020/09/11/USATODAY/usatsports/ghows_gallery-WL-822009996-7ffc2013.jpg?crop=1440,810,x0,y495&width=1440&height=810&format=pjpg&auto=webp",
@@ -258,6 +258,25 @@
          "playerLabel": "Осінь",
          "image": "https://simplyhelping.com.au/wp-content/uploads/2022/05/4-ways-to-use-autumn-leaves-in-your-garden-Blog-Image.jpg",
          "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=glENND73k4Q",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+              {
+         "titleHeader": "{col:msx-white}Літо ",
+         "selection": {
+            "important": true,
+            "background": "https://www.semispeech.com/wp-content/uploads/2017/07/beach.summer.smaller.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Літо",
+               "text": "{col:msx-white}{col}{br}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
+            }
+         },
+         "playerLabel": "Літо",
+         "image": "https://thumbs.dreamstime.com/b/summer-beach-5553479.jpg",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=u_gD5ErXOvc",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -296,6 +315,25 @@
          "playerLabel": "Космос",
          "image": "https://i1.sndcdn.com/artworks-WlaDkVWOvRgZYL2r-NdKIDA-t500x500.jpg",
          "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=ztVV54sPOns",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+            {
+         "titleHeader": "{col:msx-white}Поїзди ",
+         "selection": {
+            "important": true,
+            "background": "https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/train-3448-72edc8c66df509608c1e13f712a1436e@1x.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Поїзди",
+               "text": "{col:msx-white}{col}{br}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
+            }
+         },
+         "playerLabel": "Поїзди",
+         "image": "https://www.strathspeyrailway.co.uk/src_images/5025_on_strathspey_highland_rails_broomhill.jpg",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=mn65_rlabwQ",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
