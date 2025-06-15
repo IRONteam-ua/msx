@@ -219,7 +219,7 @@
          },
          "playerLabel": "Космос",
          "image": "https://i1.sndcdn.com/artworks-WlaDkVWOvRgZYL2r-NdKIDA-t500x500.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=Y_plhk1FUQA",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=X-XZx1o_w-A",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
