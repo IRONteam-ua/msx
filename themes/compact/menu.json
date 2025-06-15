@@ -393,7 +393,7 @@
                "text": "Перегляд онлайн фільмів від ZUMO"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/zumo_films.png",
+         "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
          "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
       },
 	    {
