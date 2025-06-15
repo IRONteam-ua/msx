@@ -444,131 +444,17 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/movielab.png",
          "action": "menu:https://movielab.fun/msx/menu.json"
       },
-      {
+	         {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Filmix Smart",
-               "text": "Онлайн кинотеатр. Фильмы, мультфильмы и сериалы в отличном качестве. {br}{col:gold}Требуется регистрация и аккаунт VIP | PRO"
+               "headline": "MOVIELAB",
+               "text": "Портал MOVIELAB на базе Media Station X. Просмотр видео контента on-line"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/filmix.png",
-         "action": "link:http://filmix.tv/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "КИНОПОИСК {col:yellow}(WebOS){col}",
-               "text": "Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/kinopoisk.png",
-         "action": "link:https://smarttv-app.ott.yandex.ru/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "KinoPUB",
-               "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме. Нужна регистрация и подписка"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/kinopub.png",
-         "action": "link:http://kpms.cc/bootstrap.html"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Kinopub_sdnSL",
-               "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме. Нужна регистрация и подписка.{br}Если предидущий не запустился попробуйте запустить этот"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/kinopub_green.png",
-         "action": "link:https://cdnservices.link"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "X-SMART TV",
-               "text": "Цифровая медиа платформа XSMART — это интернет каталог в виде приложения, где собрана информация о фильмах и сериалах, актерах и режиссерах. Вся информация в каталоге взята из открытых источников и предоставляются исключительно в ознакомительных целях.",
-               "image": "https://wals09.github.io/msx/xsmart/capture.gif"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/xsmart.png",
-         "action": "link:http://app.xsmart.tv"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "IMPIRE BOOM",
-               "text": "ИмперияBOOM представляет собой упорядоченные ссылки на медиа-контент: фильмы, сериалы, мультфильмы, IPTV, радио и т.п."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/impire_boom.png",
-         "action": "link:http://web.imboom.ru/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "KINOBOOM",
-               "text": "Просмотр видео контента из многих источников. Поиск контента (фильмы, сериалы, мультфильмы, аниме, тв-передачи).Выбора качества. KBC каналы. VIP подписка на три устройства "
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/kinoboom.png",
-         "action": "execute:info:extended:http://kb-team.club/msx/enter.php"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Tutkino",
-               "text": " Онлайн кинотеатр (vPlay мод). Доступ к сервису за донат"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/tutkino.jpg",
-         "action": "link:http://web.tutkino.fun/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Tutkino Lite",
-               "text": " Онлайн кинотеатр (Lampa_lite мод). Доступ к сервису за донат"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/tutkinolite.jpg",
-         "action": "link:http://lite.tutkino.fun/"
-      },
-	     {
-         "color": "transparent",
-         "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Тема оформлення",
-               "text": "Вибір теми оформлення ZUMO"
-            }
-         },
-         "action": "panel:https://ironteam-ua.github.io/msx/themes/panel_tems.json",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}26th Item"
-         }
+         "image": "https://ironteam-ua.github.io/msx/themes/img/movielab.png",
+         "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
       },
       {
          "offset": "0,2.5,11,0",
