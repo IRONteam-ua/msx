@@ -411,7 +411,7 @@
 	              {
          "title": "Тема оформлення",
          "color": "transparent",
-         "image": "https://ironteam-ua.github.io/msx/img/themes/img/theme_color.png",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -427,7 +427,7 @@
       {
          "offset": "0,2.5,11,0",
          "color": "msx-black-soft",
-         "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
+         "label": "{ico:msx-white:shop-2} Альтернативные магазины лаунчеры {ico:msx-white:shop-2}",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
