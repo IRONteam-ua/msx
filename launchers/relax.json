@@ -67,7 +67,7 @@
          },
          "playerLabel": "Ліс ",
          "image": "https://i1.sndcdn.com/artworks-C8hcDBSG4W2FDet1-5x1GVw-t500x500.jpg",
-         "action": "video: http://iptv.prosto.tv:7000/ch330/video.m3u8",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=RzVvThhjAKw",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -85,8 +85,8 @@
             }
          },
          "playerLabel": "Зоо",
-         "image": "https://avatars.mds.yandex.net/i?id=2a00000179f220bc4407242c6d7b33b0da59-4532852-images-thumbs&n=13",
-         "action": "video: http://iptv.prosto.tv:7000/ch319/video.m3u8",
+         "image": "https://www.gironde-tourisme.com/wp-content/uploads/wpetourisme/Photo-Zoo-du-Bassin-D--arcacho.jpg",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=y6N8u4OGgXk",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -104,8 +104,8 @@
             }
          },
          "playerLabel": "Водоспад",
-         "image": "https://cm.author.today/content/2022/08/19/e59ffb63955e4eefa64e6e7ad0f397e6.jpeg?height=750&width=750&rmode=max",
-         "action": "video: http://iptv.prosto.tv:7000/ch329/video.m3u8",
+         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqqa2_xD0Kppw5ICsGAhaSRGJSpNVS9w1j-w&s",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=sa2JCQ1Dils",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -123,8 +123,8 @@
             }
          },
          "playerLabel": "Дощі",
-         "image": "https://masterpiecer-images.s3.yandex.net/737142c4618f11ee97791e2a02a7791f:upscaled",
-         "action": "video: http://iptv.prosto.tv:7000/ch304/video.m3u8",
+         "image": "https://static.vecteezy.com/system/resources/thumbnails/042/146/518/small_2x/ai-generated-beautiful-rain-day-view-photo.jpg",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=qe3l1rvJMlA",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -143,7 +143,7 @@
          },
          "playerLabel": "Loupe 4K",
          "image": "https://i.pinimg.com/736x/22/c5/6d/22c56d0c04821d28fcecbefe7cedd131.jpg",
-         "action": "video: https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=L3Dp4oGkn3k",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -161,8 +161,8 @@
             }
          },
          "playerLabel": "Підводний світ",
-         "image": "https://avatars.mds.yandex.net/i?id=2268dbd8aad0287652b779d9e3332956-5220772-images-thumbs&n=13",
-         "action": "video: http://iptv.prosto.tv:7000/ch305/video.m3u8",
+         "image": "https://specials-images.forbesimg.com/imageserve/6623c8a5c7651d771e35e39f/An-image-of-an-Atlantic-sailfish-being-confused-by-a-school-of-sardines/960x0.jpg?fit=scale",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=QCL7VXuO35g",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -180,8 +180,8 @@
             }
          },
          "playerLabel": "Зима",
-         "image": "https://ландшафт-пенза.рф/wp-content/uploads/2020/01/79789916_753231711753783_8973320594941288760_n.jpg",
-         "action": "video: https://iptv.prosto.tv/ch327/video.m3u8",
+         "image": "https://cache.desktopnexus.com/thumbseg/681/681229-bigthumbnail.jpg",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=nz7UGgr5epQ",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -200,7 +200,7 @@
          },
          "playerLabel": "Камін",
          "image": "https://i.pinimg.com/736x/fc/33/92/fc3392cfa74c1ec65a52545d97d9f08e.jpg",
-         "action": "video: https://i.mjh.nz/SamsungTVPlus/USBA3800004EL.m3u8",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=g6Ye4xwXyAw",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -219,7 +219,7 @@
          },
          "playerLabel": "Космос",
          "image": "https://i1.sndcdn.com/artworks-WlaDkVWOvRgZYL2r-NdKIDA-t500x500.jpg",
-         "action": "video: http://iptv.prosto.tv:7000/ch314/video.m3u8",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=Y_plhk1FUQA",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -238,7 +238,7 @@
          },
          "playerLabel": "Природа",
          "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
-         "action": "video: http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=UV0mhY2Dxr0",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -256,8 +256,8 @@
             }
          },
          "playerLabel": "Акваріум",
-         "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
-         "action": "video:resolve:request:interaction:http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4@http://msx.benzac.de/interaction/play.html",
+         "image": "https://petsworld.in/cdn/shop/articles/Ornamental-Fish-For-Aquarium_520x500_520x500_bbf41df8-b9a4-46cf-b59e-28dab14a9334.jpg?v=1734681006",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=XVkADAwOXnU&t=498s",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
