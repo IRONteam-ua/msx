@@ -389,36 +389,12 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "VoKINO",
-               "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
-            }
-         },
-         "image": "https://github.com/wals09/msx/blob/main/logo/vokino.png?raw=true",
-         "action": "link: http://web.vokino.tv/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "MOOVIES",
                "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
          "action": "menu:request:interaction:init@http://moovies.uz/index.html"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "TVOЁ",
-               "text": "Платный онлайн кинотеатр. Требуется регистрация. Есть пробный период. {br}Приложение на этапе разработки и может работать нестабильно или с ошибками. Опубликовано для ознакомления с программой"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/tvoe.png",
-         "action": "link:https://tv-old.tvoe.live"
       },
       {
          "selection": {
