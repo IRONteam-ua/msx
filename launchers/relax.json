@@ -333,7 +333,7 @@
          },
          "playerLabel": "Поїзди",
          "image": "https://www.strathspeyrailway.co.uk/src_images/5025_on_strathspey_highland_rails_broomhill.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=mn65_rlabwQ",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=mn65_rlabwQ&t=118s",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
