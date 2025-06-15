@@ -77,7 +77,7 @@
          "titleHeader": "{col:msx-white}Зоо ",
          "selection": {
             "important": true,
-            "background": "https://live.staticflickr.com/7296/13937018640_8e5d17b63f_b.jpg",
+            "background": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/26C5/production/_129852990_gettyimages-1246056671.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Зоо",
@@ -191,7 +191,7 @@
          "titleHeader": "{col:msx-white}Природа ",
          "selection": {
             "important": true,
-            "background": "https://img.goodfon.com/original/1920x1080/8/e5/peizazh-priroda-ozero-gory-les-voda-nebo-krasota.jpg",
+            "background": "https://img.freepik.com/free-photo/morskie-oko-tatry_1204-510.jpg?semt=ais_items_boosted&w=740",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Природа",
@@ -200,7 +200,7 @@
          },
          "playerLabel": "Природа",
          "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=KJwYBJMSbPI",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=KJwYBJMSbPI",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -219,7 +219,7 @@
          },
          "playerLabel": "Весна",
          "image": "https://i.insider.com/5e70da54235c1800a478283c?width=800&format=jpeg&auto=webp",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=l4VEQpBcOgA",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=l4VEQpBcOgA",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -238,7 +238,7 @@
          },
          "playerLabel": "Зима",
          "image": "https://cache.desktopnexus.com/thumbseg/681/681229-bigthumbnail.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=l4VEQpBcOgA",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=l4VEQpBcOgA",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -257,7 +257,7 @@
          },
          "playerLabel": "Осінь",
          "image": "https://simplyhelping.com.au/wp-content/uploads/2022/05/4-ways-to-use-autumn-leaves-in-your-garden-Blog-Image.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=glENND73k4Q",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=glENND73k4Q",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -276,7 +276,7 @@
          },
          "playerLabel": "Камін",
          "image": "https://i.pinimg.com/736x/fc/33/92/fc3392cfa74c1ec65a52545d97d9f08e.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=mSX3OyW9Rao",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id==mSX3OyW9Rao",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
