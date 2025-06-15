@@ -239,7 +239,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "RELAX",
-               "text": "Підбірка релаксуючих відео з інтернету{br}."
+               "text": "Підбірка релаксуючих відео з інтернету."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
