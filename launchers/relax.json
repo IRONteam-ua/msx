@@ -150,7 +150,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}ППідводний світ ",
+         "titleHeader": "{col:msx-white}Підводний світ ",
          "selection": {
             "important": true,
             "background": "https://gas-kvas.com/grafic/uploads/posts/2023-10/1696440217_gas-kvas-com-p-kartinki-podvodnii-mir-40.jpg",
@@ -257,7 +257,7 @@
          },
          "playerLabel": "Акваріум",
          "image": "https://akvamir72.ru/wa-data/public/shop/products/97/18/1897/images/2371/2371.970.jpg",
-         "action": "video: http://iptv.prosto.tv:7000/ch325/video.m3u8",
+         "action": "video: http://school1-2-3.lviv.ua/video_stream/aquarium/aquarium.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
