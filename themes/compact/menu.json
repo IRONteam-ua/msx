@@ -428,7 +428,7 @@
       {
          "offset": "0,2.5,5,0",
          "color": "msx-black-soft",
-         "label": "{ico:msx-white:help} Альтернативные магазины лаунчеры {ico:msx-white:shop-2}",
+         "label": "{ico:msx-white:help} Інструкції {ico:msx-white:help}",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -437,7 +437,7 @@
                "text": " Альтернативные MSX магазины / лаунчеры"
             }
          },
-         "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html",
+         "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.json",
          "properties": {
             "trigger:back": "player:stop"
          }
