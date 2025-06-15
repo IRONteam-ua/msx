@@ -238,7 +238,7 @@
          },
          "playerLabel": "Природа",
          "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=UV0mhY2Dxr0",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=UV0mhY2Dxr0&t=3700s",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
