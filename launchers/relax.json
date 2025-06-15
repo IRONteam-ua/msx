@@ -206,6 +206,25 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
+       {
+         "titleHeader": "{col:msx-white}Весна",
+         "selection": {
+            "important": true,
+            "background": "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3NwcmluZy1lcXVpbm94LTMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0=",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Весна",
+               "text": "{col:msx-white}{col}{br}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
+            }
+         },
+         "playerLabel": "Весна",
+         "image": "https://i.insider.com/5e70da54235c1800a478283c?width=800&format=jpeg&auto=webp",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=l4VEQpBcOgA",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
       {
          "titleHeader": "{col:msx-white}Зима",
          "selection": {
