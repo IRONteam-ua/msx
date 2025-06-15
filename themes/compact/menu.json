@@ -408,10 +408,26 @@
          "image": "https://ironteam-ua.github.io/msx/img/zumo_tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
+	              {
+         "title": "Тема оформлення",
+         "color": "transparent",
+         "image": "https://ironteam-ua.github.io/msx/img/themes/img/theme_color.png",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "{col:msx-white}Вибір теми оформлення ZUMO"
+            }
+         },
+         "action": "panel:https://ironteam-ua.github.io/msx/themes/thems.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
+      },
       {
          "offset": "0,2.5,11,0",
          "color": "msx-black-soft",
-         "label": "{ico:msx-white:shop-2} Альтернативные магазины лаунчеры {ico:msx-white:shop-2}",
+         "image": "https://ironteam-ua.github.io/msx/img/themes/img/theme_color.png",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -420,7 +436,7 @@
                "text": " Альтернативные MSX магазины / лаунчеры"
             }
          },
-         "action": "panel:https://wals09.github.io/msx/alterstore/template.json",
+         "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html",
          "properties": {
             "trigger:back": "player:stop"
          }
