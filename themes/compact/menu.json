@@ -408,22 +408,23 @@
          "image": "https://ironteam-ua.github.io/msx/img/zumo_tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
-	      {
-         "title": "Тема оформлення",
+	     {
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-white}Вибір теми оформлення ZUMO"
+               "headline": "Тема оформлення",
+               "text": "Вибір теми оформлення ZUMO"
             }
          },
          "action": "panel:https://ironteam-ua.github.io/msx/themes/thems.json",
          "properties": {
-            "trigger:back": "player:stop"
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}26th Item"
          }
-      },
+      },   
       {
          "offset": "0,2.5,11,0",
          "color": "msx-black-soft",
