@@ -263,9 +263,9 @@
    "options": {
       "autoplay": true,
       "controls": true,
-      "forceHLS": true  // якщо MSX підтримує
+      "forceHLS": true
    }
-}
+},
    "properties": {
       "trigger:back": "player:stop"
    }
