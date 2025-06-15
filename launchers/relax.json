@@ -219,7 +219,7 @@
          },
          "playerLabel": "Весна",
          "image": "https://i.insider.com/5e70da54235c1800a478283c?width=800&format=jpeg&auto=webp",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=l4VEQpBcOgA",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=TpRugSI9P1o",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
