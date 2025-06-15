@@ -449,11 +449,11 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "MOVIELAB",
-               "text": "Портал MOVIELAB на базе Media Station X. Просмотр видео контента on-line"
+               "headline": "ZUMO films",
+               "text": "Перегляд онлайн фільмів від ZUMO"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/movielab.png",
+         "image": "https://ironteam-ua.github.io/msx/img/zumo_films.png",
          "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
       },
       {
