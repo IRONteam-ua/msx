@@ -244,32 +244,25 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-{
-   "titleHeader": "{col:msx-white}Акваріум",
-   "selection": {
-      "important": true,
-      "background": "https://fanfishka.ru/uploads/posts/2017-06/1498067219_fish-wallpapers-background.jpg",
-      "action": "update:content:underlay:text",
-      "data": {
-         "headline": "Акваріум",
-         "text": "{col:msx-white}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
-      }
-   },
-   "playerLabel": "Акваріум",
-   "image": "https://akvamir72.ru/wa-data/public/shop/products/97/18/1897/images/2371/2371.970.jpg",
-   "action": {
-   "type": "video:play",
-   "source": "http://school1-2-3.lviv.ua/video_stream/aquarium/aquarium.m3u8",
-   "options": {
-      "autoplay": true,
-      "controls": true,
-      "forceHLS": true
-   }
-},
-   "properties": {
-      "trigger:back": "player:stop"
-   }
-},
+      {
+         "titleHeader": "{col:msx-white}Акваріум",
+         "selection": {
+            "important": true,
+            "background": "https://fanfishka.ru/uploads/posts/2017-06/1498067219_fish-wallpapers-background.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Акваріум",
+               "text": "{col:msx-white}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
+            }
+         },
+         "playerLabel": "Акваріум",
+         "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
+         "action": "video:play:http://school1-2-3.lviv.ua/video_stream/aquarium/aquarium.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
       {
          "offset": "0,3,-2,-0.09",
          "color": "transparent",
