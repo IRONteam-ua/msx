@@ -257,7 +257,7 @@
          },
          "playerLabel": "Акваріум",
          "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
-         "action": "video:play:http://school1-2-3.lviv.ua/video_stream/aquarium/aquarium.m3u8",
+         "action": "video:play:https://www.youtube.com/watch?v=n7N3kWbIux0",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
