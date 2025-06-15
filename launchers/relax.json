@@ -168,6 +168,44 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
+            {
+         "titleHeader": "{col:msx-white}Акваріум",
+         "selection": {
+            "important": true,
+            "background": "https://fanfishka.ru/uploads/posts/2017-06/1498067219_fish-wallpapers-background.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Акваріум",
+               "text": "{col:msx-white}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
+            }
+         },
+         "playerLabel": "Акваріум",
+         "image": "https://petsworld.in/cdn/shop/articles/Ornamental-Fish-For-Aquarium_520x500_520x500_bbf41df8-b9a4-46cf-b59e-28dab14a9334.jpg?v=1734681006",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=XVkADAwOXnU&t=498s",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+        {
+         "titleHeader": "{col:msx-white}Природа ",
+         "selection": {
+            "important": true,
+            "background": "https://img.goodfon.com/original/1920x1080/8/e5/peizazh-priroda-ozero-gory-les-voda-nebo-krasota.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Природа",
+               "text": "{col:msx-white}{col}{br}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
+            }
+         },
+         "playerLabel": "Природа",
+         "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=KJwYBJMSbPI",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
       {
          "titleHeader": "{col:msx-white}Зима",
          "selection": {
@@ -182,6 +220,25 @@
          "playerLabel": "Зима",
          "image": "https://cache.desktopnexus.com/thumbseg/681/681229-bigthumbnail.jpg",
          "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=l4VEQpBcOgA",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+        {
+         "titleHeader": "{col:msx-white}Осінь",
+         "selection": {
+            "important": true,
+            "background": "https://www.usatoday.com/gcdn/media/2020/09/11/USATODAY/usatsports/ghows_gallery-WL-822009996-7ffc2013.jpg?crop=1440,810,x0,y495&width=1440&height=810&format=pjpg&auto=webp",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Осінь",
+               "text": "{col:msx-white}{col}{br}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
+            }
+         },
+         "playerLabel": "Осінь",
+         "image": "https://simplyhelping.com.au/wp-content/uploads/2022/05/4-ways-to-use-autumn-leaves-in-your-garden-Blog-Image.jpg",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=glENND73k4Q",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -220,44 +277,6 @@
          "playerLabel": "Космос",
          "image": "https://i1.sndcdn.com/artworks-WlaDkVWOvRgZYL2r-NdKIDA-t500x500.jpg",
          "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=ztVV54sPOns",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}Природа ",
-         "selection": {
-            "important": true,
-            "background": "https://img.goodfon.com/original/1920x1080/8/e5/peizazh-priroda-ozero-gory-les-voda-nebo-krasota.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Природа",
-               "text": "{col:msx-white}{col}{br}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
-            }
-         },
-         "playerLabel": "Природа",
-         "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=watch?v=KJwYBJMSbPI",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}Акваріум",
-         "selection": {
-            "important": true,
-            "background": "https://fanfishka.ru/uploads/posts/2017-06/1498067219_fish-wallpapers-background.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Акваріум",
-               "text": "{col:msx-white}Неймовірна краса природи та відео подорожі для розслаблення, сну, медитації, йоги, масажу та спа."
-            }
-         },
-         "playerLabel": "Акваріум",
-         "image": "https://petsworld.in/cdn/shop/articles/Ornamental-Fish-For-Aquarium_520x500_520x500_bbf41df8-b9a4-46cf-b59e-28dab14a9334.jpg?v=1734681006",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=XVkADAwOXnU&t=498s",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
