@@ -1,1 +1,17 @@
-{"headline":"ZUMO Films","menu":[{"icon":"home","label":"Головна","background":"http://msx.benzac.de/img/bg1.jpg","data":"https://ironteam-ua.github.io//msx/zumo_films/catalog"},{"icon":"search","label":"Пошук","data":"request:interaction:init@https://ironteam-ua.github.io//msx/zumo_films/search.html"}]}
+{
+  "headline":"ZUMO Films",
+  "menu":
+  [
+    {
+      "icon":"home",
+      "label":"Головна",
+      "background":"http://msx.benzac.de/img/bg1.jpg",
+      "data":"https://ironteam-ua.github.io/msx/zumo_films/catalog"
+    },
+    {
+      "icon":"search",
+      "label":"Пошук",
+      "data":"request:interaction:init@https://ironteam-ua.github.io/msx/zumo_films/search.html"
+    }
+  ]
+}
