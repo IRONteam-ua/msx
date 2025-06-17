@@ -393,7 +393,7 @@
                "text": "Перегляд онлайн телебачення від ZUMO"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/img/zumo_tv.png",
+         "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
 	     {
