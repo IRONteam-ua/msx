@@ -226,18 +226,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "TikTok {col:yellow}",
-               "text": "Тільки WebOS{col}{br}Hеофіційний додаток для webOS"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/tiktok.png",
-         "action": "link:https://tv.tiktok.com/webos"
-      },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "RELAX",
                "text": "Підбірка релаксуючих відео з інтернету."
             }
