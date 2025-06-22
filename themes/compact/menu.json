@@ -409,11 +409,11 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "AlterSTORE",
+               "headline": "Інструкції",
                "text": " Альтернативные MSX магазины / лаунчеры"
             }
          },
-         "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.json",
+         "action": "https://ironteam-ua.github.io/msx/wiki/instructions.json",
          "properties": {
             "trigger:back": "player:stop"
          }
