@@ -16,10 +16,11 @@
          {
             "id": "text",
             "type": "space",
+            "scroll": true,
             "layout": "4,0,4,6",
             "offset": "0,0.3,0,0",
             "headline": "",
-              "text": "{col:white}«LAMPA land»{col}{br} Мод програми Лампа{br}Програма вже налаштована для он-лайн перегляду та перегляду iptv {br}{col:white}«Lampa lite»{col}{br} Налаштована програма Lampa lit {br}{col:white}«Lamp!she»{col}{br} Відмінний мод додаток. Програма розроблена для Android та Google TV. {br}{col:white}«Khuyampa best», «Cf lampa mx», «Lampa stream»{col}{br}\"LAMPA\" з альтернативними адресами {br}{col:white}«Bwa-cloud»{col}{br}\"LAMPA\" з альтернативною адресою. Встановлено плагінт online {b}{col:white}«Bwa-cloud top»{col}{br}\"LAMPA\" з альтернативною адресою. Встановлено плагіни online, парсер, а також \"Lampa skaz tv\", \"Lampa land\" з альтернативною адресою. Встановлено плагіні online, парсер, торрсервер, IPTV"
+            "text": "{col:white}«LAMPA land»{col}{br}Мод програми Лампа{br}Програма вже налаштована для он-лайн перегляду та перегляду IPTV{br}{col:white}«Lampa lite»{col}{br}Налаштована програма Lampa lite{br}{col:white}«Lamp!she»{col}{br}Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:white}«Khuyampa best», «Cf lampa mx», «Lampa stream»{col}{br}\"LAMPA\" з альтернативними адресами{br}{col:white}«Bwa-cloud»{col}{br}\"LAMPA\" з альтернативною адресою. Встановлено плагін online{br}{col:white}«Bwa-cloud top»{col}{br}\"LAMPA\" з альтернативною адресою. Встановлено плагіни online, парсер, а також \"Lampa skaz tv\", \"Lampa land\" з альтернативною адресою. Встановлено плагіни online, парсер, торрсервер, IPTV"
          }
       ]
    },
@@ -37,12 +38,12 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_land.png",
          "action": "link: http://lite.nnmtv.pw/"
       },
-            {
+      {
          "badge": "Lampa lite",
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_lite.png",
          "action": "link: http://lite.nnmtv.pw/"
       },
-            {
+      {
          "badge": "Lamp!she",
          "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
          "action": "link: https://web.lampishe.cc"
