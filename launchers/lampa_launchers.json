@@ -19,7 +19,7 @@
             "scroll": true,
             "layout": "4,0,4,6",
             "offset": "0,0.3,0,0",
-            "text": "{col:white}«LAMPA land»{col}{br}LAMPA land вже налаштована{br}{col:white}«Lampa lite»{col}{br}Налаштована програма Lampa lite{br}{col:white}«Lamp!she»{col}{br}Програма розроблена для Android та Google TV.{br}{col:white} «Lampa stream», «Khuyampa best», «Cf lampa mx»{col}{br}\"LAMPA\" з альтернативними адресами{br}\"LAMPA\" з альтернативною адресою. Встановлено плагін online{br}{col:white}«Bwa-cloud top»{col}{br}Встановлено плагіни online, парсер, а також \"Lampa skaz tv\", \"Lampa land\". Встановлено плагіни online, парсер, торрсервер, IPTV"
+            "text": "{col:white}«LAMPA land»{col}{br}Налаштована для перегляду контенту онлайн.{br}{col:white}«LAMPA land»{col}{br}LAMPA land вже налаштована{br}{col:white}«Lampa lite»{col}{br}Налаштована програма Lampa lite{br}{col:white}«Lamp!she»{col}{br}Програма розроблена для Android та Google TV.{br}{col:white} «Lampa stream», «Khuyampa best», «Cf lampa mx»{col}{br}\"LAMPA\" з альтернативними адресами{br}\"LAMPA\" з альтернативною адресою. Встановлено плагін online{br}{col:white}«Bwa-cloud top»{col}{br}Встановлено плагіни online, парсер, а також \"Lampa skaz tv\", \"Lampa land\". Встановлено плагіни online, парсер, торрсервер, IPTV"
          }
       ]
    },
@@ -32,6 +32,11 @@
       "color": "transparent"
    },
    "items": [
+            {
+         "badge": "Lampa | NoName",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lampaNN.png",
+         "action": "link: http://lampa.nnmtv.pw/"
+      },
       {
          "badge": "LAMPA land",
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_land.png",
