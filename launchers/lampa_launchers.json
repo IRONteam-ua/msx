@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "headline": "Lampset",
+   "headline": "Lampa Launchers",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "preload": "next",
    "captionUnderlay": 1,
@@ -19,7 +19,7 @@
             "layout": "4,0,4,6",
             "offset": "0,0.3,0,0",
             "headline": "",
-              "text": "{col:white}«Khuyampa best», «Cf lampa mx», «Lampa stream»{col}{br}\"LAMPA\" с альтернативными адресaми {br}{br}{col:white}«Bwa-cloud»{col}{br}\"LAMPA\" з альтернативною адресою. Встановлено плагіни online{b}{col:white}«Bwa-cloud top»{col}{br}\"LAMPA\" з альтернативною адресою. Встановлено плагіни online, парсер, а також \"Lampa skaz tv\", \"Lampa land\" з альтернативною адресою. Встановлено плагіни online, парсер, торрсервер, IPTV"
+              "text": "{col:white}«Khuyampa best», «Cf lampa mx», «Lampa stream»{col}{br}\"LAMPA\" з альтернативними адресами {br}{col:white}«Bwa-cloud»{col}{br}\"LAMPA\" з альтернативною адресою. Встановлено плагіні online{b}{col:white}«Bwa-cloud top»{col}{br}\"LAMPA\" з альтернативною адресою. Встановлено плагіні online, парсер, а також \"Lampa skaz tv\", \"Lampa land\" з альтернативною адресою. Встановлено плагіні online, парсер, торрсервер, IPTV"
          }
       ]
    },
