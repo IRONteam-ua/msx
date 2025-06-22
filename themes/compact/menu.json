@@ -106,18 +106,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa {col:yellow}|{col} NoName",
-               "text": "Налаштована для перегляду контенту онлайн."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lampaNN.png",
-         "action": "link: http://lampa.nnmtv.pw/"
-      },
-	    {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "Forkplayer New",
                "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
             }
