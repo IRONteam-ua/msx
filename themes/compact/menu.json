@@ -113,18 +113,6 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampaNN.png",
          "action": "link: http://lampa.nnmtv.pw/"
       },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Lampa lite {col:yellow}|{col} Lite",
-               "text": "Налаштована програма Lampa lite"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_lite.png",
-         "action": "link:http://lite.nnmtv.pw/"
-      },
 	    {
          "selection": {
             "important": true,
@@ -148,18 +136,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
          "action": "link:http://browser.appinfo.su/"
-      },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Lamp!she {col:yellow}|{col} Lite",
-               "text": "Відмінний мод додаток. Програма розроблена для Android та Google TV.{br}{col:grey}Програма не призначена для роботи через MediaStation X і може працювати некоректно. Для перегляду торентів потрібен TorrServe."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
-         "action": "link:https://web.lampishe.cc/"
       },
 	        {
          "selection": {
@@ -314,7 +290,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa Launchers (Набор Lamp)",
+               "headline": "Lampa Launchers (Набір Lamp)",
                "text": "Добірка \"LAMPA\" з альтернативними адресами на випадок \"падіння\" оригінальною або для постійного використання."
             }
          },
@@ -335,18 +311,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa.png",
          "action": "link:http://lampa.byskaz.ru/"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Lampa lite {col:yellow}|{col} NoName",
-               "text": "Настроенная программа Lampa lite «готовая к употреблению». Благодарим уважаемого Noname"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_lite.png",
-         "action": "link:http://lite.nnmtv.pw/"
       },
       {
          "selection": {
