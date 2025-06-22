@@ -11,7 +11,7 @@
     {
       "icon":"search",
       "label":"Пошук",
-      "data":"request:interaction:init@https://ironteam-ua.github.io/msx/zumo_films/search.html"
+      "data":"request:interaction:init@https://movielab.fun/search.html"
     }
   ]
 }
