@@ -295,22 +295,10 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_launchers.png",
-         "action": "panel: https://wals09.github.io/msx/lampset/template.json",
+         "action": "panel: https://ironteam-ua.github.io/msx/launchers/lampa_launchers.json",
          "properties": {
             "trigger:back": "player:stop"
          }
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Lampa by Skaz",
-               "text": "Программа Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa.png",
-         "action": "link:http://lampa.byskaz.ru/"
       },
       {
          "selection": {
@@ -377,7 +365,7 @@
                "text": " Альтернативные MSX магазины / лаунчеры"
             }
          },
-         "action": "https://ironteam-ua.github.io/msx/wiki/instructions.json",
+         "action": "panel: https://ironteam-ua.github.io/msx/wiki/instructions.json",
          "properties": {
             "trigger:back": "player:stop"
          }
