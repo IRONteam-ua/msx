@@ -142,18 +142,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "LAMPA land",
-               "text": "Мод програми Лампа{br}Програма вже налаштована для он-лайн перегляду та перегляду iptv"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_land.png",
-         "action": "link:http://lampa.land"
-      },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "DEEPLEX",
                "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
             }
@@ -365,7 +353,7 @@
                "text": " Альтернативные MSX магазины / лаунчеры"
             }
          },
-         "action": "panel: https://ironteam-ua.github.io/msx/wiki/instructions.json",
+         "action": "https://ironteam-ua.github.io/msx/wiki/instructions.json",
          "properties": {
             "trigger:back": "player:stop"
          }
