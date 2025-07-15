@@ -107,19 +107,19 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-	         {
+	   {
+         "title": "Lampa Launchers (Набір Lamp) ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa Launchers (Набір Lamp)",
-               "text": "Добірка \"LAMPA\" з альтернативними адресами на випадок \"падіння\" оригінальною або для постійного використання."
+               "headline": "Моди Ламп"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_launchers.png",
          "action": "panel: https://ironteam-ua.github.io/msx/launchers/lampa_launchers.json",
          "properties": {
-            "trigger:back": "player:stop"
+            "image:extension": "| {col:msx-white}27th Item"
          }
       },
 	   	        {
