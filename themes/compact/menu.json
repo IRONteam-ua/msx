@@ -41,7 +41,19 @@
       "imageFiller": "cover"
    },
    "items": [
-	  	    {
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "MOOVIES",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
+         "action": "menu:request:interaction:init@http://moovies.uz/index.html"
+      },	    
+	   {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -276,24 +288,12 @@
             "trigger:back": "player:stop"
          }
       },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "MOOVIES",
-               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
-         "action": "menu:request:interaction:init@http://moovies.uz/index.html"
-      },
 	         {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ZUMO films",
+               "headline": "ZUMO Films",
                "text": "Перегляд онлайн фільмів від ZUMO"
             }
          },
