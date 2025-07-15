@@ -122,6 +122,18 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
+	   {
+            "title": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
+            "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "{col:msx-white} GetsTV"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
+         "action": "link:http://getstv.com/app/"
+      },
 	   	   {
          "selection": {
             "important": true,
@@ -145,18 +157,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
          "action": "link:http://browser.appfxml.com/"
-      },
-	   	        {
-            "title": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-            "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "{col:msx-white} GetsTV"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
-         "action": "link:http://getstv.com/app/"
       },
 	        {
          "selection": {
