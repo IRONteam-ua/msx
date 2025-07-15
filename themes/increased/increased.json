@@ -111,7 +111,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-white} GetsTV",
+               "headline": "{col:msx-white} GetsTV"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
