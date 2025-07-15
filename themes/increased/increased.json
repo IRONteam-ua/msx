@@ -38,7 +38,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Мод програми Lampa з встановленим магазином плагінів"
+               "headline": "Oнлайн фільми, серіали, торренти, iptv"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/bylampa.png",
@@ -53,7 +53,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Додаток-каталог. Не містить медіаконтенту, але при підключенні плагінів (див. інструкцію) легко трансформується в онлайн кінотеатр"
+               "headline": "Oнлайн фільми, серіали, торренти, iptv"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa.png",
@@ -68,7 +68,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Додаток для перегляду різного медіаконтенту"
+               "headline": "Oнлайн фільми, серіали, торренти"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
@@ -83,7 +83,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "ATODO-web",
-               "text": "Web версія програми ATODO. Перегляд різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів"
+               "text": "Oнлайн фільми, серіали, торренти"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
