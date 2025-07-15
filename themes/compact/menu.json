@@ -201,45 +201,6 @@
          "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "YouTUBE",
-               "text": "Он-лайн-сервіс для хостингу та перегляду відео"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/youtube.png",
-         "action": "link:https://www.youtube.com/tv#/"
-      },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "YOUTUBE KIDS",
-               "text": "Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/ytkids.png",
-         "action": "link:https://www.youtube.com/tv/kids"
-      },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "RELAX",
-               "text": "Підбірка релаксуючих відео з інтернету."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
-         "action": "content: https://ironteam-ua.github.io/msx/launchers/relax.json",
-         "properties": {
-            "trigger:back": "player:stop"
-         }
-      },
       {
          "selection": {
             "important": true,
@@ -311,6 +272,45 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
          "action": "link:http://webos.oneplayer.me"
+      },
+	      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YouTUBE",
+               "text": "Он-лайн-сервіс для хостингу та перегляду відео"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/youtube.png",
+         "action": "link:https://www.youtube.com/tv#/"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YOUTUBE KIDS",
+               "text": "Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/ytkids.png",
+         "action": "link:https://www.youtube.com/tv/kids"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "RELAX",
+               "text": "Підбірка релаксуючих відео з інтернету."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
+         "action": "content: https://ironteam-ua.github.io/msx/launchers/relax.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
       },
 	     {
          "color": "transparent",
