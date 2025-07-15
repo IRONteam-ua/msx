@@ -46,18 +46,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "DEEPLEX",
-               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
-         "action": "link:http://smart.deeplex.cc/"
-      },
-	   	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "GetsTV",
                "text": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі."
             }
@@ -161,6 +149,33 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
          "action": "link:http://msx.atodo.fun/"
+      },
+	         {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lampa Launchers (Набір Lamp)",
+               "text": "Добірка \"LAMPA\" з альтернативними адресами на випадок \"падіння\" оригінальною або для постійного використання."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_launchers.png",
+         "action": "panel: https://ironteam-ua.github.io/msx/launchers/lampa_launchers.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
+      },
+	   	   	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "DEEPLEX",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/"
       },
 	   	         {
          "selection": {
@@ -296,21 +311,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
          "action": "link:http://webos.oneplayer.me"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Lampa Launchers (Набір Lamp)",
-               "text": "Добірка \"LAMPA\" з альтернативними адресами на випадок \"падіння\" оригінальною або для постійного використання."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_launchers.png",
-         "action": "panel: https://ironteam-ua.github.io/msx/launchers/lampa_launchers.json",
-         "properties": {
-            "trigger:back": "player:stop"
-         }
       },
 	     {
          "color": "transparent",
