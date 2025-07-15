@@ -122,18 +122,18 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-	   {
-            "title": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-            "selection": {
+	        {
+         "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-white} GetsTV"
+               "headline": "MOOVIES",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
-         "action": "link:http://getstv.com/app/"
-      },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
+         "action": "menu:request:interaction:init@http://moovies.uz/index.html"
+      },	
 	   	   {
          "selection": {
             "important": true,
@@ -157,31 +157,7 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
          "action": "link:http://browser.appfxml.com/"
-      },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "MOOVIES",
-               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
-         "action": "menu:request:interaction:init@http://moovies.uz/index.html"
-      },	    
-   	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "DEEPLEX",
-               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
-         "action": "link:http://smart.deeplex.cc/"
-      },
+      },    
 	   	         {
          "selection": {
             "important": true,
@@ -277,6 +253,30 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
          "action": "link:http://webos.oneplayer.me"
+      },
+	      	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "DEEPLEX",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/"
+      },
+	   	   {
+            "title": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
+            "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "{col:msx-white} GetsTV"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
+         "action": "link:http://getstv.com/app/"
       },
 	      {
          "selection": {
