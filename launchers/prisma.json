@@ -27,7 +27,7 @@
             "layout": "3,2,4,2",
             "offset": "0,0.3,0,0",
             "headline": "",
-            "text": "{col:white}«Prisma TV {col:red}(kim){col}{col:white}»{col}{br}Дзеркало програми {col:white}«Prisma TV» {col} c таким же функціоналом"
+            "text": "{col:white}«Prisma TV {col:red}(kim){col}{col:white}»{col}{br}Дзеркало програми {col:white}«Prisma TV» {col} з таким же функціоналом"
          },
          {
             "id": "text3",
@@ -35,7 +35,7 @@
             "layout": "3,4,4,2",
             "offset": "0,0.3,0,0",
             "headline": "",
-            "text": "{col:white}«Prisma TV {col:red}(cam){col}{col:white}»{col}{br}Дзеркало програми {col:white}«Prisma TV» {col} c таким же функціоналом"
+            "text": "{col:white}«Prisma TV {col:red}(cam){col}{col:white}»{col}{br}Дзеркало програми {col:white}«Prisma TV» {col} з таким же функціоналом"
          }
       ]
    },
