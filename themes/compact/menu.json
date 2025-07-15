@@ -46,6 +46,18 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
+               "headline": "DEEPLEX",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/"
+      },
+	   	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
                "headline": "GetsTV",
                "text": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі."
             }
@@ -149,18 +161,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
          "action": "link:http://msx.atodo.fun/"
-      },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "DEEPLEX",
-               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
-         "action": "link:http://smart.deeplex.cc/"
       },
 	        {
          "selection": {
