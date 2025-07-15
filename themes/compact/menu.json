@@ -42,7 +42,8 @@
    },
    "items": [
  {
-         "selection": {
+         "focus": true,
+	 "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -189,7 +190,6 @@
          }
       },
       {
-         "focus": true,
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
