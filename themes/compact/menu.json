@@ -96,7 +96,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Prisma TV",
-               "text": "Мод программы Лампа{br}В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликованно только для ознакомления с программой!!!"
+               "text": "Відмінний аналог Лампи{br}. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/prisma.png",
@@ -207,7 +207,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "OTT-FOSS",
-               "text": "IPTV плеер с поддержкой плейлистов в формате m3u, m3u8, медиатеки."
+               "text": "IPTV плеєр із підтримкою плейлистів у форматі m3u, m3u8, медіатеки."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/foss.png",
