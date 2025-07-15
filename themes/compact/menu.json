@@ -330,15 +330,14 @@
          }
       },   
       {
-         "offset": "0,2.5,5,0",
-         "color": "msx-black-soft",
-         "label": "{ico:msx-white:help} Інструкції {ico:msx-white:help}",
+         "color": "transparent",
+         "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions.png",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Інструкції",
-               "text": " Альтернативные MSX магазины / лаунчеры"
+               "text": " Інструкції як користуватись порталом"
             }
          },
          "action": "https://ironteam-ua.github.io/msx/wiki/instructions.json",
