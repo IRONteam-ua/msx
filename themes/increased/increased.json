@@ -108,7 +108,7 @@
          }
       },
 	   {
-         "title": "Lampa Launchers (Набір Lamp) ",
+         "title": "Lampa Launchers",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -121,6 +121,30 @@
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
          }
+      },
+	   	   {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Forkplayer Old",
+               "text": "Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
+         "action": "link:http://browser.appinfo.su/"
+      },
+	  	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Forkplayer New",
+               "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
+         "action": "link:http://browser.appfxml.com/"
       },
 	   	        {
             "title": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
@@ -146,30 +170,6 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
          "action": "menu:request:interaction:init@http://moovies.uz/index.html"
       },	    
-	   {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Forkplayer Old",
-               "text": "Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
-         "action": "link:http://browser.appinfo.su/"
-      },
-	  	    {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Forkplayer New",
-               "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
-         "action": "link:http://browser.appfxml.com/"
-      },
    	        {
          "selection": {
             "important": true,
