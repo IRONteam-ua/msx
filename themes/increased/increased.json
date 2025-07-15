@@ -77,17 +77,35 @@
             "image:extension": "| {col:msx-white}Third Item"
          }
       },
-      {
+	         {
+         "title": "ATODO-web ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ATODO-web",
-               "text": "Oнлайн фільми, серіали, торренти"
+               "headline": "Oнлайн фільми, серіали, торренти"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
-         "action": "link:http://msx.atodo.fun/"
+         "action": "link:http://msx.atodo.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Fourth Item"
+         }
+      },
+{
+         "title": "Prisma TV ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Мод програми Лампа. Oнлайн фільит, торрент"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/prisma.png",
+         "action": "panel: https://ironteam-ua.github.io/msx/launchers/prisma.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
       },
 	         {
          "selection": {
@@ -151,18 +169,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
          "action": "link:http://browser.appfxml.com/"
-      },
-	   {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Prisma TV",
-               "text": "Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/prisma.png",
-         "action": "panel: https://ironteam-ua.github.io/msx/launchers/prisma.json"
       },
    	        {
          "selection": {
