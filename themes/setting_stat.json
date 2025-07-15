@@ -112,7 +112,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}CLASSIC",
+         "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА 2",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -123,7 +123,7 @@
                "image": "https://ironteam-ua.github.io/msx/themes/increased/increased.jpg"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/increased.png"",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/increased.png",
          "action": "start",
          "data": {
             "name": "CLASSIC",
