@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "headline": "Виберіть тему ZUMO",
+   "headline": "Оберіть Вашу тему ZUMO",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "preload": "next",
    "captionUnderlay": 1,
