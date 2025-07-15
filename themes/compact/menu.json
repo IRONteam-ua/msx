@@ -95,7 +95,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Prisma TV",
-               "text": "Відмінний аналог Лампи{br}. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів."
+               "text": "Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/prisma.png",
