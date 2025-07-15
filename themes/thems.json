@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "headline": "Темы WALS_msx",
+   "headline": "Виберіть тему ZUMO",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "preload": "next",
    "captionUnderlay": 1,
