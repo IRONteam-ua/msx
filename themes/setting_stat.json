@@ -99,7 +99,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Компактна тема {col}{br}Компактна тема зі зменшеними іконками програм",
-               "image": "https://ironteam-ua.github.io/msx/themes/compact/compact.jpg"
+               "image": "https://ironteam-ua.github.io/msx/themes/compact/zumo_compact.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/resize.png",
