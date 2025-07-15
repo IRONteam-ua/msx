@@ -73,7 +73,7 @@
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
-         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
          "properties": {
             "image:extension": "| {col:msx-white}Third Item"
          }
