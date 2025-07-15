@@ -41,6 +41,18 @@
       "imageFiller": "cover"
    },
    "items": [
+	   	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "GetsTV",
+               "text": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
+         "action": "link:http://getstv.com/app/"
+      },
 	        {
          "selection": {
             "important": true,
@@ -149,18 +161,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
          "action": "link:http://smart.deeplex.cc/"
-      },
-	        {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "GetsTV",
-               "text": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
-         "action": "link:http://getstv.com/app/"
       },
 	        {
          "selection": {
