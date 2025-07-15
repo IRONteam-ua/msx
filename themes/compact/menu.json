@@ -340,7 +340,7 @@
                "text": " Інструкції як користуватись порталом"
             }
          },
-         "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.json",
+         "data": "https://ironteam-ua.github.io/msx/wiki/instructions.json"
          "properties": {
             "trigger:back": "player:stop"
          }
