@@ -162,6 +162,30 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
          "action": "link:http://msx.atodo.fun/"
       },
+	   	         {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ZUMO Films",
+               "text": "Перегляд онлайн фільмів від ZUMO"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
+         "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
+      },
+	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ZUMO TV",
+               "text": "Перегляд онлайн телебачення від ZUMO"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
+         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
+      },
 	        {
          "selection": {
             "important": true,
@@ -287,30 +311,6 @@
          "properties": {
             "trigger:back": "player:stop"
          }
-      },
-	         {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "ZUMO Films",
-               "text": "Перегляд онлайн фільмів від ZUMO"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
-         "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
-      },
-	    {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "ZUMO TV",
-               "text": "Перегляд онлайн телебачення від ZUMO"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
-         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
 	     {
          "color": "transparent",
