@@ -41,18 +41,6 @@
       "imageFiller": "cover"
    },
    "items": [
-	    {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Forkplayer New",
-               "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
-         "action": "link:http://browser.appfxml.com/"
-      },
 	  	    {
          "selection": {
             "important": true,
@@ -64,6 +52,18 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
          "action": "link:http://browser.appinfo.su/"
+      },
+	  	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Forkplayer New",
+               "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
+         "action": "link:http://browser.appfxml.com/"
       },
 	   {
          "selection": {
