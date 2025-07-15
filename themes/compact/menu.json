@@ -243,7 +243,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Ottplayer",
-               "text": "Cервис, позволяющий собрать все ваше IP-телевидение в один плейлист, настроить порядок каналов, получить электронный программный гид."
+               "text": "Сервіс, що дозволяє зібрати все ваше IP-телебачення в один плейлист, настроїти порядок каналів, отримати електронний програмний гід."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
@@ -255,7 +255,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Oneplayer",
-               "text": "Mультиплатформенный плеер для воспроизведения m3u плейлистов в общепринятом формате, подходит для воспроизведения аудио, видео, радио, live плейлистов. "
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
@@ -282,7 +282,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "MOOVIES",
-               "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций"
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
@@ -340,7 +340,7 @@
                "text": " Інструкції як користуватись порталом"
             }
          },
-         "action": "https://ironteam-ua.github.io/msx/wiki/instructions.json",
+         "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.json",
          "properties": {
             "trigger:back": "player:stop"
          }
