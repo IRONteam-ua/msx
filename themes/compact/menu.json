@@ -41,7 +41,43 @@
       "imageFiller": "cover"
    },
    "items": [
- {
+	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Forkplayer New",
+               "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
+         "action": "link:http://browser.appfxml.com/"
+      },
+	  	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Forkplayer Old",
+               "text": "Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
+         "action": "link:http://browser.appinfo.su/"
+      },
+	   {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Prisma TV",
+               "text": "Відмінний аналог Лампи{br}. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/prisma.png",
+         "action": "panel: https://ironteam-ua.github.io/msx/launchers/prisma.json"
+      },
+	    {
          "focus": true,
 	 "selection": {
             "important": true,
@@ -89,42 +125,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
          "action": "link:http://msx.atodo.fun/"
-      },
-	   {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Prisma TV",
-               "text": "Відмінний аналог Лампи{br}. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/prisma.png",
-         "action": "panel: https://ironteam-ua.github.io/msx/launchers/prisma.json"
-      },
-	    {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Forkplayer New",
-               "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
-         "action": "link:http://browser.appfxml.com/"
-      },
-	  	    {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Forkplayer Old",
-               "text": "Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів. {br} {col:black} Перегляньте інструкції, що в кінці меню для розуміння як користуватись сервісом."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
-         "action": "link:http://browser.appinfo.su/"
       },
 	        {
          "selection": {
