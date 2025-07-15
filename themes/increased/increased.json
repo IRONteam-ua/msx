@@ -31,6 +31,36 @@
       "color": "msx-glass"
    },
    "items": [
+	   	         {
+         "title": "ATODO-web ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн фільми, серіали, торренти"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
+         "action": "link:http://msx.atodo.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Fourth Item"
+         }
+      },
+	         {
+         "title": "ATODO ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн фільми, серіали, торренти"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}Third Item"
+         }
+      },
       {
          "focus": true,
          "title": "Lampa UnCensored ",
@@ -62,37 +92,7 @@
             "image:extension": "| {col:msx-white}Second Item"
          }
       },
-      {
-         "title": "ATODO ",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Oнлайн фільми, серіали, торренти"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
-         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
-         "properties": {
-            "image:extension": "| {col:msx-white}Third Item"
-         }
-      },
-	         {
-         "title": "ATODO-web ",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Oнлайн фільми, серіали, торренти"
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
-         "action": "link:http://msx.atodo.fun/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Fourth Item"
-         }
-      },
-{
+	   	   {
          "title": "Prisma TV ",
          "selection": {
             "important": true,
