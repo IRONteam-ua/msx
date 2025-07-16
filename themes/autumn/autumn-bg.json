@@ -4,6 +4,7 @@
    "background": "https://ironteam-ua.github.io/msx/themes/wrappers/autum.jpg?raw=true",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "preload": "next",
+   "transparent": 1,
    "captionUnderlay": 1,
    "underlay": {
       "items": [
