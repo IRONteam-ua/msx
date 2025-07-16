@@ -118,7 +118,7 @@
                "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
-                  "name": "RAIN",
+                  "name": "ZUMO-RAIN",
                   "version": "1.0.0",
                   "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/rain/rain.json",
                   "welcome": "none"
@@ -157,7 +157,7 @@
                "transparent": 1,
                "action": "start",
                "data": {
-                  "name": "MATERIA",
+                  "name": "ZUMO-MATERIA",
                   "version": "1.0.0",
                   "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/materia/materia.json",
                   "welcome": "none"
@@ -170,7 +170,7 @@
                "imageHeight": 2.3,
                "imageFiller": "cover",
                "wrapperColor": "red",
-               "image": "http://wals09.github.io/msx/tema/ocean.jpg",
+               "image": "https://ironteam-ua.github.io/msx/themes/live/ocean/ocean.jpg",
                "action": "video:auto:plugin:http://msx.benzac.de/plugins/background.html?url=http://msx.benzac.de/media/atmos5.mp4",
                "playerLabel": "OCEAN",
                "controlTransparent": "true",
@@ -193,7 +193,7 @@
                "data": {
                   "name": "OCEAN",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_ocean.json",
+                  "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/ocean/ocean.json",
                   "welcome": "none"
                }
             },
