@@ -392,7 +392,7 @@
       "action": "content:https://ironteam-ua.github.io/msx/wiki/instructions.json",
       "properties": {
          "image:extension": "| {col:msx-white}27th Item"
+         }
       }
-   },
-]
+   ]
 }
