@@ -27,7 +27,7 @@
             "type": "space",
             "layout": "1,0,6,3",
             "offset": "-1,0.5,1,0",
-            "headline": "",
+            "headline": "{col:msx-grey}",
             "text": ""
          }
       ]
@@ -47,7 +47,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "GetsTV",
+               "headline": "{col:msx-grey}GetsTV",
                "text": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі."
             }
          },
@@ -59,7 +59,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "MOOVIES",
+               "headline": "{col:msx-grey}MOOVIES",
                "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
             }
          },
@@ -71,7 +71,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Forkplayer Old",
+               "headline": "{col:msx-grey}Forkplayer Old",
                "text": "Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів."
             }
          },
@@ -83,7 +83,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Forkplayer New",
+               "headline": "{col:msx-grey}Forkplayer New",
                "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
             }
          },
@@ -95,7 +95,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Prisma TV",
+               "headline": "{col:msx-grey}Prisma TV",
                "text": "Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів."
             }
          },
@@ -108,7 +108,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa UnCensored",
+               "headline": "{col:msx-grey}Lampa UnCensored",
                "text": "Мод програми Lampa{br} з встановленим магазином плагінів та іншими «фішками»"
             }
          },
@@ -120,7 +120,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "LAMPA",
+               "headline": "{col:msx-grey}LAMPA",
                "text": "Додаток-каталог. Не містить медіаконтенту, але при підключенні плагінів (див. інструкцію) легко трансформується в онлайн кінотеатр з можливістю перегляду торрентів та iptv"
             }
          },
@@ -132,7 +132,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ATODO",
+               "headline": "{col:msx-grey}ATODO",
                "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів"
             }
          },
@@ -144,7 +144,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ATODO-web",
+               "headline": "{col:msx-grey}ATODO-web",
                "text": "Web версія програми ATODO. Перегляд різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів"
             }
          },
@@ -156,7 +156,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa Launchers (Набір Lamp)",
+               "headline": "{col:msx-grey}Lampa Launchers (Набір Lamp)",
                "text": "Добірка \"LAMPA\" з альтернативними адресами на випадок \"падіння\" оригінальною або для постійного використання."
             }
          },
@@ -171,7 +171,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "DEEPLEX",
+               "headline": "{col:msx-grey}DEEPLEX",
                "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
             }
          },
@@ -184,7 +184,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ZUMO Films",
+               "headline": "{col:msx-grey}ZUMO Films",
                "text": "Перегляд онлайн фільмів від ZUMO"
             }
          },
@@ -196,7 +196,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ZUMO TV",
+               "headline": "{col:msx-grey}ZUMO TV",
                "text": "Перегляд онлайн телебачення від ZUMO"
             }
          },
@@ -209,7 +209,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "DRM-play",
+               "headline": "{col:msx-grey}DRM-play",
                "text": "IPTV плеєр із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. Тестовий плейлист для ознайомлення з функціями програвача."
             }
          },
@@ -221,7 +221,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "OTT-FOSS",
+               "headline": "{col:msx-grey}OTT-FOSS",
                "text": "IPTV плеєр із підтримкою плейлистів у форматі m3u, m3u8, медіатеки."
             }
          },
@@ -233,7 +233,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "OTT-PLAY",
+               "headline": "{col:msx-grey}OTT-PLAY",
                "text": "IPTV Player. Можливість перегляду своїх плейлистів, сталкер-порталів, медіатек. Збереження, перенесення налаштувань"
             }
          },
@@ -245,7 +245,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ICVA",
+               "headline": "{col:msx-grey}ICVA",
                "text": "IPTV player від розробників LAMPA Можливість перегляду своїх плейлистів."
             }
          },
@@ -257,7 +257,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Ottplayer",
+               "headline": "{col:msx-grey}Ottplayer",
                "text": "Сервіс, що дозволяє зібрати все ваше IP-телебачення в один плейлист, настроїти порядок каналів, отримати електронний програмний гід."
             }
          },
@@ -269,7 +269,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Oneplayer",
+               "headline": "{col:msx-grey}Oneplayer",
                "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
             }
          },
@@ -281,7 +281,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "YouTUBE",
+               "headline": "{col:msx-grey}YouTUBE",
                "text": "Он-лайн-сервіс для хостингу та перегляду відео"
             }
          },
@@ -293,7 +293,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "YOUTUBE KIDS",
+               "headline": "{col:msx-grey}YOUTUBE KIDS",
                "text": "Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
             }
          },
@@ -305,7 +305,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "RELAX",
+               "headline": "{col:msx-grey}RELAX",
                "text": "Підбірка релаксуючих відео з інтернету."
             }
          },
@@ -322,7 +322,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Тема оформлення",
+               "headline": "{col:msx-grey}Тема оформлення",
                "text": "Вибір теми оформлення ZUMO"
             }
          },
@@ -339,7 +339,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Інструкції",
+               "headline": "{col:msx-grey}Інструкції",
                "text": " Інструкції як користуватись порталом"
             }
          },
