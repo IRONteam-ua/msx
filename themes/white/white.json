@@ -179,7 +179,7 @@
          "action": "link:http://smart.deeplex.cc/"
       },
 	   	         {
-	"color": "msx-grey",
+	"color": "msx-black",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -200,7 +200,7 @@
                "text": "{col:msx-grey}Перегляд онлайн телебачення від ZUMO"
             }
          },
-	 "color": "msx-grey",
+	 "color": "msx-black",
          "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
