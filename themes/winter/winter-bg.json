@@ -5,6 +5,7 @@
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "preload": "next",
    "captionUnderlay": 1,
+   "transparent": 1,
    "underlay": {
       "items": [
          {
