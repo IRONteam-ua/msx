@@ -266,16 +266,16 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «WHITE»{col}{br}Тема в светлых тонах",
-               "image": "https://wals09.github.io/msx/tema/wite.jpg"
+               "text": "{col:msx-white}Тема «WHITE»{col}{br}Тема в світлих тонах",
+               "image": "https://ironteam-ua.github.io/msx/themes/white/white.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/them_icon/white.png",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/white.png",
          "action": "start",
          "data": {
             "name": "ZUMO-WHITE",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_white.json",
+            "parameter": "content:https://ironteam-ua.github.io/msx/themes/white/white.json",
             "welcome": "none"
          }
       }
