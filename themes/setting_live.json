@@ -86,7 +86,7 @@
                "data": {
                   "name": "ZUMO-AQUA",
                   "version": "1.0.0",
-                  "parameter": "ontent:https://ironteam-ua.github.io/msx/themes/live/aqua/aqua.json",
+                  "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/aqua/aqua.json",
                   "welcome": "none"
                }
             },
