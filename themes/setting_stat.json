@@ -69,7 +69,7 @@
             "welcome": "none"
          }
       },
-            {
+      {
          "titleHeader": "{col:msx-white}ЛЕГКА ТЕМА",
          "color": "transparent",
          "focus": true,
@@ -90,7 +90,7 @@
             "welcome": "none"
          }
       },
-         {
+      {
          "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА",
          "color": "transparent",
          "focus": true,
@@ -153,7 +153,7 @@
             "welcome": "none"
          }
       },
-       {
+      {
          "titleHeader": "{col:msx-white}ТЕМА «ОСІНЬ»",
          "color": "transparent",
          "focus": true,
@@ -173,6 +173,7 @@
             "parameter": "content:https://wals09.github.io/msx/осень.json",
             "welcome": "none"
          }
+      },
       {
          "titleHeader": "{col:msx-white}ТЕМА «WHITE»",
          "color": "transparent",
@@ -193,7 +194,6 @@
             "parameter": "content:https://wals09.github.io/msx/menu_white.json",
             "welcome": "none"
          }
-      },
       }
    ]
 }
