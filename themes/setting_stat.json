@@ -182,7 +182,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ОСІНЬ» {br}Осіння тема оформлення зі зменшеними іконками програм",
+               "text": "{col:msx-white}Тема «ОСІНЬ» {col}{br}Осіння тема оформлення зі зменшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/autumn/autumn.jpg"
             }
          },
@@ -203,7 +203,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ОСІНЬ» {br}Осіння тема оформлення зі збільшеними іконками програм",
+               "text": "{col:msx-white}Тема «ОСІНЬ» {col}{br}Осіння тема оформлення зі збільшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/autumn/autumn-bg.jpg"
             }
          },
@@ -224,7 +224,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ЛІТО» {br}Літня тема оформлення зі зменшеними іконками програм",
+               "text": "{col:msx-white}Тема «ЛІТО» {col}{br}Літня тема оформлення зі зменшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/summer/summer.jpg"
             }
          },
@@ -245,7 +245,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ЛІТО»  {br}Осіння тема оформлення зі збільшеними іконками програм",
+               "text": "{col:msx-white}Тема «ЛІТО»  {col}{br}Осіння тема оформлення зі збільшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/summer/summer-bg.jpg"
             }
          },
