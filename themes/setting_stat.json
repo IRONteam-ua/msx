@@ -246,7 +246,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Тема «ЛІТО»  {br}Осіння тема оформлення зі збільшеними іконками програм",
-               "image": "https://ironteam-ua.github.io/msx/themes/summer/summer-bg.png"
+               "image": "https://ironteam-ua.github.io/msx/themes/summer/summer-bg.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/summer-bg.png",
