@@ -162,7 +162,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Тема «ОСІНЬ»",
-               "image": "https://ironteam-ua.github.io/msx/themes/autumn/autumn.png"
+               "image": "https://ironteam-ua.github.io/msx/themes/autumn/autumn.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/autumn.png",
