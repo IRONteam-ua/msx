@@ -334,7 +334,7 @@
       },   
       {
          "color": "transparent",
-         "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png",
+         "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante.png",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
