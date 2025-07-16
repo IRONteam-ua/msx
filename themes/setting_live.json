@@ -191,7 +191,7 @@
                "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
-                  "name": "OCEAN",
+                  "name": "ZUMO-OCEAN",
                   "version": "1.0.0",
                   "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/ocean/ocean.json",
                   "welcome": "none"
