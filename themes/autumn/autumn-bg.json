@@ -342,7 +342,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "крема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
+               "headline": "Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/ytkids.png",
