@@ -34,7 +34,7 @@
       "color": "msx-glass",
       "imageFiller": "cover"
    },
-   "items": [
+  "items": [
 	   	        {
          "selection": {
             "important": true,
@@ -225,7 +225,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "OTT-PLAY",
-               "text": "IPTV player. Возможность просмотра своих плейлистов,сталкер-порталов,медиатек. Сохранение, перенос настроек"
+               "text": "IPTV Player. Можливість перегляду своїх плейлистів, сталкер-порталів, медіатек. Збереження, перенесення налаштувань"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/ott-play.png",
@@ -237,7 +237,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "ICVA",
-               "text": "IPTV player от разработчиков LAMPA. Возможность просмотра своих плейлистов."
+               "text": "IPTV player від розробників LAMPA Можливість перегляду своїх плейлистів."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/icva.png",
