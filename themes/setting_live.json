@@ -97,7 +97,7 @@
                "imageHeight": 2.3,
                "imageFiller": "cover",
                "wrapperColor": "red",
-               "image": "http://wals09.github.io/msx/tema/rain.jpg",
+               "image": "content:https://ironteam-ua.github.io/msx/themes/live/rain/rain.jpg",
                "action": "video:auto:plugin:http://msx.benzac.de/plugins/background.html?url=http://msx.benzac.de/media/atmos6.mp4",
                "playerLabel": "Atmospheric Background 2",
                "controlTransparent": "true",
@@ -120,7 +120,7 @@
                "data": {
                   "name": "RAIN",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_rain.json",
+                  "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/rain/rain.json",
                   "welcome": "none"
                }
             }
