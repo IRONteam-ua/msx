@@ -2,7 +2,7 @@
    "type": "list",
    "extension": "{col:msx-black}{b}{ico:msx-black:event} {now:date:D, M d, yyyy}{tb}{ico:msx-black:access-time} {now:time:hh:mm}",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
-    "background": "https://ironteam-ua.github.io/msx/themes/wrappers/white-sky.jpg?raw=true",
+   "background": "https://ironteam-ua.github.io/msx/themes/wrappers/white-sky.jpg?raw=true",
    "preload": "next",
    "transparent": 1,
    "captionUnderlay": 1,
@@ -28,8 +28,8 @@
             "layout": "1,0,6,3",
             "offset": "-1,0.5,1,0",
             "headline": "",
-            "text": ""
-	    "color": "#333333"
+            "text": "",
+            "color": "#333333"
          }
       ]
    },
@@ -43,7 +43,7 @@
       "imageFiller": "cover"
    },
    "items": [
-	   	        {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -55,7 +55,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
          "action": "link:http://getstv.com/app/"
       },
-	        {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -66,8 +66,8 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
          "action": "menu:request:interaction:init@http://moovies.uz/index.html"
-      },	    
-	   {
+      },
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -79,7 +79,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
          "action": "link:http://browser.appinfo.su/"
       },
-	  	    {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -91,7 +91,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
          "action": "link:http://browser.appfxml.com/"
       },
-	   {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -103,9 +103,9 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/prisma.png",
          "action": "panel: https://ironteam-ua.github.io/msx/launchers/prisma.json"
       },
-	    {
+      {
          "focus": true,
-	 "selection": {
+         "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -116,7 +116,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/bylampa.png",
          "action": "link:http://bylampa.online"
       },
-	    {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -128,7 +128,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/lampa.png",
          "action": "link:http://lampa.mx"
       },
-	      {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -152,7 +152,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
          "action": "link:http://msx.atodo.fun/"
       },
-	         {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -167,7 +167,7 @@
             "trigger:back": "player:stop"
          }
       },
-	   	   	        {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -179,8 +179,8 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
          "action": "link:http://smart.deeplex.cc/"
       },
-	   	         {
-	"color": "msx-black",
+      {
+         "color": "msx-black",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -192,7 +192,7 @@
          "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
          "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
       },
-	    {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -201,7 +201,7 @@
                "text": "{col:msx-grey}Перегляд онлайн телебачення від ZUMO{col}"
             }
          },
-	 "color": "msx-black",
+         "color": "msx-black",
          "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
@@ -277,7 +277,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
          "action": "link:http://webos.oneplayer.me"
       },
-	      {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -289,7 +289,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/youtube.png",
          "action": "link:https://www.youtube.com/tv#/"
       },
-	        {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -301,7 +301,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/ytkids.png",
          "action": "link:https://www.youtube.com/tv/kids"
       },
-	        {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -316,7 +316,7 @@
             "trigger:back": "player:stop"
          }
       },
-	     {
+      {
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
          "selection": {
@@ -332,7 +332,7 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
          }
-      },   
+      },
       {
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante.png",
