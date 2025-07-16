@@ -191,7 +191,7 @@
          "data": {
             "name": "ZUMO-SUMMER",
             "version": "1.0.0",
-            "parameter": "content:https://ironteam-ua.github.io/msx/themes/autumn/summer.json",
+            "parameter": "content:https://ironteam-ua.github.io/msx/themes/summer/summer.json",
             "welcome": "none"
          }
       },
