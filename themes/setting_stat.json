@@ -168,7 +168,7 @@
          "image": "https://wals09.github.io/msx/tema/them_icon/осень.png",
          "action": "start",
          "data": {
-            "name": "BASIC Lite",
+            "name": "ZUMO-AUTUMN",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/осень.json",
             "welcome": "none"
@@ -189,7 +189,7 @@
          "image": "https://wals09.github.io/msx/tema/them_icon/white.png",
          "action": "start",
          "data": {
-            "name": "BASIC Lite",
+            "name": "ZUMO-WHITE",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/menu_white.json",
             "welcome": "none"
