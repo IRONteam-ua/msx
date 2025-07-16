@@ -1,5 +1,6 @@
 {
    "type": "list",
+      "headline": "{col:black}ZUMO - Смак твого вечора!{col}",
    "extension": "{col:black}{ico:black:event} {now:date:D, M d, yyyy}{tb}{ico:black:access-time} {now:time:hh:mm}",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "background": "https://ironteam-ua.github.io/msx/themes/wrappers/white-sky.jpg?raw=true",
