@@ -268,6 +268,7 @@
                "headline": "Перегляд онлайн фільмів від ZUMO."
             }
          },
+         "color": "msx-grey",
          "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
          "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json",
          "properties": {
@@ -283,6 +284,7 @@
                "headline": "Перегляд онлайн телебачення від ZUMO"
             }
          },
+         "color": "msx-grey",
          "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json",
          "properties": {
