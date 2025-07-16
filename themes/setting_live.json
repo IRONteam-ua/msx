@@ -16,7 +16,7 @@
             "type": "space",
             "layout": "0,0,7,1",
             "offset": "-0.65,0.1,0,0 ",
-            "label": "ДДля демонстрації теми натисніть на картинку"
+            "label": "Для демонстрації теми натисніть на картинку"
          }
       ]
    },
@@ -50,7 +50,7 @@
                "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
-                  "name": "GOLD",
+                  "name": "ZUMO-GOLD",
                   "version": "1.0.0",
                   "parameter": "https://ironteam-ua.github.io/msx/themes/live/gold/gold.json",
                   "welcome": "none"
