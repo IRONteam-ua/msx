@@ -167,6 +167,21 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
+            {
+         "title": "ICVA ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IPTV плеєр від розробників LAMPA."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/icva.png",
+         "action": "link:http://icva.mx/",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
       {
          "title": "DRM-play ",
          "selection": {
@@ -208,21 +223,6 @@
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/ott-play.png",
          "action": "link:http://ott-play.com/f/",
-         "properties": {
-            "image:extension": "| {col:msx-white}27th Item"
-         }
-      },
-      {
-         "title": "ICVA ",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "IPTV плеєр від розробників LAMPA."
-            }
-         },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/icva.png",
-         "action": "link:http://icva.mx/",
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
          }
