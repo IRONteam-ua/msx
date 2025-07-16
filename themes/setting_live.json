@@ -97,7 +97,7 @@
                "imageHeight": 2.3,
                "imageFiller": "cover",
                "wrapperColor": "red",
-               "image": "content:https://ironteam-ua.github.io/msx/themes/live/rain/rain.jpg",
+               "image": "https://ironteam-ua.github.io/msx/themes/live/rain/rain.jpg",
                "action": "video:auto:plugin:http://msx.benzac.de/plugins/background.html?url=http://msx.benzac.de/media/atmos6.mp4",
                "playerLabel": "Atmospheric Background 2",
                "controlTransparent": "true",
@@ -127,7 +127,7 @@
          ]
       },
       {
-         "headline": "Динамические темы",
+         "headline": "Динамічні теми",
          "items": [
             {
                "type": "default",
@@ -136,7 +136,7 @@
                "imageHeight": 2.3,
                "imageFiller": "cover",
                "wrapperColor": "red",
-               "image": "http://wals09.github.io/msx/tema/materia.jpg",
+               "image": "https://ironteam-ua.github.io/msx/themes/live/materia/materia.jpg",
                "action": "video:auto:plugin:http://msx.benzac.de/plugins/background.html?url=http://msx.benzac.de/media/atmos3.mp4",
                "playerLabel": "MATERIA",
                "controlTransparent": "true",
@@ -159,7 +159,7 @@
                "data": {
                   "name": "MATERIA",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_materia.json",
+                  "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/materia/materia.json",
                   "welcome": "none"
                }
             },
