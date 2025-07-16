@@ -225,7 +225,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Тема «ЛІТО»",
-               "image": "https://ironteam-ua.github.io/msx/themes/autumn/summer.png"
+               "image": "https://ironteam-ua.github.io/msx/themes/autumn/summer.jpg"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/summer.png",
