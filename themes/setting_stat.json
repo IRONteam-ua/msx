@@ -161,16 +161,37 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ОСЕНЬ»",
-               "image": "https://wals09.github.io/msx/tema/осень.png"
+               "text": "{col:msx-white}Тема «ОСІНЬ»",
+               "image": "https://ironteam-ua.github.io/msx/themes/autumn/autumn.png"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/them_icon/осень.png",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/autumn.png",
          "action": "start",
          "data": {
             "name": "ZUMO-AUTUMN",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/осень.json",
+            "parameter": "content:https://ironteam-ua.github.io/msx/themes/autumn/autumn.json",
+            "welcome": "none"
+         }
+      },
+            {
+         "titleHeader": "{col:msx-white}ТЕМА «ЛІТО»",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Тема «ЛІТО»",
+               "image": "https://ironteam-ua.github.io/msx/themes/autumn/summer.png"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/summer.png",
+         "action": "start",
+         "data": {
+            "name": "ZUMO-AUTUMN",
+            "version": "1.0.0",
+            "parameter": "content:https://ironteam-ua.github.io/msx/themes/autumn/summer.json",
             "welcome": "none"
          }
       },
