@@ -2,7 +2,7 @@
    "type": "list",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
-    "background": "https://ironteam-ua.github.io/msx/themes/wrappers/autum2.jpg?raw=true",
+    "background": "https://ironteam-ua.github.io/msx/themes/wrappers/autum.jpg?raw=true",
    "preload": "next",
    "transparent": 1,
    "captionUnderlay": 1,
