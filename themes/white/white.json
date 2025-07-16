@@ -13,7 +13,7 @@
             "round": false,
             "layout": "0,0,12,1",
             "offset": "-1,0,2,-0.8",
-            "color": "msx-black"
+            "color": "black"
          },
          {
             "type": "space",
