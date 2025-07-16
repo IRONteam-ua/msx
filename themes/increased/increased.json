@@ -31,7 +31,7 @@
       "color": "msx-glass"
    },
    "items": [
-	   	         {
+      {
          "title": "ATODO-web ",
          "selection": {
             "important": true,
@@ -46,7 +46,7 @@
             "image:extension": "| {col:msx-white}Fourth Item"
          }
       },
-	         {
+      {
          "title": "ATODO ",
          "selection": {
             "important": true,
@@ -77,7 +77,7 @@
             "image:extension": "| {col:msx-white}First Item"
          }
       },
- {
+      {
          "title": "LAMPA ",
          "selection": {
             "important": true,
@@ -92,7 +92,7 @@
             "image:extension": "| {col:msx-white}Second Item"
          }
       },
-	   	   {
+      {
          "title": "Prisma TV ",
          "selection": {
             "important": true,
@@ -107,7 +107,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-	   {
+      {
          "title": "Lampa Launchers ",
          "selection": {
             "important": true,
@@ -122,7 +122,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-	   	   {
+      {
          "title": "MOOVIES ",
          "selection": {
             "important": true,
@@ -137,7 +137,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-	   	   	   {
+      {
          "title": "Forkplayer Old ",
          "selection": {
             "important": true,
@@ -152,7 +152,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-	   	   	   {
+      {
          "title": "Forkplayer New ",
          "selection": {
             "important": true,
@@ -167,7 +167,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
- 	   	   	   {
+      {
          "title": "DRM-play ",
          "selection": {
             "important": true,
@@ -182,7 +182,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
- 	   	   	   {
+      {
          "title": "OTT-FOSS ",
          "selection": {
             "important": true,
@@ -197,7 +197,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
- 	   	   	   {
+      {
          "title": "OTT-PLAY ",
          "selection": {
             "important": true,
@@ -212,8 +212,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-      },
- 	   	   	   {
+      {
          "title": "ICVA ",
          "selection": {
             "important": true,
@@ -228,7 +227,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
- 	   	   	   {
+      {
          "title": "Ottplayer ",
          "selection": {
             "important": true,
@@ -244,136 +243,158 @@
          }
       },
       {
+         "title": "Oneplayer ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "",
-               "text": ", настроїти порядок каналів, отримати електронний програмний гід."
+               "headline": "IPTV плеєр."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
-         "action": "link:http://webos.oneplayer.me"
+         "action": "link:http://webos.oneplayer.me",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
       },
-	    {
+      {
+         "title": "ZUMO Films ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ZUMO Films",
-               "text": "Перегляд онлайн фільмів від ZUMO"
+               "headline": "Перегляд онлайн фільмів від ZUMO."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
-         "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
+         "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
       },
-	    {
+      {
+         "title": "ZUMO TV ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "ZUMO TV",
-               "text": "Перегляд онлайн телебачення від ZUMO"
+               "headline": "Перегляд онлайн телебачення від ZUMO"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
-         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
+         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
       },
-	    {
+      {
+         "title": "DEEPLEX ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "DEEPLEX",
-               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
+               "headline": "Додаток для перегляду різного медіаконтенту"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
-         "action": "link:http://smart.deeplex.cc/"
+         "action": "link:http://smart.deeplex.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
       },
-	   	   {
-            "title": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.",
-            "selection": {
+      {
+         "title": "GetsTV ",
+         "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-white} GetsTV"
+               "headline": "Найбільша база фільмів та мультфільмів"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
-         "action": "link:http://getstv.com/app/"
+         "action": "link:http://getstv.com/app/",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
       },
-	      {
+      {
+         "title": "YouTUBE ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "YouTUBE",
-               "text": "Он-лайн-сервіс для хостингу та перегляду відео"
+               "headline": "Он-лайн-сервіс для хостингу та перегляду відео"
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/youtube.png",
-         "action": "link:https://www.youtube.com/tv#/"
+         "action": "link:https://www.youtube.com/tv#/",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
       },
-	        {
+      {
+         "title": "YOUTUBE KIDS ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "YOUTUBE KIDS",
-               "text": "Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
+               "headline": "крема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/ytkids.png",
-         "action": "link:https://www.youtube.com/tv/kids"
+         "action": "link:https://www.youtube.com/tv/kids",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
       },
-	        {
+      {
+         "title": "RELAX ",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "RELAX",
-               "text": "Підбірка релаксуючих відео з інтернету."
+               "headline": "Підбірка релаксуючих відео з інтернету."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
          "action": "content: https://ironteam-ua.github.io/msx/launchers/relax.json",
          "properties": {
-            "trigger:back": "player:stop"
+            "image:extension": "| {col:msx-white}27th Item"
          }
       },
-	     {
+      {
+         "title": "Тема оформлення ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Вибір теми оформлення ZUMO."
+            }
+         },
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Тема оформлення",
-               "text": "Вибір теми оформлення ZUMO"
-            }
-         },
          "action": "panel:https://ironteam-ua.github.io/msx/themes/thems.json",
          "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}26th Item"
+            "image:extension": "| {col:msx-white}27th Item"
          }
-      },   
-      {
-         "color": "transparent",
-         "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Інструкції",
-               "text": " Інструкції як користуватись порталом"
-            }
-         },
-         "action": "link:interaction:https://ironteam-ua.github.io/msx/wiki/instructions.html",
-         "properties": {
-            "trigger:back": "player:stop"
+      },
+   },
+   {
+      "title": "Інструкції ",
+      "selection": {
+         "important": true,
+         "action": "update:content:underlay:text",
+         "data": {
+            "headline": "Інструкції як користуватись порталом."
          }
+      },
+      "color": "transparent",
+      "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png",
+      "action": "content:https://ironteam-ua.github.io/msx/wiki/instructions.json",
+      "properties": {
+         "image:extension": "| {col:msx-white}27th Item"
       }
-   ]
+   },
+}
+]
 }
