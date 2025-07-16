@@ -63,7 +63,7 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/basic.png",
          "action": "start",
          "data": {
-            "name": "ZUMO",
+            "name": "ZUMO-CLASIC",
             "version": "1.0.0",
             "parameter": "menu: https://ironteam-ua.github.io/msx/menu.json",
             "welcome": "none"
@@ -112,7 +112,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА 2",
+         "titleHeader": "{col:msx-white}КОМПАКТНА ТЕМА (збільшені ярлики)",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -126,30 +126,9 @@
          "image": "https://ironteam-ua.github.io/msx/themes/img/increased.png",
          "action": "start",
          "data": {
-            "name": "CLASSIC",
+            "name": "ZUMO-INCREASED",
             "version": "1.0.0",
             "parameter": "content:https://ironteam-ua.github.io/msx/themes/increased/increased.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}CLASSIC compact",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}CLASSIC compact{col}{br}Классическая оболочка MSX, компактный вид",
-               "image": "https://wals09.github.io/msx/tema/classic_compact.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/classic_compact.png",
-         "action": "start",
-         "data": {
-            "name": "CLASSIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_classic_compact.json",
             "welcome": "none"
          }
       },
@@ -161,19 +140,39 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимняя тема оформления",
-               "image": "https://wals09.github.io/msx/tema/зима.png"
+               "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимова тема оформлення",
+               "image": "https://ironteam-ua.github.io/msx/themes/winter/winter.jpg"
             }
          },
-         "image": "https://github.com/wals09/msx/blob/main/tema/them_icon/зима.png?raw=true",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/winter.png?raw=true",
+         "action": "start",
+         "data": {
+            "name": "ZUMO-WINTER",
+            "version": "1.0.0",
+            "parameter": "content:https://ironteam-ua.github.io/msx/themes/winter/winter.json",
+            "welcome": "none"
+         }
+      },
+       {
+         "titleHeader": "{col:msx-white}ТЕМА «ОСІНЬ»",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Тема «ОСЕНЬ»",
+               "image": "https://wals09.github.io/msx/tema/осень.png"
+            }
+         },
+         "image": "https://wals09.github.io/msx/tema/them_icon/осень.png",
          "action": "start",
          "data": {
             "name": "BASIC Lite",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/зима.json",
+            "parameter": "content:https://wals09.github.io/msx/осень.json",
             "welcome": "none"
          }
-      },
       {
          "titleHeader": "{col:msx-white}ТЕМА «WHITE»",
          "color": "transparent",
@@ -195,26 +194,6 @@
             "welcome": "none"
          }
       },
-      {
-         "titleHeader": "{col:msx-white}ТЕМА «ОСЕНЬ»",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Тема «ОСЕНЬ»",
-               "image": "https://wals09.github.io/msx/tema/осень.png"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/осень.png",
-         "action": "start",
-         "data": {
-            "name": "BASIC Lite",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/осень.json",
-            "welcome": "none"
-         }
       }
    ]
 }
