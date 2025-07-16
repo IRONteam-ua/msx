@@ -9,17 +9,17 @@
       },
       {
          "icon": "movie",
-         "label": "Класична теема",
+         "label": "Класична тема",
          "data": "https://ironteam-ua.github.io/msx/launchers/all_apps.json"
       },
       {
          "icon": "color-lens",
-         "label": "Обрати статичну тему інтерфейсу",
+         "label": "Обрати статичну тему",
          "data": "https://ironteam-ua.github.io/msx/themes/setting_stat.json"
       },
       {
          "icon": "wallpaper",
-         "label": "Обрати динамічну тему інтерфейсу",
+         "label": "Обрати динамічну тему",
          "data": "https://ironteam-ua.github.io/msx/themes/setting_live.json"
       },
       {
