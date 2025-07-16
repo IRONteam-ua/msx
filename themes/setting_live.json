@@ -204,7 +204,7 @@
                "imageHeight": 2.3,
                "imageFiller": "cover",
                "wrapperColor": "red",
-               "image": "http://wals09.github.io/msx/tema/atmopheric.jpg",
+               "image": "https://ironteam-ua.github.io/msx/themes/live/atmospheric/atmospheric.jpg",
                "action": "video:auto:plugin:http://msx.benzac.de/plugins/background.html?url=http://msx.benzac.de/media/atmos1.mp4",
                "playerLabel": "Atmospheric",
                "controlTransparent": "true",
@@ -225,9 +225,9 @@
                "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
-                  "name": "Atmospheric",
+                  "name": "ZUMO-ATMOSFERIC",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_atmospheric.json",
+                  "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/atmospheric/atmospheric.json",
                   "welcome": "none"
                }
             }
