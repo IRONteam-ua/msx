@@ -63,7 +63,7 @@
                "imageHeight": 2.3,
                "imageFiller": "cover",
                "wrapperColor": "red",
-               "image": "http://wals09.github.io/msx/tema/aqua.jpg",
+               "image": "https://ironteam-ua.github.io/msx/themes/live/aqua/aqua.jpg",
                "action": "video:auto:plugin:http://msx.benzac.de/plugins/background.html?url=http://msx.benzac.de/media/atmos4.mp4",
                "playerLabel": "Atmospheric Background 2",
                "controlTransparent": "true",
@@ -84,9 +84,9 @@
                "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
-                  "name": "AQUA",
+                  "name": "ZUMO-AQUA",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_aqua.json",
+                  "parameter": "ontent:https://ironteam-ua.github.io/msx/themes/live/aqua/aqua.json",
                   "welcome": "none"
                }
             },
