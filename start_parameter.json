@@ -1,0 +1,48 @@
+{
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
+   "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
+   "headline": "",
+   "menu": [
+      {
+         "type": "separator"
+      },
+      {
+         "icon": "movie",
+         "label": "Класична теема",
+         "data": "https://ironteam-ua.github.io/msx/launchers/all_apps.json"
+      },
+      {
+         "icon": "color-lens",
+         "label": "Обрати статичну тему інтерфейсу",
+         "data": "https://ironteam-ua.github.io/msx/themes/setting_stat.json"
+      },
+      {
+         "icon": "wallpaper",
+         "label": "Обрати динамічну тему інтерфейсу",
+         "data": "https://ironteam-ua.github.io/msx/themes/setting_live.json"
+      },
+      {
+         "type": "separator"
+      },
+            {
+         "icon": "cloud",
+         "label": "Хмарні серверіси",
+         "data": "https://ironteam-ua.github.io/msx/launchers/cloud.json"
+      },
+      {
+         "type": "separator"
+        },
+      {
+         "icon": "help",
+         "label": "Інструкції",
+         "data": "https://ironteam-ua.github.io/msx/wiki/instructions.json"
+      },
+      {
+         "type": "separator"
+      },
+      {
+         "type": "settings"
+      }
+   ]
+}
