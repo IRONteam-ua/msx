@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "extension": "{col:msx-black}{ico:msx-black:event} {now:date:D, M d, yyyy}{tb}{ico:msx-black:access-time} {now:time:hh:mm}",
+   "extension": "{col:black}{ico:black:event} {now:date:D, M d, yyyy}{tb}{ico:black:access-time} {now:time:hh:mm}",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
    "background": "https://ironteam-ua.github.io/msx/themes/wrappers/white-sky.jpg?raw=true",
    "preload": "next",
@@ -13,7 +13,7 @@
             "round": false,
             "layout": "0,0,12,1",
             "offset": "-1,0,2,-0.8",
-            "color": "msx-black"
+            "color": "black"
          },
          {
             "type": "space",
@@ -38,17 +38,17 @@
       "area": "0,0,12,3",
       "offset": "0,2.5,0,0",
       "trigger:back": "player:stop",
-      "color": "msx-black-soft",
+      "color": "black-soft",
       "imageFiller": "cover"
    },
    "items": [
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}GetsTV{col}",
+               "headline": "{col:black}GetsTV{col}",
                "text": "{col:grey}Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.{col}"
             }
          },
@@ -57,11 +57,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}MOOVIES{col}",
+               "headline": "{col:black}MOOVIES{col}",
                "text": "{col:grey}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій{col}"
             }
          },
@@ -70,11 +70,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Forkplayer Old{col}",
+               "headline": "{col:black}Forkplayer Old{col}",
                "text": "{col:grey}Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів.{col}"
             }
          },
@@ -83,11 +83,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Forkplayer New{col}",
+               "headline": "{col:black}Forkplayer New{col}",
                "text": "{col:grey}Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції.{col}"
             }
          },
@@ -96,11 +96,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Prisma TV{col}",
+               "headline": "{col:black}Prisma TV{col}",
                "text": "{col:grey}Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів.{col}"
             }
          },
@@ -110,11 +110,11 @@
       {
          "focus": true,
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Lampa UnCensored{col}",
+               "headline": "{col:black}Lampa UnCensored{col}",
                "text": "{col:grey}Мод програми Lampa{br} з встановленим магазином плагінів та іншими «фішками»{col}"
             }
          },
@@ -123,11 +123,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}LAMPA{col}",
+               "headline": "{col:black}LAMPA{col}",
                "text": "{col:grey}Додаток-каталог. Не містить медіаконтенту, але при підключенні плагінів (див. інструкцію) легко трансформується в онлайн кінотеатр з можливістю перегляду торрентів та iptv{col}"
             }
          },
@@ -136,11 +136,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}ATODO{col}",
+               "headline": "{col:black}ATODO{col}",
                "text": "{col:grey}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів{col}"
             }
          },
@@ -149,11 +149,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}ATODO-web{col}",
+               "headline": "{col:black}ATODO-web{col}",
                "text": "{col:grey}Web версія програми ATODO. Перегляд різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів{col}"
             }
          },
@@ -162,11 +162,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Lampa Launchers (Набір Lamp){col}",
+               "headline": "{col:black}Lampa Launchers (Набір Lamp){col}",
                "text": "{col:grey}Добірка \"LAMPA\" з альтернативними адресами на випадок \"падіння\" оригінальною або для постійного використання.{col}"
             }
          },
@@ -178,11 +178,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}DEEPLEX{col}",
+               "headline": "{col:black}DEEPLEX{col}",
                "text": "{col:grey}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів.{col}"
             }
          },
@@ -190,13 +190,13 @@
          "action": "link:http://smart.deeplex.cc/"
       },
       {
-         "color": "msx-black",
+         "color": "black",
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}ZUMO Films{col}",
+               "headline": "{col:black}ZUMO Films{col}",
                "text": "{col:grey}Перегляд онлайн фільмів від ZUMO{col}"
             }
          },
@@ -205,25 +205,25 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}ZUMO TV{col}",
+               "headline": "{col:black}ZUMO TV{col}",
                "text": "{col:grey}Перегляд онлайн телебачення від ZUMO{col}"
             }
          },
-         "color": "msx-black",
+         "color": "black",
          "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
          "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}DRM-play{col}",
+               "headline": "{col:black}DRM-play{col}",
                "text": "{col:grey}IPTV плеєр із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. Тестовий плейлист для ознайомлення з функціями програвача.{col}"
             }
          },
@@ -232,11 +232,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}OTT-FOSS{col}",
+               "headline": "{col:black}OTT-FOSS{col}",
                "text": "{col:grey}IPTV плеєр із підтримкою плейлистів у форматі m3u, m3u8, медіатеки.{col}"
             }
          },
@@ -245,11 +245,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}OTT-PLAY{col}",
+               "headline": "{col:black}OTT-PLAY{col}",
                "text": "{col:grey}IPTV Player. Можливість перегляду своїх плейлистів, сталкер-порталів, медіатек. Збереження, перенесення налаштувань{col}"
             }
          },
@@ -258,11 +258,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}ICVA{col}",
+               "headline": "{col:black}ICVA{col}",
                "text": "{col:grey}IPTV player від розробників LAMPA Можливість перегляду своїх плейлистів.{col}"
             }
          },
@@ -271,11 +271,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Ottplayer{col}",
+               "headline": "{col:black}Ottplayer{col}",
                "text": "{col:grey}Сервіс, що дозволяє зібрати все ваше IP-телебачення в один плейлист, настроїти порядок каналів, отримати електронний програмний гід.{col}"
             }
          },
@@ -284,11 +284,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Oneplayer{col}",
+               "headline": "{col:black}Oneplayer{col}",
                "text": "{col:grey}Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій{col}"
             }
          },
@@ -297,11 +297,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}YouTUBE{col}",
+               "headline": "{col:black}YouTUBE{col}",
                "text": "{col:grey}Он-лайн-сервіс для хостингу та перегляду відео{col}"
             }
          },
@@ -310,11 +310,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}YOUTUBE KIDS{col}",
+               "headline": "{col:black}YOUTUBE KIDS{col}",
                "text": "{col:grey}Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей.{col}"
             }
          },
@@ -323,11 +323,11 @@
       },
       {
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}RELAX{col}",
+               "headline": "{col:black}RELAX{col}",
                "text": "{col:grey}Підбірка релаксуючих відео з інтернету.{col}"
             }
          },
@@ -341,11 +341,11 @@
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Тема оформлення{col}",
+               "headline": "{col:black}Тема оформлення{col}",
                "text": "{col:grey}Вибір теми оформлення ZUMO{col}"
             }
          },
@@ -359,11 +359,11 @@
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante.png",
          "selection": {
-            "color": "msx-black",
+            "color": "black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}Інструкції{col}",
+               "headline": "{col:black}Інструкції{col}",
                "text": "{col:grey} Інструкції як користуватись порталом{col}"
             }
          },
