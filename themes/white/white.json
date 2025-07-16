@@ -1,0 +1,352 @@
+{
+   "type": "list",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
+    "background": "https://ironteam-ua.github.io/msx/themes/wrappers/wrapper_white.jpg?raw=true",
+   "preload": "next",
+   "transparent": 1,
+   "captionUnderlay": 1,
+   "underlay": {
+      "items": [
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "col:msx-white"
+         },
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "1,0,6,3",
+            "offset": "-1,0.5,1,0",
+            "headline": "",
+            "text": ""
+         }
+      ]
+   },
+   "template": {
+      "type": "default",
+      "layout": "0,0,1,1",
+      "area": "0,0,12,3",
+      "offset": "0,2.5,0,0",
+      "trigger:back": "player:stop",
+      "color": "msx-black-soft",
+      "imageFiller": "cover"
+   },
+   "items": [
+	   	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "GetsTV",
+               "text": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
+         "action": "link:http://getstv.com/app/"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "MOOVIES",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
+         "action": "menu:request:interaction:init@http://moovies.uz/index.html"
+      },	    
+	   {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Forkplayer Old",
+               "text": "Це популярний відеосервіс для онлайн перегляду фільмів та серіалів, музики та мультфільмів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
+         "action": "link:http://browser.appinfo.su/"
+      },
+	  	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Forkplayer New",
+               "text": "Bеб-браузер, адаптований для перегляду спеціальних інтернет-сторінок з плейлистами, що автоматично оновлюються, надає можливість прямо з браузера дивитися фільми, ТВ-канали, слухати музику, радіостанції."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/fork_com.png",
+         "action": "link:http://browser.appfxml.com/"
+      },
+	   {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Prisma TV",
+               "text": "Відмінний аналог Лампи. Додатки для ANDROID TV і GOOGLE TV для перегляду онлайн фільмів та серіалів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/prisma.png",
+         "action": "panel: https://ironteam-ua.github.io/msx/launchers/prisma.json"
+      },
+	    {
+         "focus": true,
+	 "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lampa UnCensored",
+               "text": "Мод програми Lampa{br} з встановленим магазином плагінів та іншими «фішками»"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/bylampa.png",
+         "action": "link:http://bylampa.online"
+      },
+	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "LAMPA",
+               "text": "Додаток-каталог. Не містить медіаконтенту, але при підключенні плагінів (див. інструкцію) легко трансформується в онлайн кінотеатр з можливістю перегляду торрентів та iptv"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa.png",
+         "action": "link:http://lampa.mx"
+      },
+	      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ATODO",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ATODO-web",
+               "text": "Web версія програми ATODO. Перегляд різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/atodo.png",
+         "action": "link:http://msx.atodo.fun/"
+      },
+	         {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lampa Launchers (Набір Lamp)",
+               "text": "Добірка \"LAMPA\" з альтернативними адресами на випадок \"падіння\" оригінальною або для постійного використання."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/lampa_launchers.png",
+         "action": "panel: https://ironteam-ua.github.io/msx/launchers/lampa_launchers.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
+      },
+	   	   	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "DEEPLEX",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/"
+      },
+	   	         {
+	"color": "msx-grey",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ZUMO Films",
+               "text": "Перегляд онлайн фільмів від ZUMO"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
+         "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
+      },
+	    {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ZUMO TV",
+               "text": "Перегляд онлайн телебачення від ZUMO"
+            }
+         },
+	 "color": "msx-grey",
+         "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
+         "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "DRM-play",
+               "text": "IPTV плеєр із підтримкою плейлистів у форматі m3u, m3u8, stalker-portal, медіатеки. Тестовий плейлист для ознайомлення з функціями програвача."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/drm.png",
+         "action": "link:http://ott.drm-play.com"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "OTT-FOSS",
+               "text": "IPTV плеєр із підтримкою плейлистів у форматі m3u, m3u8, медіатеки."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/foss.png",
+         "action": "link:http://ott.prog4food.eu.org/f/"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "OTT-PLAY",
+               "text": "IPTV Player. Можливість перегляду своїх плейлистів, сталкер-порталів, медіатек. Збереження, перенесення налаштувань"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/ott-play.png",
+         "action": "link:http://ott-play.com/f/"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ICVA",
+               "text": "IPTV player від розробників LAMPA Можливість перегляду своїх плейлистів."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/icva.png",
+         "action": "link:http://icva.mx/"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Ottplayer",
+               "text": "Сервіс, що дозволяє зібрати все ваше IP-телебачення в один плейлист, настроїти порядок каналів, отримати електронний програмний гід."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
+         "action": "link:http://widget.ottplayer.tv"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oneplayer",
+               "text": "Додаток для перегляду різного медіаконтенту: фільмів, серіалів, аніме, а також перегляд торентів, iptv, прослуховування радіостанцій"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
+         "action": "link:http://webos.oneplayer.me"
+      },
+	      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YouTUBE",
+               "text": "Он-лайн-сервіс для хостингу та перегляду відео"
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/youtube.png",
+         "action": "link:https://www.youtube.com/tv#/"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YOUTUBE KIDS",
+               "text": "Окрема версія популярного відеохостингу Youtube, орієнтована виключно на дітей."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/ytkids.png",
+         "action": "link:https://www.youtube.com/tv/kids"
+      },
+	        {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "RELAX",
+               "text": "Підбірка релаксуючих відео з інтернету."
+            }
+         },
+         "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
+         "action": "content: https://ironteam-ua.github.io/msx/launchers/relax.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
+      },
+	     {
+         "color": "transparent",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Тема оформлення",
+               "text": "Вибір теми оформлення ZUMO"
+            }
+         },
+         "action": "panel:https://ironteam-ua.github.io/msx/themes/thems.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },   
+      {
+         "color": "transparent",
+         "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Інструкції",
+               "text": " Інструкції як користуватись порталом"
+            }
+         },
+         "action": "content:https://ironteam-ua.github.io/msx/wiki/instructions.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
+      }
+   ]
+}
