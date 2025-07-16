@@ -236,7 +236,7 @@
                "headline": "Сервіс, що дозволяє зібрати все ваше IP-телебачення."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/ottplayer.png",
+         "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
          "action": "link:http://widget.ottplayer.tv",
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
