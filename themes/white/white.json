@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "extension": "{col:msx-black}{ico:msx-black:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "extension": "{col:msx-black}{ico:msx-black:event} {now:date:D, M d, yyyy}{tb}{ico:msx-black:access-time} {now:time:hh:mm}",
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
     "background": "https://ironteam-ua.github.io/msx/themes/wrappers/white-sky.jpg?raw=true",
    "preload": "next",
