@@ -16,13 +16,13 @@
             "type": "space",
             "layout": "0,0,7,1",
             "offset": "-0.65,0.1,0,0 ",
-            "label": "Для демонстрации темы нажмите на картинку"
+            "label": "ДДля демонстрації теми натисніть на картинку"
          }
       ]
    },
    "pages": [
       {
-         "headline": "Динамические темы",
+         "headline": "Динамічні теми",
          "items": [
             {
                "type": "default",
@@ -31,7 +31,7 @@
                "imageHeight": 2.3,
                "imageFiller": "cover",
                "wrapperColor": "red",
-               "image": "http://wals09.github.io/msx/tema/gold_live.jpg",
+               "image": "https://ironteam-ua.github.io/msx/themes/live/gold/gold.jpg",
                "action": "video:auto:plugin:http://msx.benzac.de/plugins/background.html?url=http://msx.benzac.de/media/atmos2.mp4",
                "controlTransparent": "true",
                "properties": {
@@ -47,12 +47,12 @@
                "layout": "0,4,4,1",
                "offset": "0,0,0,-0.3",
                "color": "red",
-               "text": "{col:msx-white}Установить",
+               "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
                   "name": "GOLD",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu-gold_live.json",
+                  "parameter": "https://ironteam-ua.github.io/msx/themes/live/gold/gold.json",
                   "welcome": "none"
                }
             },
@@ -81,7 +81,7 @@
                "color": "red",
                "layout": "4,4,4,1",
                "offset": "0,0,0,-0.3",
-               "text": "{col:msx-white}Установить",
+               "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
                   "name": "AQUA",
@@ -115,7 +115,7 @@
                "color": "red",
                "layout": "8,4,4,1",
                "offset": "0,0,0,-0.3",
-               "text": "{col:msx-white}Установить",
+               "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
                   "name": "RAIN",
@@ -153,7 +153,7 @@
                "layout": "0,4,4,1",
                "offset": "0,0,0,-0.3",
                "color": "red",
-               "text": "{col:msx-white}Установить",
+               "text": "{col:msx-white}Встановити",
                "transparent": 1,
                "action": "start",
                "data": {
@@ -188,7 +188,7 @@
                "color": "red",
                "layout": "4,4,4,1",
                "offset": "0,0,0,-0.3",
-               "text": "{col:msx-white}Установить",
+               "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
                   "name": "OCEAN",
@@ -222,7 +222,7 @@
                "color": "red",
                "layout": "8,4,4,1",
                "offset": "0,0,0,-0.3",
-               "text": "{col:msx-white}Установить",
+               "text": "{col:msx-white}Встановити",
                "action": "start",
                "data": {
                   "name": "Atmospheric",
