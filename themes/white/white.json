@@ -44,6 +44,7 @@
    "items": [
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -56,6 +57,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -68,6 +70,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -80,6 +83,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -92,6 +96,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -105,6 +110,7 @@
       {
          "focus": true,
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -117,6 +123,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -129,6 +136,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -141,6 +149,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -153,6 +162,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -168,6 +178,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -181,6 +192,7 @@
       {
          "color": "msx-black",
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -193,6 +205,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -206,6 +219,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -218,6 +232,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -230,6 +245,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -242,6 +258,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -254,6 +271,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -266,6 +284,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -278,6 +297,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -290,6 +310,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -302,6 +323,7 @@
       },
       {
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -319,6 +341,7 @@
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/themes/img/theme_color.png",
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
@@ -336,6 +359,7 @@
          "color": "transparent",
          "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante.png",
          "selection": {
+            "color": "msx-black",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
