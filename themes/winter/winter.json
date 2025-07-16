@@ -4,6 +4,7 @@
    "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
     "background": "https://ironteam-ua.github.io/msx/themes/wrappers/winter-landscape-illustration.jpg?raw=true",
    "preload": "next",
+   "headline": "ZUMO - Смак Твого Вечора",
    "transparent": 1,
    "captionUnderlay": 1,
    "underlay": {
