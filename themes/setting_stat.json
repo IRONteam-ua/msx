@@ -133,14 +133,14 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}ТЕМА «ЗИМА» (зменшені ярлики)",
+         "titleHeader": "{col:msx-white}ТЕМА «ЗИМА» {br}(зменшені ярлики)",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимова тема оформлення",
+               "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимова тема оформлення зі зменшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/winter/winter.jpg"
             }
          },
@@ -154,18 +154,18 @@
          }
       },
         {
-         "titleHeader": "{col:msx-white}ТЕМА «ЗИМА» (збільшені ярлики)",
+         "titleHeader": "{col:msx-white}ТЕМА «ЗИМА»{br} (збільшені ярлики)",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимова тема оформлення",
+               "text": "{col:msx-white}Тема «ЗИМА»{col}{br}Зимова тема оформлення зі збільшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/winter/winter-bg.jpg"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/winter.png?raw=true",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/winter-bg.png?raw=true",
          "action": "start",
          "data": {
             "name": "ZUMO-WINTER",
@@ -175,14 +175,14 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}ТЕМА «ОСІНЬ» (зменшені ярлики)",
+         "titleHeader": "{col:msx-white}ТЕМА «ОСІНЬ»{br} (зменьшені ярлики)",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ОСІНЬ»",
+               "text": "{col:msx-white}Тема «ОСІНЬ» {br}Осіння тема оформлення зі зменшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/autumn/autumn.jpg"
             }
          },
@@ -196,18 +196,18 @@
          }
       },
        {
-         "titleHeader": "{col:msx-white}ТЕМА «ОСІНЬ» (зменшені ярлики)",
+         "titleHeader": "{col:msx-white}ТЕМА «ОСІНЬ» {br}(збільшені ярлики)",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ОСІНЬ»",
+               "text": "{col:msx-white}Тема «ОСІНЬ» {br}Осіння тема оформлення зі збільшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/autumn/autumn-bg.jpg"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/autumn.png",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/autumn-bg.png",
          "action": "start",
          "data": {
             "name": "ZUMO-AUTUMN",
@@ -217,14 +217,14 @@
          }
       },
             {
-         "titleHeader": "{col:msx-white}ТЕМА «ЛІТО» (зменшені ярлики)",
+         "titleHeader": "{col:msx-white}ТЕМА «ЛІТО» {br}(зменшені ярлики)",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ЛІТО»",
+               "text": "{col:msx-white}Тема «ЛІТО» {br}Літня тема оформлення зі зменшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/autumn/summer.jpg"
             }
          },
@@ -238,18 +238,18 @@
          }
       },
                   {
-         "titleHeader": "{col:msx-white}ТЕМА «ЛІТО» (збільшені ярлики)",
+         "titleHeader": "{col:msx-white}ТЕМА «ЛІТО» {br}(збільшені ярлики)",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Тема «ЛІТО»",
+               "text": "{col:msx-white}Тема «ЛІТО»  {br}Осіння тема оформлення зі збільшеними іконками програм",
                "image": "https://ironteam-ua.github.io/msx/themes/autumn/summer-bg.png"
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/summer.png",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/summer-bg.png",
          "action": "start",
          "data": {
             "name": "ZUMO-SUMMER",
