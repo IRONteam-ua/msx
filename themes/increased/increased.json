@@ -233,11 +233,11 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Сервіс, що дозволяє зібрати все ваше IP-телебачення в один плейлист."
+               "headline": "Сервіс, що дозволяє зібрати все ваше IP-телебачення."
             }
          },
-         "image": "https://ironteam-ua.github.io/msx/themes/img/icva.png",
-         "action": "link:http://icva.mx/",
+         "image": "https://ironteam-ua.github.io/msx/themes/img/ottplayer.png",
+         "action": "link:http://widget.ottplayer.tv",
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
          }
