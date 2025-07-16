@@ -52,7 +52,7 @@
                "data": {
                   "name": "ZUMO-GOLD",
                   "version": "1.0.0",
-                  "parameter": "https://ironteam-ua.github.io/msx/themes/live/gold/gold.json",
+                  "parameter": "content:https://ironteam-ua.github.io/msx/themes/live/gold/gold.json",
                   "welcome": "none"
                }
             },
