@@ -40,8 +40,8 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "{col:msx-black}GetsTV{col}",
-               "text": "{col:grey}Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі.{col}"
+               "headline": "GetsTV",
+               "text": "Фільми та мультфільми. Найбільша база на будь-який смак, щодня оновлюється, новинки з'являються відразу після прем'єри в кінотеатрі."
             }
          },
          "image": "https://ironteam-ua.github.io/msx/themes/img/getstv.png",
