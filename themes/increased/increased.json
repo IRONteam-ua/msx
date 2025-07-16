@@ -378,7 +378,6 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-   },
    {
       "title": "Інструкції ",
       "selection": {
@@ -395,6 +394,5 @@
          "image:extension": "| {col:msx-white}27th Item"
       }
    },
-}
 ]
 }
