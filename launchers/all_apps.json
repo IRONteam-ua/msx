@@ -78,12 +78,6 @@
             "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
             "action": "link:http://browser.appinfo.su/"
         },
-        {
-            "title": "{col:#e6e6fa}Mytuner mobi",
-            "titleFooter": "",
-            "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png",
-            "action": "link:https://devices.mytuner.mobi/"
-        },
                 {
             "title": "{col:#e6e6fa}ICVA ",
             "titleFooter": "IPTV плеєр LAMPA",
@@ -119,6 +113,12 @@
             "titleFooter": "IPTV player",
             "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
             "action": "link:http://webos.oneplayer.me"
+        },
+                {
+            "title": "{col:#e6e6fa}Mytuner mobi",
+            "titleFooter": "Радіо",
+            "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png",
+            "action": "link:https://devices.mytuner.mobi/"
         },
                         {
             "title": "{col:#e6e6fa}ZUMO Films",
