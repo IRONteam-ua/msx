@@ -25,15 +25,15 @@
     "items": [
                 {
             "title": "{col:#e6e6fa}GetsTV 3.0",
-            "titleFooter": "Найбільша база фільмів та мультфільмів",
+            "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
             "action": "link:http://getstv.com/app/"
         },
            {
             "title": "{col:#e6e6fa}MOOVIES",
-            "titleFooter": "Додаток для перегляду різного медіаконтенту",
-            "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
-            "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+            "titleFooter": "Фільми та серіали",
+            "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
+            "action": "menu:request:interaction:init@http://moovies.uz/index.html"
         },
         {
             "title": "{col:#e6e6fa}ATODO",
