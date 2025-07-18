@@ -10,33 +10,12 @@
     "preload": "next",
     "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
     "action": "[settings:validate_links:0|home]",
-    "overlay": {
-        "items": [
-            {
-                "type": "space",
-                "layout": "7,0,4,6",
-                "offset": "0.9,-1,0.2,1.67",
-                "color": "#353535"
-            },
-            {
-                "id": "image",
-                "type": "space",
-                "layout": "8,0,4,3",
-                "image": ""
-            },
-            {
-                "id": "text",
-                "type": "space",
-                "layout": "8,3,4,3",
-                "headline": "",
-                "text": ""
-            }
-        ]
-    },
     "template": {
         "type": "default",
         "layout": "0,0,4,2",
         "area": "0,0,8,6",
+        "columns": 3,
+        "rows": 4,
         "wrapperColor": "msx-glass",
         "imageWidth": 2,
         "color": "msx-glass",
