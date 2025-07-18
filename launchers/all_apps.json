@@ -79,30 +79,6 @@
             "action": "link:http://browser.appinfo.su/"
         },
         {
-            "title": "{col:#e6e6fa}GetsTV 3.0",
-            "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
-            "action": "link:http://getstv.com/app/"
-        },
-                {
-            "title": "{col:#e6e6fa}ZUMO Films",
-            "titleFooter": "Каталог фільмів",
-            "image": "https://ironteam-ua.github.io/msx/img/zumo-f.png",
-            "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
-        },
-        {
-            "title": "{col:#e6e6fa}ZUMO TV",
-            "titleFooter": "Телебачення",
-            "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
-            "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
-        },
-                {
-            "title": "{col:#e6e6fa}Deeplex",
-            "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/deeplex2.png",
-            "action": "link:http://smart.deeplex.cc"
-        },
-        {
             "title": "{col:#e6e6fa}Mytuner mobi",
             "titleFooter": "",
             "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png",
@@ -133,6 +109,37 @@
             "action": "link:http://icva.mx/"
         },
                 {
+            "title": "{col:#e6e6fa}Oneplayer",
+            "titleFooter": "IPTV player",
+            "image": "https://ironteam-ua.github.io/msx/themes/img/one_player.png",
+            "action": "link:http://webos.oneplayer.me"
+        },
+                        {
+            "title": "{col:#e6e6fa}ZUMO Films",
+            "titleFooter": "Каталог фільмів",
+            "image": "https://ironteam-ua.github.io/msx/img/zumo-f.png",
+            "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
+        },
+        {
+            "title": "{col:#e6e6fa}ZUMO TV",
+            "titleFooter": "Телебачення",
+            "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
+            "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
+        },
+                {
+            "title": "{col:#e6e6fa}GetsTV 3.0",
+            "titleFooter": "Фільми та серіали",
+            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
+            "action": "link:http://getstv.com/app/"
+        },
+                        {
+            "title": "{col:#e6e6fa}Deeplex",
+            "titleFooter": "Фільми та серіали",
+            "image": "https://ironteam-ua.github.io/msx/img/deeplex2.png",
+            "action": "link:http://smart.deeplex.cc"
+        },
+        
+                {
             "title": "{col:#e6e6fa}YouTube",
             "titleFooter": "Відеоролики",
             "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
@@ -149,7 +156,7 @@
             "titleFooter": "Підбірка релаксуючих відео",
             "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
             "action": "content: https://ironteam-ua.github.io/msx/launchers/relax.json"
-        }
+        },
         {
             "title": "{col:#e6e6fa}Інструкції",
             "titleFooter": "",
