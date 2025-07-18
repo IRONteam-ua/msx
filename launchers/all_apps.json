@@ -23,16 +23,17 @@
         "imageFiller": "cover"
     },
     "items": [
-                {
-            "title": "{col:#e6e6fa}GetsTV 3.0",
+                        {
+            "focus": true,
+            "title": "{col:#e6e6fa}UN Censored",
             "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
-            "action": "link:http://getstv.com/app/"
+            "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
+            "action": "link:http://bylampa.online/"
         },
            {
             "title": "{col:#e6e6fa}MOOVIES",
             "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/themes/img/moovies.png",
+            "image": "https://ironteam-ua.github.io/msx/img/moovies.png",
             "action": "menu:request:interaction:init@http://moovies.uz/index.html"
         },
         {
@@ -52,13 +53,6 @@
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
             "action": "link:https://prisma.ws/"
-        },
-                {
-            "focus": true,
-            "title": "{col:#e6e6fa}UN Censored",
-            "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
-            "action": "link:http://bylampa.online/"
         },
                 {
             "title": "{col:#e6e6fa}LAMPA",
@@ -95,6 +89,12 @@
             "titleFooter": "Відеоролики",
             "image": "https://ironteam-ua.github.io/msx/img/ytkids.png",
             "action": "link:https://www.youtube.com/tv/kids"
+        },
+        {
+            "title": "{col:#e6e6fa}GetsTV 3.0",
+            "titleFooter": "Фільми та серіали",
+            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
+            "action": "link:http://getstv.com/app/"
         },
         {
             "title": "{col:#e6e6fa}Online TV",
