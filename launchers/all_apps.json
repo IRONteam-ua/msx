@@ -84,6 +84,12 @@
             "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png",
             "action": "link:https://devices.mytuner.mobi/"
         },
+                {
+            "title": "{col:#e6e6fa}ICVA ",
+            "titleFooter": "IPTV плеєр LAMPA",
+            "image": "https://ironteam-ua.github.io/msx/themes/img/icva.png",
+            "action": "link:http://icva.mx/"
+        },
         {
             "title": "{col:#e6e6fa}OTT-player",
             "titleFooter": "IPTV player",
@@ -91,7 +97,7 @@
             "action": "link:http://widget.ottplayer.tv/"
         },
         {
-            "title": "{col:#e6e6fa}OTT-play FOSS",
+            "title": "{col:#e6e6fa}OTT-FOSS",
             "titleFooter": "IPTV player",
             "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
             "action": "link:http://ottp.eu.org/f/"
