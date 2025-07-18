@@ -8,6 +8,7 @@
     "logo": "https://ironteam-ua.github.io/msx/img/logo.png",
     "logoSize": "large",
     "preload": "next",
+    "transparent": 1,
     "dictionary": "https://ironteam-ua.github.io/msx/lang/ua.json",
     "action": "[settings:validate_links:0|home]",
     "template": {
@@ -22,17 +23,17 @@
         "imageFiller": "cover"
     },
     "items": [
-        {
-            "title": "{col:#e6e6fa}UN Censored",
-            "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
-            "action": "link:http://bylampa.online/"
+                {
+            "title": "{col:#e6e6fa}GetsTV 3.0",
+            "titleFooter": "Найбільша база фільмів та мультфільмів",
+            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
+            "action": "link:http://getstv.com/app/"
         },
-        {
-            "title": "{col:#e6e6fa}LAMPA",
-            "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
-            "action": "link:http://lampa.mx"
+           {
+            "title": "{col:#e6e6fa}MOOVIES",
+            "titleFooter": "Додаток для перегляду різного медіаконтенту",
+            "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
+            "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
         },
         {
             "title": "{col:#e6e6fa}ATODO",
@@ -52,11 +53,18 @@
             "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
             "action": "link:https://prisma.ws/"
         },
-        {
-            "title": "{col:#e6e6fa}Lampa | NoName",
+                {
+            "focus": true,
+            "title": "{col:#e6e6fa}UN Censored",
             "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/lampaNN.png",
-            "action": "link:http://lampa.nnmtv.pw/"
+            "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
+            "action": "link:http://bylampa.online/"
+        },
+                {
+            "title": "{col:#e6e6fa}LAMPA",
+            "titleFooter": "Фільми та серіали",
+            "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
+            "action": "link:http://lampa.mx"
         },
         {
             "title": "{col:#e6e6fa}Forkplayer",
@@ -71,28 +79,10 @@
             "action": "link:http://browser.appfxml.com/"
         },
         {
-            "title": "{col:#e6e6fa}Lamp!she",
-            "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/lampishe-logo.png",
-            "action": "link:https://web.lampishe.cc/"
-        },
-        {
-            "title": "{col:#e6e6fa}Lampa Land",
-            "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
-            "action": "link:http://lampa.land"
-        },
-        {
             "title": "{col:#e6e6fa}Deeplex",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/deeplex2.png",
             "action": "link:http://smart.deeplex.cc"
-        },
-        {
-            "title": "{col:#e6e6fa}GetsTV 3.0",
-            "titleFooter": "Фільми та серіали",
-            "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
-            "action": "link:http://getstv.com/app/"
         },
         {
             "title": "{col:#e6e6fa}YouTube",
@@ -105,12 +95,6 @@
             "titleFooter": "Відеоролики",
             "image": "https://ironteam-ua.github.io/msx/img/ytkids.png",
             "action": "link:https://www.youtube.com/tv/kids"
-        },
-        {
-            "title": "{col:#e6e6fa}tiktok LG (webos)",
-            "titleFooter": "Відеоролики",
-            "image": "https://ironteam-ua.github.io/msx/img/tiktok.png",
-            "action": "link:https://tv.tiktok.com/webos"
         },
         {
             "title": "{col:#e6e6fa}Online TV",
@@ -152,7 +136,7 @@
             "title": "{col:#e6e6fa}Інструкції",
             "titleFooter": "",
             "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png",
-            "action": "link:https://ironteam-ua.github.io/msx/wiki/instructions.html"
+            "action": "content:https://ironteam-ua.github.io/msx/wiki/instructions.json"
         }
     ]
 }
