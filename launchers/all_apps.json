@@ -75,7 +75,7 @@
         {
             "title": "{col:#e6e6fa}Forkplayer",
             "titleFooter": "Плеєри",
-            "image": "https://ironteam-ua.github.io/msx/img/forkd.png",
+            "image": "https://ironteam-ua.github.io/msx/themes/img/fork_old.png",
             "action": "link:http://browser.appinfo.su/"
         },
         {
@@ -123,7 +123,7 @@
                         {
             "title": "{col:#e6e6fa}ZUMO Films",
             "titleFooter": "Каталог фільмів",
-            "image": "https://ironteam-ua.github.io/msx/img/zumo-f.png",
+            "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
             "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
         },
         {
