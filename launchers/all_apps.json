@@ -20,151 +20,152 @@
         "wrapperColor": "msx-glass",
         "imageWidth": 2,
         "color": "msx-glass",
-        "imageFiller": "cover"
+        "imageFiller": "cover",
+        "titleColor": "#e6e6fa",
+        "titleFooterColor": "msx-white"
     },
     "items": [
-                        {
+        {
             "focus": true,
-            "title": "{col:#e6e6fa}UN Censored",
+            "title": "UN Censored",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/un-censored-logo.png",
             "action": "link:http://bylampa.online/"
         },
-                        {
-            "title": "{col:#e6e6fa}LAMPA",
+        {
+            "title": "LAMPA",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/lampa-logo.png",
             "action": "link:http://lampa.mx"
         },
-                {
-            "title": "{col:#e6e6fa}Prisma TV",
+        {
+            "title": "Prisma TV",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/prisma-logo.png",
             "action": "panel:https://ironteam-ua.github.io/msx/launchers/prisma.json"
         },
-            {
-            "title": "{col:#e6e6fa}ATODO",
+        {
+            "title": "ATODO",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
             "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
         },
         {
-            "title": "{col:#e6e6fa}ATODO web",
+            "title": "ATODO web",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/atodo-logo.png",
             "action": "link:http://msx.atodo.fun/"
         },
-           {
-            "title": "{col:#e6e6fa}Lampa Launchers",
+        {
+            "title": "Lampa Launchers",
             "titleFooter": "Моди Ламп",
             "image": "https://ironteam-ua.github.io/msx/img/lampa_launchers.png",
             "action": "panel: https://ironteam-ua.github.io/msx/launchers/lampa_launchers.json"
         },
-                   {
-            "title": "{col:#e6e6fa}MOOVIES",
+        {
+            "title": "MOOVIES",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/moovies.png",
             "action": "menu:request:interaction:init@http://moovies.uz/index.html"
         },
-                {
-            "title": "{col:#e6e6fa}Forkplayer NEW",
+        {
+            "title": "Forkplayer NEW",
             "titleFooter": "Плеєри",
             "image": "https://ironteam-ua.github.io/msx/img/forknew-grey.png",
             "action": "link:http://browser.appfxml.com/"
         },
         {
-            "title": "{col:#e6e6fa}Forkplayer",
+            "title": "Forkplayer",
             "titleFooter": "Плеєри",
             "image": "https://ironteam-ua.github.io/msx/img/fork_old.png",
             "action": "link:http://browser.appinfo.su/"
         },
-                {
-            "title": "{col:#e6e6fa}ICVA ",
+        {
+            "title": "ICVA",
             "titleFooter": "IPTV плеєр LAMPA",
             "image": "https://ironteam-ua.github.io/msx/img/icva.png",
             "action": "link:http://icva.mx/"
         },
         {
-            "title": "{col:#e6e6fa}OTT-player",
+            "title": "OTT-player",
             "titleFooter": "IPTV player",
             "image": "https://ironteam-ua.github.io/msx/img/ottplayer-grey.png",
             "action": "link:http://widget.ottplayer.tv/"
         },
         {
-            "title": "{col:#e6e6fa}OTT-FOSS",
+            "title": "OTT-FOSS",
             "titleFooter": "IPTV player",
             "image": "https://ironteam-ua.github.io/msx/img/ottp-foss-logo.png",
             "action": "link:http://ottp.eu.org/f/"
         },
         {
-            "title": "{col:#e6e6fa}DRM-play",
+            "title": "DRM-play",
             "titleFooter": "IPTV player",
             "image": "https://ironteam-ua.github.io/msx/img/drm-logo.png",
             "action": "link:http://drm-play.com"
         },
         {
-            "title": "{col:#e6e6fa}ICVA",
+            "title": "ICVA",
             "titleFooter": "IPTV player",
             "image": "https://ironteam-ua.github.io/msx/img/icva-logo.png",
             "action": "link:http://icva.mx/"
         },
-                {
-            "title": "{col:#e6e6fa}Oneplayer",
+        {
+            "title": "Oneplayer",
             "titleFooter": "IPTV player",
-            "image": "https://ironteam-ua.github.io/msx//img/one_player-grey.png",
+            "image": "https://ironteam-ua.github.io/msx/img/one_player-grey.png",
             "action": "link:http://webos.oneplayer.me"
         },
-                {
-            "title": "{col:#e6e6fa}Mytuner mobi",
+        {
+            "title": "Mytuner mobi",
             "titleFooter": "Радіо",
             "image": "https://ironteam-ua.github.io/msx/img/mytuner-logo.png",
             "action": "link:https://devices.mytuner.mobi/"
         },
-                        {
-            "title": "{col:#e6e6fa}ZUMO Films",
+        {
+            "title": "ZUMO Films",
             "titleFooter": "Каталог фільмів",
             "image": "https://ironteam-ua.github.io/msx/img/zumo_f.png",
             "action": "menu:https://ironteam-ua.github.io/msx/zumo_films/menu.json"
         },
         {
-            "title": "{col:#e6e6fa}ZUMO TV",
+            "title": "ZUMO TV",
             "titleFooter": "Телебачення",
             "image": "https://ironteam-ua.github.io/msx/img/zumo-tv.png",
             "action": "menu:https://ironteam-ua.github.io/msx/tv/tv.json"
         },
-                {
-            "title": "{col:#e6e6fa}GetsTV 3.0",
+        {
+            "title": "GetsTV 3.0",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/getstv_logo.png",
             "action": "link:http://getstv.com/app/"
         },
-                        {
-            "title": "{col:#e6e6fa}Deeplex",
+        {
+            "title": "Deeplex",
             "titleFooter": "Фільми та серіали",
             "image": "https://ironteam-ua.github.io/msx/img/deeplex2.png",
             "action": "link:http://smart.deeplex.cc"
         },
-        
-                {
-            "title": "{col:#e6e6fa}YouTube",
+        {
+            "title": "YouTube",
             "titleFooter": "Відеоролики",
             "image": "https://ironteam-ua.github.io/msx/img/youtube-logo.png",
             "action": "link:https://www.youtube.com/tv#/"
         },
         {
-            "title": "{col:#e6e6fa}YouTube Kids",
+            "title": "YouTube Kids",
             "titleFooter": "Відеоролики",
             "image": "https://ironteam-ua.github.io/msx/img/ytkids-grey.png",
             "action": "link:https://www.youtube.com/tv/kids"
         },
-                {
-            "title": "{col:#e6e6fa}RELAX ",
+        {
+            "title": "RELAX",
             "titleFooter": "Підбірка релаксуючих відео",
             "image": "https://ironteam-ua.github.io/msx/img/relax.png",
             "action": "content: https://ironteam-ua.github.io/msx/launchers/relax.json"
         },
         {
-            "title": "{col:#e6e6fa}Інструкції",
+            "title": "Інструкції",
             "titleFooter": "",
             "image": "https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png",
             "action": "content:https://ironteam-ua.github.io/msx/wiki/instructions.json"
