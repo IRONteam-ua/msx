@@ -81,7 +81,7 @@
                 {
             "title": "{col:#e6e6fa}ICVA ",
             "titleFooter": "IPTV плеєр LAMPA",
-            "image": "https://ironteam-ua.github.io/msx/themes/img/icva.png",
+            "image": "https://ironteam-ua.github.io/msx/img/icva.png",
             "action": "link:http://icva.mx/"
         },
         {
@@ -160,7 +160,7 @@
                 {
             "title": "{col:#e6e6fa}RELAX ",
             "titleFooter": "Підбірка релаксуючих відео",
-            "image": "https://ironteam-ua.github.io/msx/themes/img/relax.png",
+            "image": "https://ironteam-ua.github.io/msx/img/relax.png",
             "action": "content: https://ironteam-ua.github.io/msx/launchers/relax.json"
         },
         {
