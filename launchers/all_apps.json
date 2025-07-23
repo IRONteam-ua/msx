@@ -87,7 +87,7 @@
         {
             "title": "{col:#e6e6fa}OTT-player",
             "titleFooter": "IPTV player",
-            "image": "https://ironteam-ua.github.io/msx/img/ottplayer.png",
+            "image": "https://ironteam-ua.github.io/msx/img/ottplayer-grey.png",
             "action": "link:http://widget.ottplayer.tv/"
         },
         {
