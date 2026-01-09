@@ -153,43 +153,74 @@
         .right { bottom: 50px; right: 20px; }
         .down { bottom: 0px; right: 70px; }
 
-      .app-card {
+/* === Картка додатка === */
+.app-card {
     background: #1e1e1e;
-    border-radius: 12px;
-    margin: 15px 0;
+    border-radius: 16px;
+    margin: 20px 0;
     overflow: hidden;
 }
 
+/* === Верх картки === */
 .app-summary {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    text-align: center;
+    padding: 20px;
     cursor: pointer;
-    padding: 15px;
 }
 
-.app-summary img {
-    width: 64px;
-    height: 64px;
-    border-radius: 12px;
+.app-icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
-.app-info h3 {
-    margin: 0;
+.app-title {
+    margin: 5px 0;
     color: #1ac9b8;
 }
 
-.app-info p {
-    margin: 5px 0 0;
+.app-short {
     color: #bbb;
-    font-size: 14px;
+    font-size: 15px;
+    margin: 0;
 }
 
-.app-details {
+/* === Тіло === */
+.app-body {
     padding: 15px;
     border-top: 1px solid #333;
 }
 
+/* === Підрозділи === */
+.sub-section {
+    margin-top: 10px;
+}
+
+.sub-section summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 8px;
+}
+
+/* === Галерея === */
+.gallery {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
+}
+
+.gallery img {
+    width: 240px;
+    border-radius: 10px;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
+/* === Прибираємо стандартні маркери === */
 details summary {
     list-style: none;
 }
@@ -197,7 +228,6 @@ details summary {
 details summary::-webkit-details-marker {
     display: none;
 }
-
     </style>
 </head>
 
@@ -212,50 +242,88 @@ details summary::-webkit-details-marker {
 <a id="up3"></a>
 
 <details class="app-card">
-    <summary class="app-summary">
-        <img src="img/app_lampa.png" alt="Lampa">
-        <div class="app-info">
-            <h3>Lampa</h3>
-            <p>Онлайн-кінотеатр з підтримкою плагінів, IPTV та торентів</p>
-        </div>
-    </summary>
 
-    <div class="app-details">
-        <p>
-            Lampa — це основний додаток для перегляду фільмів і серіалів.
-            Підтримує онлайн-кінотеатри, IPTV, парсери та торент-сервери.
+    <summary class="app-summary">
+
+        <img class="app-icon"
+             src="img/lampa.png"
+             alt="Lampa">
+
+        <h3 class="app-title">Lampa</h3>
+
+        <p class="app-short">
+            Онлайн-кінотеатр з підтримкою плагінів, IPTV та торентів
         </p>
 
-        <div class="gallery">
-            <img src="img/lampa_1.jpg">
-            <img src="img/lampa_2.jpg">
-            <img src="img/lampa_3.jpg">
-        </div>
-    </div>
-</details>
-
-  <details class="app-card">
-    <summary class="app-summary">
-        <img src="img/app_lampa.png" alt="Lampa">
-        <div class="app-info">
-            <h3>Lampa</h3>
-            <p>Онлайн-кінотеатр з підтримкою плагінів, IPTV та торентів</p>
-        </div>
     </summary>
 
-    <div class="app-details">
-        <p>
-            Lampa — це основний додаток для перегляду фільмів і серіалів.
-            Підтримує онлайн-кінотеатри, IPTV, парсери та торент-сервери.
+    <div class="app-body">
+
+        <details class="sub-section">
+            <summary>⚙ Налаштування</summary>
+            <p>
+                Lampa дозволяє підключати онлайн-кінотеатри,
+                IPTV-плейлисти, торент-сервери та додаткові плагіни.
+            </p>
+        </details>
+
+        <details class="sub-section">
+            <summary>🖼 Скріншоти</summary>
+
+            <div class="gallery">
+                <img src="img/lampa_1.jpg">
+                <img src="img/lampa_2.jpg">
+                <img src="img/lampa_3.jpg">
+            </div>
+
+        </details>
+
+    </div>
+
+</details>
+
+
+<details class="app-card">
+
+    <summary class="app-summary">
+
+        <img class="app-icon"
+             src="img/lampa.png"
+             alt="Lampa">
+
+        <h3 class="app-title">Lampa</h3>
+
+        <p class="app-short">
+            Онлайн-кінотеатр з підтримкою плагінів, IPTV та торентів
         </p>
 
-        <div class="gallery">
-            <img src="img/lampa_1.jpg">
-            <img src="img/lampa_2.jpg">
-            <img src="img/lampa_3.jpg">
-        </div>
+    </summary>
+
+    <div class="app-body">
+
+        <details class="sub-section">
+            <summary>⚙ Налаштування</summary>
+            <p>
+                Lampa дозволяє підключати онлайн-кінотеатри,
+                IPTV-плейлисти, торент-сервери та додаткові плагіни.
+            </p>
+        </details>
+
+        <details class="sub-section">
+            <summary>🖼 Скріншоти</summary>
+
+            <div class="gallery">
+                <img src="img/lampa_1.jpg">
+                <img src="img/lampa_2.jpg">
+                <img src="img/lampa_3.jpg">
+            </div>
+
+        </details>
+
     </div>
+
 </details>
+
 
 
 <!-- ===== КНОПКИ ===== -->
