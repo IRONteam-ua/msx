@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Інструкція до користування сервісом: як користуватись ZUMO</title>
+    <title>Зовнішній вигляд та розділи</title>
+
     <style>
-        <style>
-        
         body {
             background-color: #121212;
             color: #ffffff;
@@ -28,8 +27,12 @@
             margin-top: 30px;
         }
 
-        p,
-        li {
+        h3 {
+            color: #1ac9b8;
+            margin-top: 20px;
+        }
+
+        p, li {
             font-size: 16px;
         }
 
@@ -43,10 +46,6 @@
             font-size: 20px;
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
-
         .note {
             background-color: #222;
             border-left: 5px solid #1ac9b8;
@@ -54,7 +53,44 @@
             margin: 20px 0;
         }
 
-        /* кнопки */
+        .screenshot {
+            margin: 15px 0;
+            padding: 10px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            color: #aaa;
+            text-align: center;
+        }
+
+        .screenshot img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        /* === QR === */
+        .qrcode-box {
+            position: fixed;
+            top: 150px;
+            right: 20px;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #1ac9b8;
+            z-index: 1000;
+            width: 250px;
+        }
+
+        .qrcode-box img {
+            width: 250px;
+        }
+
+        @media (max-width: 768px) {
+            .qrcode-box {
+                display: none;
+            }
+        }
+
+        /* === Кнопки === */
         .nav-btn {
             position: fixed;
             background-color: #1ac9b8;
@@ -65,177 +101,109 @@
             font-weight: bold;
             text-align: center;
             text-decoration: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-            transition: background-color 0.3s, transform 0.2s;
             z-index: 999;
         }
 
-        .nav-btn:hover {
-            background-color: #17b0a2;
-            transform: scale(1.1);
-        }
-
-        /* Розташування */
-        .up {
-            bottom: 100px;
-            right: 70px;
-        }
-
-        .left {
-            bottom: 50px;
-            right: 120px;
-        }
-
-        .right {
-            bottom: 50px;
-            right: 20px;
-        }
-
-        .down {
-            bottom: 0px;
-            right: 70px;
-        }
-
-            .qr-container {
-      margin-top: 30px;
-    }
-
-    .qr-container img {
-      width: 150px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-/* Accordion steps */
-.step {
-    background-color: #1e1e1e;
-    border: 1px solid #2f2f2f;
-    border-radius: 8px;
-    margin: 15px 0;
-    overflow: hidden;
-}
-
-.step summary {
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #1ac9b8;
-    list-style: none;
-}
-
-.step summary::marker {
-    display: none;
-}
-
-.step summary:after {
-    content: "＋";
-    float: right;
-    font-size: 22px;
-    transition: transform 0.3s;
-}
-
-.step[open] summary:after {
-    content: "－";
-}
-
-.step-content {
-    padding: 15px;
-    border-top: 1px solid #2f2f2f;
-    color: #ddd;
-}
-
-.step-content img {
-    width: 100%;
-    max-width: 800px;
-    display: block;
-    margin: 15px auto 0;
-    border-radius: 10px;
-    box-shadow: 0 6px 20px rgba(0,0,0,.6);
-}   
+        .up { bottom: 100px; right: 70px; }
+        .left { bottom: 50px; right: 120px; }
+        .right { bottom: 50px; right: 20px; }
+        .down { bottom: 0px; right: 70px; }
     </style>
-
 </head>
-    <body>
-    <a id="top"></a>
-<h1>Налаштування та можливості</h1>
-   <a id="up3"></a>
-<div class="accordion">
+
+<body>
+
+<h1>Опис меню та налаштувань</h1>
+
+<div class="note">
+    Тут описані основні розділи меню, налаштування зовнішнього вигляду та доступні списки програм і сервісів.
+</div>
+
+<a id="up3"></a>
 
 <!-- ===== ЗОВНІШНІЙ ВИГЛЯД ===== -->
-<details class="section">
-<summary>🎨 Зовнішній вигляд (Теми)</summary>
-<div class="section-content">
+<h2>🎨 Зовнішній вигляд (Теми)</h2>
 
-<div class="subsection">
+<p>
+Теми відповідають за оформлення інтерфейсу. Ви можете змінювати вигляд меню в залежності від вподобань або можливостей пристрою.
+</p>
+
 <h3>Статичні теми</h3>
-<p>
-Класичні теми без анімації. Працюють швидко, стабільно та підходять для слабких пристроїв.
-</p>
 <ul>
-<li>Великі ярлики</li>
-<li>Компактна тема</li>
-<li>Сезонні теми: зима, весна, літо, осінь</li>
+    <li><b>Великі ярлики</b> — зручні для телевізорів та керування пультом.</li>
+    <li><b>Компактна тема</b> — більше контенту на екрані.</li>
+    <li><b>Сезонні теми</b> — зима, весна, літо, осінь.</li>
 </ul>
-<div class="screenshot">Скріншот статичних тем</div>
+
+<div class="screenshot">
+    Скріншот статичних тем<br>
+    <!-- <img src="img/static_theme.png"> -->
 </div>
 
-<div class="subsection">
 <h3>Динамічні теми</h3>
-<p>
-Анімовані теми з живими ефектами. Візуально ефектні, але потребують більше ресурсів.
-</p>
 <ul>
-<li>Золото</li>
-<li>Вода</li>
-<li>Дощ</li>
-<li>Океан</li>
+    <li>Золото</li>
+    <li>Вода</li>
+    <li>Дощ</li>
+    <li>Океан</li>
 </ul>
-<div class="screenshot">Скріншот динамічних тем</div>
+
+<p>
+Динамічні теми містять анімацію. Вони виглядають ефектно, але можуть споживати більше ресурсів.
+</p>
+
+<div class="screenshot">
+    Скріншот динамічних тем<br>
+    <!-- <img src="img/dynamic_theme.png"> -->
 </div>
 
-</div>
-</details>
+<p>
+Зміна теми відбувається через меню налаштувань без перезапуску сервісу.
+</p>
 
 <!-- ===== СПИСОК ПРОГРАМ ===== -->
-<details class="section">
-<summary>📦 Список програм</summary>
-<div class="section-content">
+<h2>📦 Список програм</h2>
 
-<div class="subsection">
 <p>
-Список встановлених програм. Можна швидко запускати, сортувати або приховувати непотрібні елементи.
+У цьому розділі відображаються всі доступні додатки. Ви можете:
 </p>
-<div class="screenshot">Скріншот списку програм</div>
-</div>
+<ul>
+    <li>запускати програми</li>
+    <li>змінювати порядок</li>
+    <li>приховувати непотрібні елементи</li>
+</ul>
 
+<div class="screenshot">
+    Скріншот списку програм<br>
+    <!-- <img src="img/apps_list.png"> -->
 </div>
-</details>
 
 <!-- ===== СПИСОК СЕРВІСІВ ===== -->
-<details class="section">
-<summary>🌐 Список сервісів</summary>
-<div class="section-content">
+<h2>🌐 Список сервісів</h2>
 
-<div class="subsection">
 <p>
-Онлайн-сервіси та джерела контенту. Доступні для швидкого керування та перемикання.
+Сервіси — це онлайн-джерела контенту. Вони можуть оновлюватися автоматично або вручну.
 </p>
-<div class="screenshot">Скріншот списку сервісів</div>
+
+<ul>
+    <li>онлайн-кінотеатри</li>
+    <li>плейлисти</li>
+    <li>медіа-сервіси</li>
+</ul>
+
+<div class="screenshot">
+    Скріншот списку сервісів<br>
+    <!-- <img src="img/services_list.png"> -->
 </div>
 
-</div>
-</details>
 
-</div>
 
-      <!-- Кнопки -->
-    <a id="down3"></a>
-    <a href="#up3" class="nav-btn up" title="Вгору">🔼</a>
-    <a href="https://ironteam-ua.github.io/msx/wiki/instructions.html" class="nav-btn left" title="До меню">◀️</a>
-    <a href="https://ironteam-ua.github.io/msx/wiki/browser.html" class="nav-btn right" title="Наступна сторінка">▶️</a>
-    <a href="#down3" class="nav-btn down" title="Вниз">🔽</a>
-    
+<!-- ===== КНОПКИ ===== -->
+<a id="down3"></a>
+<a href="#up3" class="nav-btn up">🔼</a>
+<a href="content:https://ironteam-ua.github.io/msx/menu.json" class="nav-btn left">◀️</a>
+<a href="questions.html" class="nav-btn right">▶️</a>
+<a href="#down3" class="nav-btn down">🔽</a>
+
 </body>
 </html>
-
