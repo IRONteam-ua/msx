@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Інструкція до користування сервісом: Додатки ZUMO</title>
+    <link rel="icon" type="image/x-icon" href="https://tv.ironteam.com.ua/favicon.ico">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+
+        h1 {
+            color: #1ac9b8;
+            border-bottom: 2px solid #1ac9b8;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            color: #ffcc00;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #1ac9b8;
+            margin-top: 20px;
+        }
+
+        p, li {
+            font-size: 16px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: #1ac9b8;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .note {
+            background-color: #222;
+            border-left: 5px solid #1ac9b8;
+            padding: 10px;
+            margin: 20px 0;
+        }
+
+        .screenshot {
+            margin: 15px 0;
+            padding: 10px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            color: #aaa;
+            text-align: center;
+        }
+
+        .screenshot img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+.gallery-box {
+    margin: 20px 0;
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.gallery-box h4 {
+    color: #1ac9b8;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #1ac9b8 #222;
+}
+
+.gallery::-webkit-scrollbar {
+    height: 8px;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+    background: #1ac9b8;
+    border-radius: 4px;
+}
+
+.gallery img {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    scroll-snap-align: start;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+        /* === QR === */
+        .qrcode-box {
+            position: fixed;
+            top: 150px;
+            right: 20px;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #1ac9b8;
+            z-index: 1000;
+            width: 250px;
+        }
+
+        .qrcode-box img {
+            width: 250px;
+        }
+
+        @media (max-width: 768px) {
+            .qrcode-box {
+                display: none;
+            }
+        }
+
+        /* === Кнопки === */
+        .nav-btn {
+            position: fixed;
+            background-color: #1ac9b8;
+            color: #000;
+            padding: 12px 14px;
+            border-radius: 50%;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            z-index: 999;
+        }
+
+        .up { bottom: 100px; right: 70px; }
+        .left { bottom: 50px; right: 120px; }
+        .right { bottom: 50px; right: 20px; }
+        .down { bottom: 0px; right: 70px; }
+
+      .app-card {
+    background: #1e1e1e;
+    border-radius: 12px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.app-summary {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.app-summary img {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+}
+
+.app-info h3 {
+    margin: 0;
+    color: #1ac9b8;
+}
+
+.app-info p {
+    margin: 5px 0 0;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.app-details {
+    padding: 15px;
+    border-top: 1px solid #333;
+}
+
+details summary {
+    list-style: none;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+    </style>
+</head>
+
+<body>
+
+<h1>Налаштування тем</h1>
+
+<div class="note">
+    Тут описані додатки ZUMO і як ними користуватись.
+</div>
+
+<a id="up3"></a>
+
+<details class="app-card">
+    <summary class="app-summary">
+        <img src="img/app_lampa.png" alt="Lampa">
+        <div class="app-info">
+            <h3>Lampa</h3>
+            <p>Онлайн-кінотеатр з підтримкою плагінів, IPTV та торентів</p>
+        </div>
+    </summary>
+
+    <div class="app-details">
+        <p>
+            Lampa — це основний додаток для перегляду фільмів і серіалів.
+            Підтримує онлайн-кінотеатри, IPTV, парсери та торент-сервери.
+        </p>
+
+        <div class="gallery">
+            <img src="img/lampa_1.jpg">
+            <img src="img/lampa_2.jpg">
+            <img src="img/lampa_3.jpg">
+        </div>
+    </div>
+</details>
+
+  <details class="app-card">
+    <summary class="app-summary">
+        <img src="img/app_lampa.png" alt="Lampa">
+        <div class="app-info">
+            <h3>Lampa</h3>
+            <p>Онлайн-кінотеатр з підтримкою плагінів, IPTV та торентів</p>
+        </div>
+    </summary>
+
+    <div class="app-details">
+        <p>
+            Lampa — це основний додаток для перегляду фільмів і серіалів.
+            Підтримує онлайн-кінотеатри, IPTV, парсери та торент-сервери.
+        </p>
+
+        <div class="gallery">
+            <img src="img/lampa_1.jpg">
+            <img src="img/lampa_2.jpg">
+            <img src="img/lampa_3.jpg">
+        </div>
+    </div>
+</details>
+
+
+<!-- ===== КНОПКИ ===== -->
+<a id="down3"></a>
+<a href="#up3" class="nav-btn up">🔼</a>
+<a href="content:https://ironteam-ua.github.io/msx/menu.json" class="nav-btn left">◀️</a>
+<a href="questions.html" class="nav-btn right">▶️</a>
+<a href="#down3" class="nav-btn down">🔽</a>
+
+</body>
+</html>
