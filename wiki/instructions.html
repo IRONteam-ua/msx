@@ -101,6 +101,19 @@ body {
     margin-top: 10px;
 }
 
+.qr-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 20px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.qr-close:hover {
+    color: #ff5555;
+}
+
 @media (max-width: 768px) {
     .qrcode-box {
         display: none;
@@ -161,10 +174,11 @@ body {
 </div>
 
 <!-- QR -->
-<div class="qrcode-box">
+<div class="qrcode-box" id="qrBox">
+    <span class="qr-close" onclick="closeQR()">✕</span>
     <p>📲 Відкрий у телефоні</p>
     <img src="https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png">
-    <p class="desc">Скануй код для швидкого доступу до інструкцій</p>
+    <p class="desc">Скануй код для швидкого доступу</p>
 </div>
 
 <!-- Кнопки 
@@ -173,11 +187,10 @@ body {
 <a href="https://ironteam-ua.github.io/msx/wiki/fork.html" class="nav-btn right">▶️</a>
 <a href="#bottom" class="nav-btn down">🔽</a>
     -->
-<script>
-setTimeout(() => {
-    const qr = document.getElementById('qrBox');
-    if (qr) qr.style.display = 'none';
-}, 5000);
+    <script>
+function closeQR() {
+    document.getElementById('qrBox').style.display = 'none';
+}
 </script>
 </body>
 </html>
