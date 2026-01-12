@@ -1,178 +1,177 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Меню інструкцій</title>
-    <link rel="icon" type="image/x-icon" href="https://tv.ironteam.com.ua/favicon.ico">
-       <style>
-    /* === Загальні стилі для тіла сторінки === */
-    body {
-        background-color: #121212;
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        padding: 20px;
-        scroll-behavior: smooth;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZUMO – Media Station X | Інструкції</title>
+<link rel="icon" type="image/x-icon" href="https://tv.ironteam.com.ua/favicon.ico">
 
-    /* === Заголовки === */
-    h1 {
-        color: #1ac9b8;
-        border-bottom: 2px solid #1ac9b8;
-        padding-bottom: 5px;
-    }
+<style>
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
 
-    h2 {
-        color: #ffcc00;
-        margin-top: 30px;
-    }
+/* === Банер === */
+.hero {
+    max-width: 690px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
 
-    /* === Текст, списки === */
-    p, li {
-        font-size: 16px;
-    }
+.hero img {
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(26,201,184,0.4);
+}
 
-    ul {
-        padding-left: 20px;
-    }
+/* === Опис === */
+.description {
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
 
-    /* === Посилання === */
-    a {
-        color: #1ac9b8;
-        text-decoration: none;
-        font-size: 20px;
-    }
+.description h1 {
+    color: #1ac9b8;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
 
-    a:hover {
-        text-decoration: underline;
-    }
+.description p {
+    font-size: 18px;
+    color: #ccc;
+}
 
-    /* === Інформаційний блок === */
-    .note {
-        background-color: #222;
-        border-left: 5px solid #1ac9b8;
-        padding: 10px;
-        margin: 20px 0;
-    }
+/* === Хмара інструкцій === */
+.cloud {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 
-    /* === Блок з QR-кодом === */
+.cloud a {
+    background: linear-gradient(145deg, #1f1f1f, #191919);
+    border: 1px solid #1ac9b8;
+    border-radius: 40px;
+    padding: 18px 26px;
+    font-size: 18px;
+    color: #1ac9b8;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.cloud a:hover {
+    background-color: #1ac9b8;
+    color: #000;
+    transform: scale(1.05);
+}
+
+/* === QR === */
+.qrcode-box {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #1ac9b8;
+    width: 250px;
+    z-index: 1000;
+}
+
+.qrcode-box p {
+    color: #1ac9b8;
+    margin-bottom: 10px;
+}
+
+.qrcode-box img {
+    width: 100%;
+}
+
+.qrcode-box .desc {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
     .qrcode-box {
-        position: fixed;
-        top: 150px;
-        right: 20px;
-        background-color: #222;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px #1ac9b8;
-        z-index: 1000;
-        width: 250px;
+        display: none;
     }
+}
 
-    .qrcode-box p {
-        color: #1ac9b8;
-        font-size: 16px;
-        margin: 0 0 10px 0;
-    }
+/* === Навігація === */
+.nav-btn {
+    position: fixed;
+    background-color: #1ac9b8;
+    color: #000;
+    padding: 12px 14px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    z-index: 999;
+}
 
-    .qrcode-box img {
-        width: 250px;
-    }
+.up { bottom: 100px; right: 70px; }
+.left { bottom: 50px; right: 120px; }
+.right { bottom: 50px; right: 20px; }
+.down { bottom: 0px; right: 70px; }
 
-    .qrcode-box .desc {
-        font-size: 14px;
-        color: #aaa;
-        margin-top: 10px;
-    }
-
-    /* === QR-блок зникає на екранах до 768px (наприклад, телефони) === */
-    @media (max-width: 768px) {
-        .qrcode-box {
-            display: none;
-        }
-    }
-
-    /* === Кнопки навігації === */
-    .nav-btn {
-        position: fixed;
-        background-color: #1ac9b8;
-        color: #000;
-        padding: 12px 14px;
-        border-radius: 50%;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        text-decoration: none;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-        transition: background-color 0.3s, transform 0.2s;
-        z-index: 999;
-    }
-
-    .nav-btn:hover {
-        background-color: #17b0a2;
-        transform: scale(1.1);
-    }
-
-    /* === Позиції кнопок === */
-    .up {
-        bottom: 100px;
-        right: 70px;
-    }
-
-    .left {
-        bottom: 50px;
-        right: 120px;
-    }
-
-    .right {
-        bottom: 50px;
-        right: 20px;
-    }
-
-    .down {
-        bottom: 0px;
-        right: 70px;
-    }
 </style>
-
-
 </head>
 
 <body>
-    <h1>Меню інструкцій</h1>
 
-    <div class="note">
-        Виберіть розділ, щоб перейти до відповідної інструкції.</a>
-    </div>    
-        <a id="up3"></a>
-    <ol>
-        <li><a href="install.html">Встановлення ZUMO</a></li>
-        <li><a href="browser.html">Відкриття ZUMO в браузері</a></li>
-        <li><a href="setup.html">Зовнішній вигляд та персоналізація ZUMO</a></li>
-        <li><a href="apps.html">Додатки ZUMO та як переглядати фільми в ZUMO</a></li>
-        <li><a href="lampa.html">Додавання плагінів (парсерів, кінотеатрів тощо) у Lampa та ін.</a></li>
-        <li><a href="fork.html">Як користуватись ForkPlayer</a></li>
-        <li><a href="playlists.html">Завантаження плейлистів</a></li>
-        <li><a href="update.html">Оновлення сервісів</a></li>
-        <li><a href="apcs.html">Опис і інструкція до додатків в меню</a></li>
-        <li><a href="questions.html">Часті запитання</a></li>
-        <li><a href="help.html">Підтримка</a></li>
-    </ol>
-<div class="qrcode-box">
-  <p>📲 Відкрий у телефоні</p>
-  <img src="https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png" alt="QR-код до інструкції">
-  <p class="desc">Скануй цей код, щоб швидко відкрити сторінку інструкції на телефоні або планшеті</p>
+<!-- Банер -->
+<div class="hero">
+    <img src="https://ironteam-ua.github.io/msx/img/logo.png" alt="ZUMO Media Station X">
 </div>
-    
-    <!-- Кнопки -->
-    <a id="down3"></a>
-    <a href="#up3" class="nav-btn up" title="Вгору">🔼</a>
-    <a href="content:https://ironteam-ua.github.io/msx/menu.json" class="nav-btn left" title="До меню">◀️</a>
-    <a href="https://ironteam-ua.github.io/msx/wiki/fork.html" class="nav-btn right" title="Наступна сторінка">▶️</a>
-    <a href="#down3" class="nav-btn down" title="Вниз">🔽</a>
 
-    
+<!-- Опис -->
+<div class="description">
+    <h1>ZUMO – Media Station X</h1>
+    <p>
+        ZUMO — це сучасний медіапортал на базі Media Station X для перегляду фільмів,
+        серіалів, IPTV, онлайн-кінотеатрів та розваг на Smart TV, приставках і Android.
+        Один інтерфейс — десятки можливостей.
+    </p>
+</div>
+
+<!-- Хмара інструкцій -->
+<div class="cloud">
+    <a href="install.html">📦 Встановлення ZUMO</a>
+    <a href="browser.html">🌐 Запуск у браузері</a>
+    <a href="setup.html">🎨 Персоналізація</a>
+    <a href="apps.html">🎬 Додатки та фільми</a>
+    <a href="lampa.html">🧩 Плагіни Lampa</a>
+    <a href="fork.html">🍴 ForkPlayer</a>
+    <a href="playlists.html">📺 Плейлисти</a>
+    <a href="update.html">🔄 Оновлення</a>
+    <a href="apcs.html">📘 Опис додатків</a>
+    <a href="questions.html">❓ FAQ</a>
+    <a href="help.html">🆘 Підтримка</a>
+</div>
+
+<!-- QR -->
+<div class="qrcode-box">
+    <p>📲 Відкрий у телефоні</p>
+    <img src="https://ironteam-ua.github.io/msx/img/qrcode_instructions_transporante_w.png">
+    <p class="desc">Скануй код для швидкого доступу до інструкцій</p>
+</div>
+
+<!-- Кнопки -->
+<a href="#" class="nav-btn up">🔼</a>
+<a href="content:https://ironteam-ua.github.io/msx/menu.json" class="nav-btn left">◀️</a>
+<a href="https://ironteam-ua.github.io/msx/wiki/fork.html" class="nav-btn right">▶️</a>
+<a href="#bottom" class="nav-btn down">🔽</a>
+
 </body>
-
 </html>
