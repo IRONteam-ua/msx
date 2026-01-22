@@ -6,193 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Інструкція до користування сервісом: Додатки ZUMO</title>
     <link rel="icon" type="image/x-icon" href="https://tv.ironteam.com.ua/favicon.ico">
-    <style>
-        body {
-            background-color: #121212;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-            scroll-behavior: smooth;
-        }
-
-        h1 {
-            color: #1ac9b8;
-            border-bottom: 2px solid #1ac9b8;
-            padding-bottom: 5px;
-        }
-
-        h2 {
-            color: #ffcc00;
-            margin-top: 30px;
-        }
-
-        h3 {
-            color: #1ac9b8;
-            margin-top: 20px;
-        }
-
-        p, li {
-            font-size: 16px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        a {
-            color: #1ac9b8;
-            text-decoration: none;
-            font-size: 20px;
-        }
-
-        .note {
-            background-color: #222;
-            border-left: 5px solid #1ac9b8;
-            padding: 10px;
-            margin: 20px 0;
-        }
-
-        .screenshot {
-            margin: 15px 0;
-            padding: 10px;
-            background: #1e1e1e;
-            border-radius: 10px;
-            color: #aaa;
-            text-align: center;
-        }
-
-        .screenshot img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
-.gallery-box {
-    margin: 20px 0;
-    background: #1e1e1e;
-    border-radius: 10px;
-    padding: 10px;
+<style>
+/* ===== BASE ===== */
+* {
+    box-sizing: border-box;
 }
 
-.gallery-box h4 {
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+h1 {
     color: #1ac9b8;
-    margin-bottom: 10px;
+    border-bottom: 2px solid #1ac9b8;
+    padding-bottom: 5px;
 }
 
-.gallery {
+h2 {
+    color: #ffcc00;
+    margin: 30px 0 15px;
+}
+
+h3 {
+    color: #1ac9b8;
+    margin: 0;
+}
+
+p, li {
+    font-size: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #1ac9b8;
+    text-decoration: none;
+}
+
+/* ===== NOTE ===== */
+.note {
+    background-color: #222;
+    border-left: 5px solid #1ac9b8;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* ===== APP TABS ===== */
+.app-tabs {
     display: flex;
+    gap: 8px;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 10px;
     padding-bottom: 10px;
-    scrollbar-width: thin;
-    scrollbar-color: #1ac9b8 #222;
+    margin-bottom: 20px;
 }
 
-.gallery::-webkit-scrollbar {
-    height: 8px;
+.app-tabs a {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
-.gallery::-webkit-scrollbar-thumb {
+.app-tabs a:hover {
     background: #1ac9b8;
-    border-radius: 4px;
+    color: #000;
 }
 
-.gallery img {
-    flex: 0 0 auto;
-    width: 300px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-    scroll-snap-align: start;
-    transition: transform 0.3s;
+/* ===== GRID ===== */
+.apps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 16px;
 }
 
-.gallery img:hover {
-    transform: scale(1.05);
-}
-
-        /* === QR === */
-        .qrcode-box {
-            position: fixed;
-            top: 150px;
-            right: 20px;
-            background-color: #222;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px #1ac9b8;
-            z-index: 1000;
-            width: 250px;
-        }
-
-        .qrcode-box img {
-            width: 250px;
-        }
-
-        @media (max-width: 768px) {
-            .qrcode-box {
-                display: none;
-            }
-        }
-
-        /* === Кнопки === */
-        .nav-btn {
-            position: fixed;
-            background-color: #1ac9b8;
-            color: #000;
-            padding: 12px 14px;
-            border-radius: 50%;
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center;
-            text-decoration: none;
-            z-index: 999;
-        }
-
-        .up { bottom: 100px; right: 70px; }
-        .left { bottom: 50px; right: 120px; }
-        .right { bottom: 50px; right: 20px; }
-        .down { bottom: 0px; right: 70px; }
-
-/* === Картка додатка === */
+/* ===== APP CARD ===== */
 .app-card {
     background: #1e1e1e;
     border-radius: 16px;
-    margin: 20px 0;
     overflow: hidden;
 }
 
-/* === Верх картки === */
+/* ===== CARD HEADER ===== */
 .app-summary {
-    text-align: center;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 12px;
+    padding: 12px;
+    align-items: center;
     cursor: pointer;
 }
 
 .app-icon {
-    width: 96px;
-    height: 96px;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
 }
 
 .app-title {
-    margin: 5px 0;
+    font-size: 18px;
     color: #1ac9b8;
 }
 
 .app-short {
+    font-size: 14px;
     color: #bbb;
-    font-size: 15px;
-    margin: 0;
+    line-height: 1.4;
 }
 
-/* === Тіло === */
+/* ===== CARD BODY ===== */
 .app-body {
-    padding: 15px;
+    padding: 14px;
     border-top: 1px solid #333;
 }
 
-/* === Підрозділи === */
+/* ===== SUB SECTIONS ===== */
 .sub-section {
     margin-top: 10px;
 }
@@ -204,23 +140,33 @@
     margin-bottom: 8px;
 }
 
-/* === Галерея === */
+/* ===== GALLERY ===== */
 .gallery {
     display: flex;
     gap: 10px;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
     padding-bottom: 10px;
 }
 
-.gallery img {
-    width: 240px;
-    border-radius: 10px;
-    scroll-snap-align: start;
-    flex-shrink: 0;
+.gallery a {
+    position: relative;
 }
 
-/* === Прибираємо стандартні маркери === */
+.gallery img {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: zoom-in;
+}
+
+.gallery a:hover img,
+.gallery a:focus img {
+    transform: scale(1.8);
+    z-index: 10;
+    box-shadow: 0 0 25px rgba(0,0,0,0.9);
+}
+
+/* ===== DETAILS FIX ===== */
 details summary {
     list-style: none;
 }
@@ -228,7 +174,48 @@ details summary {
 details summary::-webkit-details-marker {
     display: none;
 }
-    </style>
+
+/* ===== NAV BUTTONS ===== */
+.nav-btn {
+    position: fixed;
+    background-color: #1ac9b8;
+    color: #000;
+    padding: 12px 14px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 999;
+}
+
+.up { bottom: 100px; right: 70px; }
+.left { bottom: 50px; right: 120px; }
+.right { bottom: 50px; right: 20px; }
+.down { bottom: 0; right: 70px; }
+
+/* ===== QR ===== */
+.qrcode-box {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1ac9b8;
+    width: 250px;
+    z-index: 1000;
+}
+
+.qrcode-box img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .qrcode-box {
+        display: none;
+    }
+}
+</style>
 </head>
 
 <body>
@@ -241,6 +228,18 @@ details summary::-webkit-details-marker {
 
 <a id="up3"></a>
 <h2>Перегляд відео</h2>
+    <div class="app-tabs">
+    <a href="#lampa">Lampa</a>
+    <a href="#hdrezka">Rezka</a>
+    <a href="#youtube">YouTube</a>
+    <a href="#iptv">IPTV</a>
+    <a href="#radio">Radio</a>
+    <a href="#torrent">Torrent</a>
+    <a href="#music">Music</a>
+    <a href="#kids">Kids</a>
+    <a href="#sport">Sport</a>
+    <a href="#settings">Settings</a>
+</div>
 <details class="app-card">
 
     <summary class="app-summary">
@@ -283,18 +282,14 @@ details summary::-webkit-details-marker {
         <details class="sub-section">
             <summary>🖼 Перегляд фільмів</summary>
 
-            <div class="gallery">
-                <ul>
-                    <li>Оберіть фільм і натисніть на кнопку перегляду</li>
-                <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png">
-                    <li>Оберіть дерел </li>
-                <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png">
-                    <li>Оберіть "Балансер" (сервер вілео)</li>
-                <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-4.png">
-                    <li>Оберіть переклад і насолоджуйтесь переглядом</li>
-                <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-3.png">
-                </ul>
-            </div>
+      <div class="gallery zoom-gallery">
+    <a href="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png" target="_blank">
+        <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png">
+    </a>
+    <a href="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png" target="_blank">
+        <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png">
+    </a>
+</div>
 
         </details>
 
@@ -302,19 +297,21 @@ details summary::-webkit-details-marker {
 
 </details>
 
-
-<details class="app-card">
+    <details class="app-card">
 
     <summary class="app-summary">
 
         <img class="app-icon"
-             src="img/lampa.png"
-             alt="Lampa">
+             src="https://ironteam-ua.github.io/msx/themes/img/bylampa.png"
+             alt="Lampa UnCensored">
 
-        <h3 class="app-title">Lampa</h3>
+        <h3 class="app-title">Lampa UnCensored</h3>
 
         <p class="app-short">
-            Онлайн-кінотеатр з підтримкою плагінів, IPTV та торентів
+            Додаток-каталог. Не містить медіаконтенту, але при підключенні плагінів легко трансформується в онлайн кінотеатр з можливістю перегляду торрентів та iptv. <br>
+         </p>   
+        <p>
+            <font color="#ffcc00"> Як дивитись фільми?...🔽</font>
         </p>
 
     </summary>
@@ -324,25 +321,152 @@ details summary::-webkit-details-marker {
         <details class="sub-section">
             <summary>⚙ Налаштування</summary>
             <p>
-                Lampa дозволяє підключати онлайн-кінотеатри,
-                IPTV-плейлисти, торент-сервери та додаткові плагіни.
+                Для перегляду контенту потрібно активувати плагіни для перегляду. З коробки в Lampa UnCensored є вбудовані плагіни.<br>
+            </p>   
+          <p>
+            Щоб їх активувати необхідно:
             </p>
+                <ol>
+                    <li>Запустити додаток Lampa UnCensored</li>
+                    <li>При першому запуску вибрати мову</li>
+                    <li>Коли додаток завантажиться, натиснути на налаштуванняи(в верхній частині екрану) <br><img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set.png"></li>
+                    <li>Знайти і перейти в меню "Плагіни"</li>
+                    <li>Перейти в меню "Онлайн"</li>
+                    <li>Встановити: Online_mod, Online_Cinema</li>
+                </ol>
         </details>
 
         <details class="sub-section">
-            <summary>🖼 Скріншоти</summary>
+            <summary>🖼 Перегляд фільмів</summary>
 
-            <div class="gallery">
-                <img src="img/lampa_1.jpg">
-                <img src="img/lampa_2.jpg">
-                <img src="img/lampa_3.jpg">
-            </div>
+      <div class="gallery zoom-gallery">
+    <a href="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png" target="_blank">
+        <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png">
+    </a>
+    <a href="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png" target="_blank">
+        <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png">
+    </a>
+</div>
 
         </details>
 
     </div>
 
 </details>
+    <details class="app-card">
+
+    <summary class="app-summary">
+
+        <img class="app-icon"
+             src="https://ironteam-ua.github.io/msx/themes/img/bylampa.png"
+             alt="Lampa UnCensored">
+
+        <h3 class="app-title">Lampa UnCensored</h3>
+
+        <p class="app-short">
+            Додаток-каталог. Не містить медіаконтенту, але при підключенні плагінів легко трансформується в онлайн кінотеатр з можливістю перегляду торрентів та iptv. <br>
+         </p>   
+        <p>
+            <font color="#ffcc00"> Як дивитись фільми?...🔽</font>
+        </p>
+
+    </summary>
+
+    <div class="app-body">
+
+        <details class="sub-section">
+            <summary>⚙ Налаштування</summary>
+            <p>
+                Для перегляду контенту потрібно активувати плагіни для перегляду. З коробки в Lampa UnCensored є вбудовані плагіни.<br>
+            </p>   
+          <p>
+            Щоб їх активувати необхідно:
+            </p>
+                <ol>
+                    <li>Запустити додаток Lampa UnCensored</li>
+                    <li>При першому запуску вибрати мову</li>
+                    <li>Коли додаток завантажиться, натиснути на налаштуванняи(в верхній частині екрану) <br><img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set.png"></li>
+                    <li>Знайти і перейти в меню "Плагіни"</li>
+                    <li>Перейти в меню "Онлайн"</li>
+                    <li>Встановити: Online_mod, Online_Cinema</li>
+                </ol>
+        </details>
+
+        <details class="sub-section">
+            <summary>🖼 Перегляд фільмів</summary>
+
+      <div class="gallery zoom-gallery">
+    <a href="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png" target="_blank">
+        <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png">
+    </a>
+    <a href="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png" target="_blank">
+        <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png">
+    </a>
+</div>
+
+        </details>
+
+    </div>
+
+</details>
+    <details class="app-card">
+
+    <summary class="app-summary">
+
+        <img class="app-icon"
+             src="https://ironteam-ua.github.io/msx/themes/img/bylampa.png"
+             alt="Lampa UnCensored">
+
+        <h3 class="app-title">Lampa UnCensored</h3>
+
+        <p class="app-short">
+            Додаток-каталог. Не містить медіаконтенту, але при підключенні плагінів легко трансформується в онлайн кінотеатр з можливістю перегляду торрентів та iptv. <br>
+         </p>   
+        <p>
+            <font color="#ffcc00"> Як дивитись фільми?...🔽</font>
+        </p>
+
+    </summary>
+
+    <div class="app-body">
+
+        <details class="sub-section">
+            <summary>⚙ Налаштування</summary>
+            <p>
+                Для перегляду контенту потрібно активувати плагіни для перегляду. З коробки в Lampa UnCensored є вбудовані плагіни.<br>
+            </p>   
+          <p>
+            Щоб їх активувати необхідно:
+            </p>
+                <ol>
+                    <li>Запустити додаток Lampa UnCensored</li>
+                    <li>При першому запуску вибрати мову</li>
+                    <li>Коли додаток завантажиться, натиснути на налаштуванняи(в верхній частині екрану) <br><img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set.png"></li>
+                    <li>Знайти і перейти в меню "Плагіни"</li>
+                    <li>Перейти в меню "Онлайн"</li>
+                    <li>Встановити: Online_mod, Online_Cinema</li>
+                </ol>
+        </details>
+
+        <details class="sub-section">
+            <summary>🖼 Перегляд фільмів</summary>
+
+      <div class="gallery zoom-gallery">
+    <a href="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png" target="_blank">
+        <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-1.png">
+    </a>
+    <a href="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png" target="_blank">
+        <img src="https://ironteam-ua.github.io/msx/wiki/img/lampa_set-2.png">
+    </a>
+</div>
+
+        </details>
+
+    </div>
+
+</details>
+
+
 
 
 
