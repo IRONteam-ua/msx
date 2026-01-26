@@ -7,6 +7,51 @@
 <link rel="icon" href="https://tv.ironteam.com.ua/favicon.ico">
 
 <style>
+    <style>
+*{box-sizing:border-box}
+
+body{
+    background:#121212;
+    color:#fff;
+    font-family:Arial,sans-serif;
+    padding:20px;
+}
+
+h1{
+    color:#1ac9b8;
+    border-bottom:2px solid #1ac9b8;
+    padding-bottom:6px;
+}
+
+h2{color:#ffcc00;margin:25px 0 10px}
+
+.note{
+    background:#222;
+    border-left:5px solid #1ac9b8;
+    padding:10px;
+    margin:20px 0;
+}
+
+/* ===== TABS ===== */
+.app-tabs{
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+    margin-bottom:20px;
+}
+.app-tabs a{
+    background:#1e1e1e;
+    border:1px solid #333;
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:14px;
+    white-space:nowrap;
+}
+.app-tabs a:hover{
+    background:#1ac9b8;
+    color:#000;
+}
+
 /* ===== GRID ===== */
 .apps-grid{
     display:grid;
@@ -32,6 +77,12 @@
 @media (min-width:2500px){
     .apps-grid{
         grid-template-columns:repeat(3,1fr);
+    }
+}
+    /* 8K */
+@media (min-width:4300px){
+    .apps-grid{
+        grid-template-columns:repeat(4,1fr);
     }
 }
 
@@ -92,6 +143,24 @@
         grid-template-columns:1fr;
     }
 }
+/* ===== DETAILS FIX ===== */
+details summary{list-style:none}
+details summary::-webkit-details-marker{display:none}
+
+/* ===== NAV ===== */
+.nav-btn{
+    position:fixed;
+    background:#1ac9b8;
+    color:#000;
+    padding:12px;
+    border-radius:50%;
+    font-weight:bold;
+    z-index:999;
+}
+.up{bottom:100px;right:70px}
+.left{bottom:50px;right:120px}
+.right{bottom:50px;right:20px}
+.down{bottom:0;right:70px}
 </style>
 </head>
 
