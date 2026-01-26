@@ -7,27 +7,23 @@
 <link rel="icon" href="https://tv.ironteam.com.ua/favicon.ico">
 
 <style>
-/* ================= RESET ================= */
+/* ===== RESET ===== */
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
-/* ================= BASE ================= */
+/* ===== BASE ===== */
 body {
     background: #121212;
     color: #ffffff;
     font-family: Arial, sans-serif;
     padding: 20px;
-    line-height: 1.6;
 }
 
 h1 {
     color: #1ac9b8;
     border-bottom: 2px solid #1ac9b8;
     padding-bottom: 6px;
-    margin-bottom: 15px;
 }
 
 h2 {
@@ -35,25 +31,18 @@ h2 {
     margin: 25px 0 10px;
 }
 
-a {
-    color: #1ac9b8;
-    text-decoration: none;
-}
-
-/* ================= NOTE ================= */
 .note {
     background: #222;
     border-left: 5px solid #1ac9b8;
-    padding: 10px 14px;
+    padding: 10px;
     margin: 20px 0;
 }
 
-/* ================= TABS ================= */
+/* ===== TABS ===== */
 .app-tabs {
     display: flex;
     gap: 8px;
     overflow-x: auto;
-    padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
@@ -64,7 +53,8 @@ a {
     border-radius: 20px;
     font-size: 14px;
     white-space: nowrap;
-    transition: background .2s ease, color .2s ease;
+    color: #1ac9b8;
+    text-decoration: none;
 }
 
 .app-tabs a:hover {
@@ -72,69 +62,76 @@ a {
     color: #000;
 }
 
-/* ================= GRID ================= */
+/* ===== GRID ===== */
 .apps-grid {
     display: grid;
-    gap: 16px;
+    gap: 18px;
+    justify-content: center; /* важливо для 1 плитки */
 }
 
-/* ===== 720p / small ===== */
+/* 720p — 1 плитка */
 @media (max-width: 1279px) {
     .apps-grid {
         grid-template-columns: 1fr;
     }
 }
 
-/* ===== 1080p ===== */
+/* 1080p — 2 плитки */
 @media (min-width: 1280px) and (max-width: 1919px) {
     .apps-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(340px, 1fr));
     }
 }
 
-/* ===== 2K ===== */
+/* 2K — 3 плитки */
 @media (min-width: 1920px) and (max-width: 2559px) {
     .apps-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(340px, 1fr));
     }
 }
 
-/* ===== 4K ===== */
+/* 4K — 4 плитки */
 @media (min-width: 2560px) and (max-width: 3839px) {
     .apps-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, minmax(340px, 1fr));
     }
 }
 
-/* ===== 5K ===== */
-@media (min-width: 3840px) and (max-width: 5119px) {
+/* 8K — 5 плиток */
+@media (min-width: 3840px) {
     .apps-grid {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(5, minmax(340px, 1fr));
     }
 }
 
-/* ===== 8K ===== */
-@media (min-width: 5120px) {
-    .apps-grid {
-        grid-template-columns: repeat(6, 1fr);
-    }
-}
-
-/* ================= APP CARD ================= */
+/* ===== CARD ===== */
 .app-card {
     background: #1e1e1e;
     border-radius: 16px;
     overflow: hidden;
+    max-width: 520px;       /* 🔥 ОБМЕЖЕННЯ ДЛЯ 1 ПЛИТКИ */
+    width: 100%;
+    transition: 
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
-/* ================= SUMMARY ================= */
+/* ===== ЗБІЛЬШЕННЯ ПЛИТКИ ===== */
+.app-card:hover,
+.app-card:focus-within {
+    transform: scale(1.08); /* 🔥 БІЛЬШЕ ЗБІЛЬШЕННЯ */
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.9);
+    z-index: 5;
+}
+
+/* ===== SUMMARY ===== */
 .app-summary {
     display: grid;
     grid-template-columns: 64px 1fr;
     gap: 12px;
-    padding: 12px;
-    align-items: center;
+    padding: 14px;
     cursor: pointer;
+    align-items: center;
 }
 
 .app-icon {
@@ -144,8 +141,8 @@ a {
 }
 
 .app-title {
-    font-size: 18px;
     color: #1ac9b8;
+    font-size: 18px;
 }
 
 .app-short {
@@ -154,62 +151,65 @@ a {
 }
 
 .app-hint {
-    font-size: 13px;
     color: #ffcc00;
+    font-size: 13px;
 }
 
-/* ================= BODY ================= */
+/* ===== BODY ===== */
 .app-body {
     padding: 14px;
     border-top: 1px solid #333;
 }
 
-/* ================= SUB ================= */
+/* ===== SUB ===== */
+.sub-section summary {
+    color: #ffcc00;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+/* ===== STEP GALLERY ===== */
+.gallery {
+    padding: 10px 0;
+}
+
+.gallery ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery li {
+    margin: 14px 0 6px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.gallery img {
+    width: 220px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: zoom-in;
+}
+
+.gallery img:hover {
+    transform: scale(1.6);
+    box-shadow: 0 0 25px rgba(0,0,0,0.9);
+    z-index: 10;
+}
+
+/* ===== DETAILS FIX ===== */
 details summary {
     list-style: none;
-    cursor: pointer;
-    font-weight: bold;
-    color: #ffcc00;
-    margin: 10px 0;
 }
 
 details summary::-webkit-details-marker {
     display: none;
 }
 
-/* ================= STEP GALLERY ================= */
-.step-gallery {
-    display: grid;
-    gap: 20px;
-    margin-top: 10px;
-}
-
-.step {
-    display: grid;
-    grid-template-columns: 1fr 220px;
-    gap: 14px;
-    align-items: center;
-}
-
-.step-text {
-    font-size: 15px;
-    line-height: 1.4;
-}
-
-.step img {
-    width: 100%;
-    border-radius: 10px;
-    transition: transform .25s ease, box-shadow .25s ease;
-    cursor: pointer;
-}
-
-.step img:hover {
-    transform: scale(1.4);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
-    z-index: 10;
-}
-
-/* ================= NAV ================= */
+/* ===== NAV ===== */
 .nav-btn {
     position: fixed;
     background: #1ac9b8;
@@ -225,6 +225,7 @@ details summary::-webkit-details-marker {
 .right { bottom: 50px; right: 20px; }
 .down { bottom: 0; right: 70px; }
 </style>
+
 
 </head>
 
@@ -323,10 +324,11 @@ details summary::-webkit-details-marker {
 
 </div>
 
-<a href="#top" class="nav-btn up">🔼</a>
-<a href="content:https://ironteam-ua.github.io/msx/menu.json" class="nav-btn left">◀</a>
-<a href="questions.html" class="nav-btn right">▶</a>
-<a href="#bottom" class="nav-btn down">🔽</a>
+    <a id="down3"></a>
+    <a href="#up3" class="nav-btn up" title="Вгору">🔼</a>
+    <a href="https://ironteam-ua.github.io/msx/wiki/instructions.html" class="nav-btn left" title="До меню">◀️</a>
+    <a href="https://ironteam-ua.github.io/msx/wiki/browser.html" class="nav-btn right" title="Наступна сторінка">▶️</a>
+    <a href="#down3" class="nav-btn down" title="Вниз">🔽</a>
 
 </body>
 </html>
