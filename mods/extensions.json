@@ -66,6 +66,13 @@
                     "descr": "Плагін для перегляду фільмів та серіалів онлайн",
                     "available_lampa": 1
                 },
+                                                {
+                    "name": "Showy Online",
+                    "author": "@showy",
+                    "link": "http://showy.online/m.js",
+                    "descr": "Плагін для перегляду фільмів та серіалів онлайн",
+                    "available_lampa": 1
+                },
                 {
                     "name": "BwaJS",
                     "author": "@bwato",
@@ -115,6 +122,13 @@
                     "available_lampa": 1
                 },
                 {
+                    "name": "TorrServer",
+                    "author": "@TorrServer",
+                    "link": "https://plugin.rootu.top/ts-preload.js",
+                    "descr": "Безкогштовні торрсервери: 186.246.14.135:8090, 95.174.115.119:8888, 45.12.18.35:8090",
+                    "available_lampa": 1
+                },
+                                {
                     "name": "Гарячі клавіші",
                     "author": "@nnmd",
                     "link": "https://nnmdd.github.io/lampa_hotkeys/hotkeys.js",
@@ -315,6 +329,13 @@
                     "descr": "Доповнення затребуваних функцій і дизайну, яких вам не вистачало. (mod. Без перевірки на MSX)",
                     "available_lampa": 1
                 },
+                                {
+                    "name": "test",
+                    "author": "@test",
+                    "link": "http://premium-iptv.ru:8080/free_v3.js",
+                    "descr": "test",
+                    "available_lampa": 1
+                },
                 {
                     "name": "Відключення Websocket",
                     "author": "@rootu",
@@ -342,7 +363,7 @@
                     "link": "https://bwa.ad/re",
                     "descr": "18+",
                     "available_lampa": 1
-                },
+                }
             ],
             "hpu": "hot"
         }
