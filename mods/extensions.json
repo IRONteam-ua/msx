@@ -7,7 +7,7 @@
                 {
                     "name": "BwaJS",
                     "author": "@bwato",
-                    "link": "https://bwa.to/o",
+                    "link": "https://bwa.ad/rc",
                     "descr": "Фільми і Серіали в онлайн. Потрібна підтримка WebAssembly і версія Chrome > 80",
                     "available_lampa": 1
                 },
@@ -76,7 +76,7 @@
                 {
                     "name": "BwaRC",
                     "author": "@bwato",
-                    "link": "http://bwa.to/co",
+                    "link": "https://bwa.ad/rc",
                     "descr": "Фільми і Серіали в онлайн. Працює на старих пристроях",
                     "available_lampa": 1
                 },
@@ -335,7 +335,14 @@
                     "link": "https://sisi.am/pussy.js",
                     "descr": "Онлайн перегляд контента для дорослих, більше 30 сайтів",
                     "available_lampa": 1
-                }
+                },
+                                {
+                    "name": "BwaRC",
+                    "author": "@BwaRC 18+",
+                    "link": "https://bwa.ad/re",
+                    "descr": "18+",
+                    "available_lampa": 1
+                },
             ],
             "hpu": "hot"
         }
